@@ -13,24 +13,16 @@ permalink: /:title/
 
 # Authors
 authors:
-  sal:
+  Sangram:
     name: Sangram
-    display_name: Chavan
-    gravatar: c2633564084fe2fbe153fb6c7408e26c
-    email: me@sangram.pro
-    web: https://www.sangram.pro
-    twitter: https://twitter.com/sangram_pro
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: Sangram
-    display_name: Chavan    
+    display_name: Sangram Chavan
     avatar: 'assets/images/avatar.png'
     gravatar: c2633564084fe2fbe153fb6c7408e26c
     email: me@sangram.pro
     web: https://www.sangram.pro
     twitter: https://twitter.com/sangram_pro
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
-
+    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+  
 # Plugins
 plugins:
   - jekyll-paginate
