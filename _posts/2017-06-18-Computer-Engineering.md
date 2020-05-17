@@ -4,7 +4,6 @@ title: Computer Engineering
 author: Sangram
 categories: [ Engineering, tutorial ]
 image: assets/images/1.jpg
-tags: [sticky]
 ---
 
 <h3 style="text-align: center;">What you need to know when you opt for Undergraduate Degree in Computer Engineering ?</h3>
