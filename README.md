@@ -42,7 +42,7 @@ That's it! Soon I'll be merging your changes into the master branch of this proj
 
 Copyright (C) 2019 Ambivert.net.
 
-Theme designed and developed by [Sal](https://www.wdevops.com), *free* under MIT license. 
+Theme designed and developed by [Sangram](https://www.wdevops.com), *free* under MIT license. 
 
 <a href="https://www.wdevops.com/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 

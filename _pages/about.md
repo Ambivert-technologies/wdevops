@@ -5,4 +5,4 @@ permalink: "/about.html"
 image: "/assets/images/screenshot.jpg"
 comments: true
 ---
-Made with <i class="fa fa-heart text-danger"></i> by Sal [@Ambivertnet](https://www.wdevops.com/category/free-themes-templates/).
+Made with <i class="fa fa-heart text-danger"></i> by Sangram [@Ambivertnet](https://www.wdevops.com/category/free-themes-templates/).
