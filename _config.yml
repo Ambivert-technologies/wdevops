@@ -22,7 +22,7 @@ authors:
     Sangram:
       name:           Sangram
       site:           https://www.wdevops.com
-      avatar:         /assets/images/avatar1.png
+      avatar:         /assets/images/avatar1.jpg
       bio:            "Hi, I am Sangram, the author of WDevops.com I hope you like it!"
       email:          me@sangram.pro
       twitter:        https://twitter.com/sangram_pro
@@ -36,7 +36,7 @@ defaults:
     values:
       layout: post
       author: Sangram
-      avatar: /assets/images/avatar1.png
+      avatar: /assets/images/avatar1.jpg
       
   # all pages
   - scope:
