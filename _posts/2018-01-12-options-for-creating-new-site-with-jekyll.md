@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Options for creating a new site with Jekyll"
-author: john
+author: Sangram Chavan
 categories: [ Jekyll, tutorial ]
 image: assets/images/13.jpg
 ---
