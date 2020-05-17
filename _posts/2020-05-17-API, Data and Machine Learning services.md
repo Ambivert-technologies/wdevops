@@ -2,7 +2,7 @@
 layout: post
 title: API, Data and Machine Learning services 
 author: Sangram
-categories: [ Startup, Entrepreneur ]
+categories: [ Developer ]
 image: assets/images/API, Data and Machine Learning services.jpg
 teg: feature
 ---
