@@ -15,7 +15,7 @@ permalink: /:title/
 authors:
   Sangram:
     name: Sangram
-    display_name: Sangram Chavan
+    display_name: Sangram
     avatar: 'assets/images/avatar.png'
     gravatar: c2633564084fe2fbe153fb6c7408e26c
     email: me@sangram.pro
