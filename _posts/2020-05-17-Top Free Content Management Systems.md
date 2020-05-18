@@ -4,7 +4,7 @@ title: Top Free Content Management Systems
 author: Sangram
 categories: [ Developer, Website ]
 image: assets/images/Top Free content managment System for webiste.jpg
-teg: feature
+teg: featured
 ---
 
 ## CMS

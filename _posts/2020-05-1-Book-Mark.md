@@ -5,7 +5,7 @@ author: Sangram
 categories: [Security, AppDev, Rasberry Pi, Business]
 tags: [students, professionals]
 image: assets/images/1.jpg
-tags: featured
+tags: featuredd
 ---
 
 <h4>Over the millions of websites available, some are true tools for us web developers. Bookmarks of Web &amp; App Developer and Security Enthusiast.</h4>

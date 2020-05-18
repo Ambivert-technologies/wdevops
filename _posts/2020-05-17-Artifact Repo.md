@@ -4,7 +4,7 @@ title: Host and Publish packages - Artifact Repos
 author: Sangram
 categories: [ Open Source, Developer ]
 image: assets/images/Artifact Repos.jpg
-teg: feature
+teg: featured
 ---
 
 Publish and host free packages and repositories. For most almost all the langues you will find a solution for publishing it in open source. 

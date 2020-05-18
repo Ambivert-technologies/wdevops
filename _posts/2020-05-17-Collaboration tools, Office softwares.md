@@ -4,7 +4,7 @@ title: Collaboration tools, Office tools for free
 author: Sangram
 categories: [ Office, Developer ]
 image: assets/images/Collaboration tools, Office softwares.jpg
-teg: feature
+teg: featured
 ---
 
 Collaboration tools are build for tearm work. 
