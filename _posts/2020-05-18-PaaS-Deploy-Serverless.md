@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PaaS Deploy Serverless
+title: Free PaaS Deploy Serverless
 author: Sangram
 categories: [ Developer ]
 image: assets/images/1.jpg
