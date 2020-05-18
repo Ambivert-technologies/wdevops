@@ -3,7 +3,7 @@ layout: post
 title: Check Code Quality Online
 author: Sangram
 categories: [ Open Source, Developer ]
-image: assets/images/Check Code Quality Online.jpg
+image: assets/images/Check code quality online.jpg
 teg: featuredd
 ---
 
