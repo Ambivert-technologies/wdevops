@@ -3,7 +3,6 @@ layout: post
 title: Book Mark
 author: Sangram
 categories: [Security, AppDev, Rasberry Pi, Business]
-tags: [students, professionals]
 image: assets/images/1.jpg
 tags: featured
 ---
