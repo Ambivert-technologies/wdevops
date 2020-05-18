@@ -11,13 +11,13 @@ Realtime messaging service and Free mailbox / free email hosting / free email se
 
 ## Messaging
 
-{:refdef: style="text-align: center;"} ![RabbitMQ as service](/assets/images/RabbitMQ as service.gif) {: refdef}
+<center> ![RabbitMQ as service](/assets/images/RabbitMQ as service.gif) </center>
   * [cloudamqp.com](https://www.cloudamqp.com/) — RabbitMQ as a Service. Little Lemur plan: max 1 million messages/month, max 20 concurrent connections, max 100 queues, max 10,000 queued messages, multiple nodes in different AZ's
 
-{:refdef: style="text-align: center;"} ![What can you do with Pusher?](/assets/images/Pusher.png) {: refdef}
+<center> ![What can you do with Pusher?](/assets/images/Pusher.png) </center>
   * [pusher.com](https://pusher.com/) — Realtime messaging service. Free for up to 100 simultaneous connections and 200,000 messages/day
 
-{:refdef: style="text-align: center;"} ![Scaledrone](/assets/images/scaledrone.png) {: refdef}
+<center> ![Scaledrone](/assets/images/scaledrone.png) </center>
   * [scaledrone.com](https://www.scaledrone.com/) — Realtime messaging service. Free for up to 20 simultaneous connections and 100,000 events/day
   
   * [synadia.com](https://synadia.com/ngs) — [NATS.io](https://nats.io) as a service. Global, AWS, GCP, and Azure. Free forever with 4k msg size, 50 active connections and 5GB of data per month.
