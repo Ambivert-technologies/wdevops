@@ -18,11 +18,11 @@ The entire project is open source and free of charge. There are no additional co
 
 This is the Rider app repository for Riders to mark their locations and notify a Driver. It is part of the Final Year Project of three Computer Engineering students.
 
-[<img height="75" width="200" src="./branding/other/google-play-badge.png" alt="Play Store"/>](https://play.google.com/store/apps/details?id=dev.fliver.rider) [<img height="56" width="172" src="./branding/other/app-store-badge.png" alt="App Store"/>](https://apps.apple.com/us/app/fliver-rider/id1498074830?ls=1)
+[<img height="75" width="200" src="https://github.com/fliverdev/rider/tree/master/branding/other/google-play-badge.png" alt="Play Store"/>](https://play.google.com/store/apps/details?id=dev.fliver.rider) [<img height="56" width="172" src="https://github.com/fliverdev/rider/tree/master/branding/other/app-store-badge.png" alt="App Store"/>](https://apps.apple.com/us/app/fliver-rider/id1498074830?ls=1)
 
 ## Screenshots
 
-<p><img height="345px" width="160px" src="https://github.com/fliverdev/branding/screenshots/01.png" alt="Rider for iOS"/> <img height="345px" width="160px" src="https://github.com/fliverdev/branding/screenshots/02.png" alt="Rider for iOS"/> <img height="345px" width="160px" src="https://github.com/fliverdev/branding/screenshots/03.png" alt="Rider for iOS"/> <img height="345px" width="160px" src="https://github.com/fliverdev/branding/screenshots/04.png" alt="Rider for iOS"/> <img height="345px" width="160px" src="https://github.com/fliverdev/branding/screenshots/05.png" alt="Rider for iOS"/></p>
+<p><img height="345px" width="160px" src="https://github.com/fliverdev/rider/tree/master/branding/screenshots/01.png" alt="Rider for iOS"/> <img height="345px" width="160px" src="https://github.com/fliverdev/rider/tree/master/branding/screenshots/02.png" alt="Rider for iOS"/> <img height="345px" width="160px" src="https://github.com/fliverdev/rider/tree/master/branding/screenshots/03.png" alt="Rider for iOS"/> <img height="345px" width="160px" src="https://github.com/fliverdev/rider/tree/master/branding/screenshots/04.png" alt="Rider for iOS"/> <img height="345px" width="160px" src="https://github.com/fliverdev/rider/tree/master/branding/screenshots/05.png" alt="Rider for iOS"/></p>
 
 ## Building
 
