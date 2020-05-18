@@ -4,7 +4,6 @@ title: Source Code Repos
 author: Sangram
 categories: [ Developer ]
 image: assets/images/1.jpg
-tags: featured
 ---
 
 This is list of <strong>Source Code Repos</strong> that are Open Source/free tiers for developers.
