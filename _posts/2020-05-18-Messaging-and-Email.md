@@ -11,7 +11,7 @@ Realtime messaging service and Free mailbox / free email hosting / free email se
 
 ## Messaging
 
-![RabbitMQ as service](assets/images/RabbitMQ as service.gif)
+![RabbitMQ as service](/assets/images/RabbitMQ as service.gif)
 
   * [cloudamqp.com](https://www.cloudamqp.com/) — RabbitMQ as a Service. Little Lemur plan: max 1 million messages/month, max 20 concurrent connections, max 100 queues, max 10,000 queued messages, multiple nodes in different AZ's
 
