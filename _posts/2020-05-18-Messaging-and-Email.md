@@ -15,7 +15,7 @@ Realtime messaging service and Free mailbox / free email hosting / free email se
 
   * [cloudamqp.com](https://www.cloudamqp.com/) — RabbitMQ as a Service. Little Lemur plan: max 1 million messages/month, max 20 concurrent connections, max 100 queues, max 10,000 queued messages, multiple nodes in different AZ's
 
-{:refdef: style="text-align: center;"} ![Pusher](/assets/images/Pusher.png) {: refdef}
+{:refdef: style="text-align: center;"} ![What can you do with Pusher?](/assets/images/Pusher.png) {: refdef}
 
   * [pusher.com](https://pusher.com/) — Realtime messaging service. Free for up to 100 simultaneous connections and 200,000 messages/day
 
