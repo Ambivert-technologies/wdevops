@@ -4,7 +4,6 @@ title: Miscellaneous
 author: Sangram
 categories: [ Developer ]
 image: assets/images/1.jpg
-tags: featured
 ---
 
 ## Miscellaneous

@@ -4,7 +4,6 @@ title:
 author: Sangram
 categories: [ Developer ]
 image: assets/images/1.jpg
-tags: featured
 ---
 
 ## Security and PKI
