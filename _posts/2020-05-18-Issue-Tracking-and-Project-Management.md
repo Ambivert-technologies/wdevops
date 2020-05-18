@@ -4,7 +4,7 @@ title: Issue Tracking and Project Management
 author: Sangram
 categories: [ Developer ]
 image: assets/images/1.jpg
-teg: featured
+tags: featured
 ---
 
 ## Issue Tracking and Project Management

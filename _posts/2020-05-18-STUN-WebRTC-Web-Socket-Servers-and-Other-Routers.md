@@ -4,7 +4,7 @@ title: STUN, WebRTC, Web Socket Servers and Other Routers
 author: Sangram
 categories: [ Developer ]
 image: assets/images/1.jpg
-teg: featured
+tags: featured
 ---
 ## STUN, WebRTC, Web Socket Servers and Other Routers
 

@@ -4,7 +4,7 @@ title: Data Visualization on Maps
 author: Sangram
 categories: [ Developer ]
 image: assets/images/1.jpg
-teg: featured
+tags: featured
 ---
 
 ## Data Visualization on Maps

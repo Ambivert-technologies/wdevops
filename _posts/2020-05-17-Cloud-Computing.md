@@ -4,7 +4,7 @@ title: Cloud Computing for Statups
 author: Sangram
 categories: [ Startup, Entrepreneur ]
 image: assets/images/cloud-computing.jpg
-teg: featured
+tags: featured
 ---
 
 Cloud Computing 

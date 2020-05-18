@@ -3,7 +3,7 @@ layout: post
 title: Free Hosted search, Font, Forms
 categories: [ Developer ]
 image: assets/images/1.jpg
-teg: featured
+tags: featured
 ---
 
 ## Search

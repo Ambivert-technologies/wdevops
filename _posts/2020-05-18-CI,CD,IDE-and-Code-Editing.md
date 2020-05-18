@@ -4,7 +4,7 @@ title: CI, CD, IDE, Code Editing, Searching and Browsing
 author: Sangram
 categories: [ Developer ]
 image: assets/images/1.jpg
-teg: featured
+tags: featured
 ---
 
 ## Code Search and Browsing

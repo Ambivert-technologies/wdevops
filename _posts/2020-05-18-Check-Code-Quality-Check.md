@@ -4,7 +4,7 @@ title: Check Code Quality Online
 author: Sangram
 categories: [ Open Source, Developer ]
 image: assets/images/Check code quality online.jpg
-teg: featuredd
+tags: featuredd
 ---
 
   * [beanstalkapp.com](https://beanstalkapp.com/) — A complete workflow to write, review and deploy code), free account for 1 user and 1 repository with 100 MB of storage

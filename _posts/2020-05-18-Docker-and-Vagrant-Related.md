@@ -4,7 +4,7 @@ title: Docker and Vagrant Related
 author: Sangram
 categories: [ Developer ]
 image: assets/images/1.jpg
-teg: featured
+tags: featured
 ---
 
 ## Docker Related

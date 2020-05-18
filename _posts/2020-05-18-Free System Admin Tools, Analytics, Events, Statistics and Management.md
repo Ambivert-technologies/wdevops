@@ -4,7 +4,7 @@ title: Free System Admin Tools, Analytics, Events, Statistics and Management
 author: Sangram
 categories: [ Developer ]
 image: assets/images/1.jpg
-teg: featured
+tags: featured
 ---
 ## Management System
 

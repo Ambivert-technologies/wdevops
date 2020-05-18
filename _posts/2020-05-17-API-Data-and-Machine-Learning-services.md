@@ -4,7 +4,7 @@ title: API, Data and Machine Learning services
 author: Sangram
 categories: [ Developer ]
 image: assets/images/API, Data and Machine Learning services.jpg
-teg: featured
+tags: featured
 ---
 
 Creat REST API services in no time. Host algorithms, scrap websites, data extraction, generators and various machine learning services are free to use. 

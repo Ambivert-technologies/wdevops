@@ -4,7 +4,7 @@ title: Payment and Billing, Mobile Number Verification, Crash and Exception Hand
 author: Sangram
 categories: [ Developer ]
 image: assets/images/1.jpg
-teg: featured
+tags: featured
 ---
 
 ## International Mobile Number Verification API and SDK

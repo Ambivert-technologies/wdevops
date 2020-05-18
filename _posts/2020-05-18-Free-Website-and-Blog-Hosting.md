@@ -4,7 +4,7 @@ title: Free Website, Blog and Commenting Hosting
 author: Sangram
 categories: [ Developer ]
 image: assets/images/1.jpg
-teg: featured
+tags: featured
 ---
 
 ## Dev Blogging Sites
