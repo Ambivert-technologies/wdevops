@@ -17,7 +17,7 @@ Realtime messaging service and Free mailbox / free email hosting / free email se
 ![What can you do with Pusher?](/assets/images/Pusher.png)
   * [pusher.com](https://pusher.com/) — Realtime messaging service. Free for up to 100 simultaneous connections and 200,000 messages/day
 
-![Scaledrone](/assets/images/scaledrone.png) 
+![Scaledrone](/assets/images/scaledrone.png)
   * [scaledrone.com](https://www.scaledrone.com/) — Realtime messaging service. Free for up to 20 simultaneous connections and 100,000 events/day
   
   * [synadia.com](https://synadia.com/ngs) — [NATS.io](https://nats.io) as a service. Global, AWS, GCP, and Azure. Free forever with 4k msg size, 50 active connections and 5GB of data per month.
@@ -26,6 +26,7 @@ Realtime messaging service and Free mailbox / free email hosting / free email se
 
 ## Email
 
+![10minutemail](/assets/images/10minutemail.png)
   * [10minutemail](https://10minutemail.com) - Free, temporary email for testing.
   * [AnonAddy](https://anonaddy.com) - Open-source anonymous email forwarding, create unlimited email aliases for free
   * [biz.mail.ru](https://biz.mail.ru/) — 5,000 mailboxes with 25 GB each per custom domain with DNS hosting
