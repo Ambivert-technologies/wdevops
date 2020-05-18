@@ -67,7 +67,15 @@ Below is list of providers.
   * [APIFull](https://apifull.com/) — Web Scraping API handling headless browsers and rotating proxies for developers.
   * [WebScraping.AI](https://webscraping.ai) - Simple Web Scraping API with built-in parsing, Chrome rendering and proxies. 5000 free API calls per month.
 
+## Screenshot APIs
 
+  * [ApiFlash](https://apiflash.com) — A screenshot API based on Aws Lambda and Chrome. Handles full page, capture timing, viewport dimensions, ...
+  * [microlink.io](https://microlink.io/) – It turns any website into data such as metatags normalization, beauty link previews, scraping capabilities or screenshots as a service. 250 reqs/day every day free.
+  * [ScreenshotAPI.net](https://screenshotapi.net/) - Screenshot API use one simple API call to generate screenshots of any website. Build to scale and hosted on Google Cloud. Offers 100 free screenshots per month.
+  * [screenshotlayer.com](https://screenshotlayer.com/) — Capture highly customizable snapshots of any website. Free 100 snapshots/month
+  * [screenshotmachine.com](https://www.screenshotmachine.com/) — Capture 100 snapshots/month, png, gif and jpg, including full-length captures, not only home page
+  * [WWW2PNG](https://www2png.com/) - Capture screenshots of any website with basic customization. Includes automatic blockchain anchoring and full page capture. Completely free service.
+  
 If you wish to add more to this this post please let us know and we would cosider adding it here.
 
 Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.
