@@ -3,11 +3,11 @@ layout: post
 title: Messaging and Email
 author: Sangram
 categories: [ Developer ]
-image: assets/images/1.jpg
+image: assets/images/messages and email.jpg
 tags: featured
 ---
 
-## Messaging
+Realtime messaging service and Free mailbox / free email hosting / free email service with various features.
 
   * [cloudamqp.com](https://www.cloudamqp.com/) — RabbitMQ as a Service. Little Lemur plan: max 1 million messages/month, max 20 concurrent connections, max 100 queues, max 10,000 queued messages, multiple nodes in different AZ's
   * [pusher.com](https://pusher.com/) — Realtime messaging service. Free for up to 100 simultaneous connections and 200,000 messages/day
