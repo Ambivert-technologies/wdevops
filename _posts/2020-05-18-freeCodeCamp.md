@@ -2,7 +2,8 @@
 layout: post
 title: freeCodeCamp
 author: Sangram
-categories: [ Developer ]
+categories: [ Developer, Student ]
+tags: [certification]
 image: https://s3.amazonaws.com/freecodecamp/wide-social-banner.png
 ---
 
