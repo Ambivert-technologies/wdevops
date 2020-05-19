@@ -10,6 +10,7 @@ email: 'me@sangram.pro'
 
 include: ["_pages"]
 permalink: /:title/
+analytics_id: ""
 
 # Plugins
 plugins: 
