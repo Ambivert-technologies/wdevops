@@ -1,10 +1,9 @@
 # Site
-name: 'The WDevops'
+name: 'The WDevops | Tech Hub'
 description: 'Free Developer Resources and updates for Tech Startups to build their MVP or prototypes. Promoting awesome work by awesome people. Share and Grow...'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
-url: "https://wdevops.com/"
 disqus: 'wdevops'
 email: 'me@sangram.pro'
 # mailchimp-list: 'https://Ambivert.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -18,7 +17,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-  
+  - jekyll-redirect-from
+ 
 authors:
     Sangram:
       name:           Sangram
@@ -59,8 +59,6 @@ redirect_from:
   redirect_to: /
   permalink: /free-for-developers/
   redirect_to: /categories.html#developer/
-  permalink: /python-command-line-tools/
-  redirect_to: /
-  
+
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
