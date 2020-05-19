@@ -19,6 +19,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
 
+gems:
+  - jekyll-redirect-from
+  
 authors:
     Sangram:
       name:           Sangram
