@@ -2,7 +2,7 @@
 layout: post
 title: Free Hosted search, Font, Forms
 categories: [ Developer ]
-image: assets/images/statistic.png
+image: assets/images/static.png
 ---
 
 ## Search
