@@ -37,6 +37,10 @@
 <lastmod>2020-05-17T00:00:00+01:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/Android-Security/</loc>
+<lastmod>2020-05-18T00:00:00+01:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/BaaS/</loc>
 <lastmod>2020-05-18T00:00:00+01:00</lastmod>
 </url>
@@ -73,11 +77,11 @@
 <lastmod>2020-05-18T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/Free-PaaS-Deploy-Serverless/</loc>
+<loc>http://localhost:4000/Free-Website-and-Blog-Hosting/</loc>
 <lastmod>2020-05-18T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/Free-Website-and-Blog-Hosting/</loc>
+<loc>http://localhost:4000/Free-for-Developers/</loc>
 <lastmod>2020-05-18T00:00:00+01:00</lastmod>
 </url>
 <url>
@@ -119,10 +123,10 @@
 <loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/author-Sangram.html</loc>
+<loc>http://localhost:4000/author-sangram.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/author-sangram.html</loc>
+<loc>http://localhost:4000/author-Sangram.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/authors-list.html</loc>
