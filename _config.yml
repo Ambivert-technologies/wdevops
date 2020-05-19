@@ -4,14 +4,12 @@ description: 'Free Developer Resources and updates for Tech Startups to build th
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
-url: "https://wdevops.com/"
 disqus: 'wdevops'
 email: 'me@sangram.pro'
 # mailchimp-list: 'https://Ambivert.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]
 permalink: /:title/
-analytics_id: ""
 
 # Plugins
 plugins: 
@@ -19,6 +17,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-amp
  
 authors:
     Sangram:
@@ -62,6 +61,6 @@ redirect_from:
   redirect_to: /categories.html#developer/
   permalink: /python-command-line-tools/
   redirect_to: /
-
+  
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
