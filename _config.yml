@@ -10,7 +10,6 @@ email: 'me@sangram.pro'
 
 include: ["_pages"]
 permalink: /:title/
-ampdir: assets/images/
 
 # Plugins
 plugins: 
