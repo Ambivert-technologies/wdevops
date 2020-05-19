@@ -8,10 +8,10 @@ image: https://github.com/fliverdev/rider/blob/master/branding/other/text.png
 
 Fliver is an app to help you find Rickshaws easily. Simply open the app and enter your location and destination. Nearby Drivers will then see the areas of high demand and come to pick you up. You can also use the Hotspot Chat to discuss carpooling with others near you, or let others know about accidents, traffic, etc. via the Global Chat.
 
-[![Stars](https://amp-img.shields.io/github/stars/fliverdev/rider.svg)](https://github.com/fliverdev/rider/stargazers)
-[![Forks](https://amp-img.shields.io/github/forks/fliverdev/rider.svg)](https://github.com/fliverdev/rider/network/members)
-[![Issues](https://amp-img.shields.io/github/issues/fliverdev/rider.svg)](https://github.com/fliverdev/rider/issues)
-[![License](https://amp-img.shields.io/github/license/fliverdev/rider.svg)](https://opensource.org/licenses/GPL-3.0)
+[![Stars](https://img.shields.io/github/stars/fliverdev/rider.svg)](https://github.com/fliverdev/rider/stargazers)
+[![Forks](https://img.shields.io/github/forks/fliverdev/rider.svg)](https://github.com/fliverdev/rider/network/members)
+[![Issues](https://img.shields.io/github/issues/fliverdev/rider.svg)](https://github.com/fliverdev/rider/issues)
+[![License](https://img.shields.io/github/license/fliverdev/rider.svg)](https://opensource.org/licenses/GPL-3.0)
 
 
 The entire project is open source and free of charge. There are no additional costs for Riders besides for the regular metered Rickshaw fare, and there is no commission that Drivers need to pay. Fliver is simply created to benefit Indian citizens. Check out our [FAQ](https://fliverdev.github.io/faq/) to learn more.
