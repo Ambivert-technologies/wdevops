@@ -10,6 +10,7 @@ email: 'me@sangram.pro'
 
 include: ["_pages"]
 permalink: /:title/
+ampdir: assets/images/
 
 # Plugins
 plugins: 
@@ -61,6 +62,6 @@ redirect_from:
   redirect_to: /categories.html#developer/
   permalink: /python-command-line-tools/
   redirect_to: /
-  
+
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
