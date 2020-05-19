@@ -4,6 +4,7 @@ description: 'Free Developer Resources and updates for Tech Startups to build th
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
+url: "https://wdevops.com/"
 disqus: 'wdevops'
 email: 'me@sangram.pro'
 # mailchimp-list: 'https://Ambivert.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -17,8 +18,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-amp
- 
+  
 authors:
     Sangram:
       name:           Sangram
