@@ -181,7 +181,7 @@ pre {
 figure {
   margin: 0 0 1rem; }
 
-img {
+amp-img {
   vertical-align: middle;
   border-style: none; }
 
@@ -402,11 +402,11 @@ mark,
   .blockquote-footer::before {
     content: "\2014 \00A0"; }
 
-.img-fluid {
+.amp-img-fluid {
   max-width: 100%;
   height: auto; }
 
-.img-thumbnail {
+.amp-img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -417,7 +417,7 @@ mark,
 .figure {
   display: inline-block; }
 
-.figure-img {
+.figure-amp-img {
   margin-bottom: 0.5rem;
   line-height: 1; }
 
@@ -3611,7 +3611,7 @@ input[type="button"].btn-block {
   margin-right: -0.625rem;
   margin-left: -0.625rem; }
 
-.card-img-overlay {
+.card-amp-img-overlay {
   position: absolute;
   top: 0;
   right: 0;
@@ -3619,16 +3619,16 @@ input[type="button"].btn-block {
   left: 0;
   padding: 1.25rem; }
 
-.card-img {
+.card-amp-img {
   width: 100%;
   border-radius: calc(0.25rem - 1px); }
 
-.card-img-top {
+.card-amp-img-top {
   width: 100%;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px); }
 
-.card-img-bottom {
+.card-amp-img-bottom {
   width: 100%;
   border-bottom-right-radius: calc(0.25rem - 1px);
   border-bottom-left-radius: calc(0.25rem - 1px); }
@@ -3668,35 +3668,35 @@ input[type="button"].btn-block {
         .card-group > .card:first-child {
           border-top-right-radius: 0;
           border-bottom-right-radius: 0; }
-          .card-group > .card:first-child .card-img-top,
+          .card-group > .card:first-child .card-amp-img-top,
           .card-group > .card:first-child .card-header {
             border-top-right-radius: 0; }
-          .card-group > .card:first-child .card-img-bottom,
+          .card-group > .card:first-child .card-amp-img-bottom,
           .card-group > .card:first-child .card-footer {
             border-bottom-right-radius: 0; }
         .card-group > .card:last-child {
           border-top-left-radius: 0;
           border-bottom-left-radius: 0; }
-          .card-group > .card:last-child .card-img-top,
+          .card-group > .card:last-child .card-amp-img-top,
           .card-group > .card:last-child .card-header {
             border-top-left-radius: 0; }
-          .card-group > .card:last-child .card-img-bottom,
+          .card-group > .card:last-child .card-amp-img-bottom,
           .card-group > .card:last-child .card-footer {
             border-bottom-left-radius: 0; }
         .card-group > .card:only-child {
           border-radius: 0.25rem; }
-          .card-group > .card:only-child .card-img-top,
+          .card-group > .card:only-child .card-amp-img-top,
           .card-group > .card:only-child .card-header {
             border-top-left-radius: 0.25rem;
             border-top-right-radius: 0.25rem; }
-          .card-group > .card:only-child .card-img-bottom,
+          .card-group > .card:only-child .card-amp-img-bottom,
           .card-group > .card:only-child .card-footer {
             border-bottom-right-radius: 0.25rem;
             border-bottom-left-radius: 0.25rem; }
         .card-group > .card:not(:first-child):not(:last-child):not(:only-child) {
           border-radius: 0; }
-          .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-img-top,
-          .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-img-bottom,
+          .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-amp-img-top,
+          .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-amp-img-bottom,
           .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-header,
           .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-footer {
             border-radius: 0; } }
@@ -7300,7 +7300,7 @@ a.text-lightblue:hover, a.text-lightblue:focus {
   thead {
     display: table-header-group; }
   tr,
-  img {
+  amp-img {
     page-break-inside: avoid; }
   p,
   h2,

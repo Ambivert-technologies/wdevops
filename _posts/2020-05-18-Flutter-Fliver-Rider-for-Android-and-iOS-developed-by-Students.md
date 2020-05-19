@@ -8,21 +8,21 @@ image: https://github.com/fliverdev/rider/blob/master/branding/other/text.png
 
 Fliver is an app to help you find Rickshaws easily. Simply open the app and enter your location and destination. Nearby Drivers will then see the areas of high demand and come to pick you up. You can also use the Hotspot Chat to discuss carpooling with others near you, or let others know about accidents, traffic, etc. via the Global Chat.
 
-[![Stars](https://img.shields.io/github/stars/fliverdev/rider.svg)](https://github.com/fliverdev/rider/stargazers)
-[![Forks](https://img.shields.io/github/forks/fliverdev/rider.svg)](https://github.com/fliverdev/rider/network/members)
-[![Issues](https://img.shields.io/github/issues/fliverdev/rider.svg)](https://github.com/fliverdev/rider/issues)
-[![License](https://img.shields.io/github/license/fliverdev/rider.svg)](https://opensource.org/licenses/GPL-3.0)
+[![Stars](https://amp-img.shields.io/github/stars/fliverdev/rider.svg)](https://github.com/fliverdev/rider/stargazers)
+[![Forks](https://amp-img.shields.io/github/forks/fliverdev/rider.svg)](https://github.com/fliverdev/rider/network/members)
+[![Issues](https://amp-img.shields.io/github/issues/fliverdev/rider.svg)](https://github.com/fliverdev/rider/issues)
+[![License](https://amp-img.shields.io/github/license/fliverdev/rider.svg)](https://opensource.org/licenses/GPL-3.0)
 
 
 The entire project is open source and free of charge. There are no additional costs for Riders besides for the regular metered Rickshaw fare, and there is no commission that Drivers need to pay. Fliver is simply created to benefit Indian citizens. Check out our [FAQ](https://fliverdev.github.io/faq/) to learn more.
 
 This is the Rider app repository for Riders to mark their locations and notify a Driver. It is part of the Final Year Project of three Computer Engineering students.
 
-[<img height="75" width="200" src="https://github.com/fliverdev/rider/tree/master/branding/other/google-play-badge.png" alt="Play Store"/>](https://play.google.com/store/apps/details?id=dev.fliver.rider) [<img height="56" width="172" src="https://github.com/fliverdev/rider/tree/master/branding/other/app-store-badge.png" alt="App Store"/>](https://apps.apple.com/us/app/fliver-rider/id1498074830?ls=1)
+[<amp-img height="75" width="200" src="https://github.com/fliverdev/rider/tree/master/branding/other/google-play-badge.png" alt="Play Store"/>](https://play.google.com/store/apps/details?id=dev.fliver.rider) [<amp-img height="56" width="172" src="https://github.com/fliverdev/rider/tree/master/branding/other/app-store-badge.png" alt="App Store"/>](https://apps.apple.com/us/app/fliver-rider/id1498074830?ls=1)
 
 ## Screenshots
 
-<p><img height="345px" width="160px" src="https://github.com/fliverdev/rider/tree/master/branding/screenshots/01.png" alt="Rider for iOS"/> <img height="345px" width="160px" src="https://github.com/fliverdev/rider/tree/master/branding/screenshots/02.png" alt="Rider for iOS"/> <img height="345px" width="160px" src="https://github.com/fliverdev/rider/tree/master/branding/screenshots/03.png" alt="Rider for iOS"/> <img height="345px" width="160px" src="https://github.com/fliverdev/rider/tree/master/branding/screenshots/04.png" alt="Rider for iOS"/> <img height="345px" width="160px" src="https://github.com/fliverdev/rider/tree/master/branding/screenshots/05.png" alt="Rider for iOS"/></p>
+<p><amp-img height="345px" width="160px" src="https://github.com/fliverdev/rider/tree/master/branding/screenshots/01.png" alt="Rider for iOS"/> <amp-img height="345px" width="160px" src="https://github.com/fliverdev/rider/tree/master/branding/screenshots/02.png" alt="Rider for iOS"/> <amp-img height="345px" width="160px" src="https://github.com/fliverdev/rider/tree/master/branding/screenshots/03.png" alt="Rider for iOS"/> <amp-img height="345px" width="160px" src="https://github.com/fliverdev/rider/tree/master/branding/screenshots/04.png" alt="Rider for iOS"/> <amp-img height="345px" width="160px" src="https://github.com/fliverdev/rider/tree/master/branding/screenshots/05.png" alt="Rider for iOS"/></p>
 
 ## Building
 
