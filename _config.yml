@@ -18,6 +18,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-amp
  
 authors:
     Sangram:
