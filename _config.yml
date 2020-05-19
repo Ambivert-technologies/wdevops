@@ -17,7 +17,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-language-plugin
   - jekyll-redirect-from
 
 authors:
