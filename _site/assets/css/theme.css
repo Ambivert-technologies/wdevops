@@ -13,7 +13,7 @@ body {
 .remove-site-content-margin {
 	margin-top:-30px;
 }
-amp-img {
+img {
 	max-width:100%;
 }
 .tofront {
@@ -705,7 +705,7 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 	z-index:1021;
 	display:none;
 }
-.alertbar amp-img {
+.alertbar img {
 	border-radius:2px;
 }
 .spanborder {
