@@ -10,7 +10,6 @@ email: 'me@sangram.pro'
 
 include: ["_pages"]
 permalink: /:title/
-ampdir: assets/images/
 
 # Plugins
 plugins: 
@@ -18,7 +17,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-amp
  
 authors:
     Sangram:
