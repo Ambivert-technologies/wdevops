@@ -24,7 +24,7 @@ There are few things which should be well known when you step foot in developmen
 </ul>
 Resources:
 
-<a href="http://Github.com"><amp-img class="size-medium wp-image-157 alignleft" src="http://wdevops.com/wp-content/uploads/2017/04/open-science-735787_1920-279x300.png" alt="" width="279" height="300" />Github.com</a>
+<a href="http://Github.com"><img class="size-medium wp-image-157 alignleft" src="http://wdevops.com/wp-content/uploads/2017/04/open-science-735787_1920-279x300.png" alt="" width="279" height="300" />Github.com</a>
 
 - <a href="https://github.com/ripienaar/free-for-dev">Free for dev</a>
 

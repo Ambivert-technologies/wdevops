@@ -15,7 +15,7 @@ Which language should i choose ? Which language is best ? etc.. before answering
 
 <strong>GIT</strong>. How ? follow...
 <h2>STEP 1: Get required material</h2>
-<h2><a href="education.github.com/pack">GitHub.com<amp-img class="aligncenter size-large wp-image-156" src="http://wdevops.com/wp-content/uploads/2017/04/Github-education-pack-1024x405.png" alt="" width="900" height="356" /></a></h2>
+<h2><a href="education.github.com/pack">GitHub.com<img class="aligncenter size-large wp-image-156" src="http://wdevops.com/wp-content/uploads/2017/04/Github-education-pack-1024x405.png" alt="" width="900" height="356" /></a></h2>
 <h2 class="lead" style="text-align: left;">STEP 2: Create an Environment</h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ChA_zph7aao" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 <h2 class="lead" style="text-align: left;">STEP 3: Explore GitHub you will learn lot more...<span style="color: #99cc00;"></span></h2>
