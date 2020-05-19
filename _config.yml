@@ -1,6 +1,6 @@
 # Site
-name: 'WDevops'
-description: 'Free Developer Resources and updates for Tech Startups to build their MVP or prototypes. Share and Grow...'
+name: 'The WDevops | Tech Hub'
+description: 'Free Developer Resources and updates for Tech Startups to build their MVP or prototypes. Promoting awesome work by awesome people. Share and Grow...'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
@@ -23,7 +23,7 @@ authors:
       name:           Sangram
       site:           https://www.sangram.pro
       avatar:         assets/images/avatar1.jpg
-      bio:            "Hi, I am Sangram, the author of WDevops.com I hope you like it!"
+      bio:            "Hi, I am Sangram Chavan, Entrepreneur and author of this website."
       email:          me@sangram.pro
       twitter:        https://twitter.com/sangram_pro
 
