@@ -8,7 +8,7 @@ image: assets/images/1.jpg
 
 ## Storage and Media Processing
 
-![Transloadit](/assets/images/transloadit.png)
+![Transloadit](/assets/images/transloadit.jpg)
 
    * [transloadit.com](https://transloadit.com/) — Handles file uploads and encoding of video, audio, images, documents. Free for Open source, charities, and students via the GitHub Student Developer Pack. Commercial applications get 2 GB free for test driving
    * [image4.io](https://image4.io/) — Image upload, powerful manipulations, storage and delivery for websites and apps, with SDK's, integrations and migration tools. Free tier includes 25 credits. 1 credit is equal to 1 GB of CDN usage, 1GB of storage or 1000 image transformations.
