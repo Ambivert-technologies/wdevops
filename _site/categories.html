@@ -45,8 +45,8 @@
   "@type": "Webpage",
   "mainEntityOfPage": "http://localhost:4000/categories.html",
   "headline": "Categories",
-  "datePublished": "2020-05-19T14:11:49+01:00",
-  "dateModified": "2020-05-19T14:11:49+01:00",
+  "datePublished": "2020-05-19T14:23:35+01:00",
+  "dateModified": "2020-05-19T14:23:35+01:00",
   "description": "Free Developer Resources and updates for Tech Startups to build their MVP or prototypes. Promoting awesome work by awesome people. Share and Grow...",
   "author": {
     "@type": "Person",
@@ -71,7 +71,6 @@
 }
 
   </script>
-  <script async src="https://cdn.ampproject.org/v0.js"></script>
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -639,6 +638,13 @@ pre {
   opacity: 0; }
 
   </style>
+<style>
+  .lunrsearchresult .title {color: #d9230f;}
+  .lunrsearchresult .url {color: silver;}
+  .lunrsearchresult a {display: block; color: #777;}
+  .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+  .lunrsearchresult a:hover .title {text-decoration: underline;}
+</style>
 
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
   <script async src="https://cdn.ampproject.org/v0.js"></script>
@@ -941,16 +947,6 @@ function lunr_search(term) {
     return false;
 }
 </script>
-<style>
-    .lunrsearchresult .title {color: #d9230f;}
-    .lunrsearchresult .url {color: silver;}
-    .lunrsearchresult a {display: block; color: #777;}
-    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
-    .lunrsearchresult a:hover .title {text-decoration: underline;}
-</style>
-
-
-
 
 <form class="bd-search hidden-sm-down" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
 <input type="text" class="form-control text-small"  id="lunrsearch" name="q" value="" placeholder="Type keyword and enter..."> 
