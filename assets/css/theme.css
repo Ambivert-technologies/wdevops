@@ -13,7 +13,7 @@ body {
 .remove-site-content-margin {
 	margin-top:-30px;
 }
-amp-img {
+img {
 	max-width:100%;
 }
 .tofront {
