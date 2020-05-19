@@ -55,6 +55,10 @@ paginate: 10
 redirect_from:
   permalink: /tag/
   redirect_to: /
+  permalink: /free-high-quality-photos/
+  redirect_to: /
+  permalink: /free-for-developers/
+  redirect_to: /categories.html#developer/
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
