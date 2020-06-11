@@ -6,16 +6,14 @@ categories: [ Computer Science, App Development ]
 image: https://raw.githubusercontent.com/flutter/website/master/src/_assets/image/flutter-lockup.png
 ---
 
-# [![Flutter logo][]][flutter.dev]
-
-[![Build Status - Cirrus][]][Build status]
-[![Gitter Channel][]][Gitter badge]
-[![Twitter handle][]][Twitter badge]
-
 Flutter is Google's SDK for crafting beautiful, fast user experiences for
 mobile, web and desktop from a single codebase. Flutter works with existing
 code, is used by developers and organizations around the world, and is free
 and open source.
+
+[![Build Status - Cirrus][]][Build status]
+[![Gitter Channel][]][Gitter badge]
+[![Twitter handle][]][Twitter badge]
 
 ## Documentation
 
@@ -43,7 +41,7 @@ graphics, video, text and controls without limitation. Flutter includes a full
 [set of widgets][widget catalog] that deliver pixel-perfect experiences on both
 iOS and Android.
 
-[![Reflectly hero image][]][Reflectly hero image]]
+[![Reflectly hero image][]][Reflectly hero image]
 
 ### Fast results
 
