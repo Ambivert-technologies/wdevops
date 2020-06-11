@@ -1,4 +1,4 @@
-#   - Ambivert Technologies Private Limited by Ambivert.net
+#   - Ambivert Technologies Private Limited by Ambivert.tech
 
 ### Copyright
 
