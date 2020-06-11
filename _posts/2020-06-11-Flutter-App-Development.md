@@ -3,7 +3,7 @@ layout: post
 title: Flutter App Development
 author: Sangram
 categories: [ Computer Science, App Development ]
-image: assets/images/1.jpg
+image: https://raw.githubusercontent.com/flutter/website/master/src/_assets/image/flutter-lockup.png
 ---
 
 # [![Flutter logo][]][flutter.dev]
