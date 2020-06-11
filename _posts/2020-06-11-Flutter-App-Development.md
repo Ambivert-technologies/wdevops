@@ -54,7 +54,7 @@ Flutter code is powered by the world-class [Dart platform], which enables
 compilation to 32-bit and 64-bit ARM machine code for iOS and Android, as well
 as JavaScript for the web and Intel x64 for desktop devices.
 
-![Dart platform diagram][]
+[![Dart platform diagram][]][Dart platfom diagram]
 
 ### Productive development
 
