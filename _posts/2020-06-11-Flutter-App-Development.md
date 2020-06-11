@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Flutter
+title: Flutter App Development
 author: Sangram
 categories: [ Computer Science, App Development ]
 image: assets/images/1.jpg
