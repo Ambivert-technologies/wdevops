@@ -43,7 +43,7 @@ graphics, video, text and controls without limitation. Flutter includes a full
 [set of widgets][widget catalog] that deliver pixel-perfect experiences on both
 iOS and Android.
 
-![Reflectly hero image][Reflectly hero image]
+[![Reflectly hero image][]][Reflectly hero image]]
 
 ### Fast results
 
@@ -54,7 +54,7 @@ Flutter code is powered by the world-class [Dart platform], which enables
 compilation to 32-bit and 64-bit ARM machine code for iOS and Android, as well
 as JavaScript for the web and Intel x64 for desktop devices.
 
-[![Dart platform diagram][]][Dart platfom diagram]
+[![Dart platform diagram][]][Dart platform diagram]
 
 ### Productive development
 
