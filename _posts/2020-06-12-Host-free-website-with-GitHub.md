@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Host free website with GitHub
-author: Sangram Chavan
+author: Sangram
 categories: [ Computer Science, App Development ]
 image: assets/images/1.jpg
 ---
