@@ -6,12 +6,12 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 13 Jun 2020 08:50:17 +0100</pubDate>
-    <lastBuildDate>Sat, 13 Jun 2020 08:50:17 +0100</lastBuildDate>
+    <pubDate>Sat, 13 Jun 2020 09:05:03 +0100</pubDate>
+    <lastBuildDate>Sat, 13 Jun 2020 09:05:03 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
-        <title>Roadmap to becoming a web developer</title>
+        <title>Roadmap to becoming a web developermd</title>
         <description>
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/NNyc9QM.png&quot; alt=&quot;Web Developer Roadmap - 2020&quot; /&gt;&lt;/p&gt;
 
@@ -102,8 +102,8 @@
 &lt;p&gt;Have a look at the &lt;a href=&quot;./LICENSE&quot;&gt;license file&lt;/a&gt; for details&lt;/p&gt;
 </description>
         <pubDate>Sat, 13 Jun 2020 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2020/06/13/Roadmap-to-becoming-a-web-developer.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/06/13/Roadmap-to-becoming-a-web-developer.html</guid>
+        <link>http://localhost:4000/2020/06/13/Roadmap-to-becoming-a-web-developermd.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/06/13/Roadmap-to-becoming-a-web-developermd.html</guid>
         
         
       </item>
