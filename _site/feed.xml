@@ -1,88 +1,471 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-11T23:27:58+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">The WDevops</title><subtitle>Free Developer Resources and updates for Tech Startups to build their MVP or prototypes. Promoting awesome work by awesome people. Share and Grow...</subtitle><entry><title type="html">IaaS and DBaaS</title><link href="http://localhost:4000/IaaS-and-DBaaS/" rel="alternate" type="text/html" title="IaaS and DBaaS" /><published>2020-05-18T00:00:00+01:00</published><updated>2020-05-18T00:00:00+01:00</updated><id>http://localhost:4000/IaaS-and-DBaaS</id><content type="html" xml:base="http://localhost:4000/IaaS-and-DBaaS/">&lt;h2 id=&quot;iaas&quot;&gt;IaaS&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Wdevops</title>
+    <description>Free Developer Resources and updates for Tech Startups to build their MVP or prototypes. Promoting awesome work by awesome people. Share and Grow...
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 13 Jun 2020 08:49:46 +0100</pubDate>
+    <lastBuildDate>Sat, 13 Jun 2020 08:49:46 +0100</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Flutter App Development</title>
+        <description>&lt;p&gt;Flutter is Google’s SDK for crafting beautiful, fast user experiences for
+mobile, web and desktop from a single codebase. Flutter works with existing
+code, is used by developers and organizations around the world, and is free
+and open source.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cirrus-ci.com/github/flutter/flutter/master&quot;&gt;&lt;img src=&quot;https://api.cirrus-ci.com/github/flutter/flutter.svg&quot; alt=&quot;Build Status - Cirrus&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://gitter.im/flutter/flutter?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge&quot;&gt;&lt;img src=&quot;https://badges.gitter.im/flutter/flutter.svg&quot; alt=&quot;Gitter Channel&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://twitter.com/intent/follow?screen_name=flutterdev&quot;&gt;&lt;img src=&quot;https://img.shields.io/twitter/follow/flutterdev.svg?style=social&amp;amp;label=Follow&quot; alt=&quot;Twitter handle&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;documentation&quot;&gt;Documentation&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.backblaze.com/b2/&quot;&gt;backblaze.com&lt;/a&gt; — Backblaze B2 cloud storage. Free 10 GB (Amazon S3-like) object storage for unlimited time&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.scaleway.com/en/object-storage/&quot;&gt;scaleway.com&lt;/a&gt; — S3-Compatible Object Storage. Free 75 GB storage and external outgoing traffic&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.terraform.io/&quot;&gt;www.terraform.io&lt;/a&gt; — Terraform Cloud. Free remote state management and team collaboration for teams up to 5 users.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://flutter.dev/get-started/&quot;&gt;Install Flutter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://flutter.dev/docs&quot;&gt;Flutter documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/flutter/flutter/wiki&quot;&gt;Development wiki&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/flutter/flutter/blob/master/CONTRIBUTING.md&quot;&gt;Contributing to Flutter&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;dbaas&quot;&gt;DBaaS&lt;/h2&gt;
+&lt;p&gt;For announcements about new releases and breaking changes, follow the
+&lt;a href=&quot;https://groups.google.com/forum/#!forum/flutter-announce&quot;&gt;flutter-announce@googlegroups.com&lt;/a&gt;
+mailing list.&lt;/p&gt;
+
+&lt;h2 id=&quot;about-flutter&quot;&gt;About Flutter&lt;/h2&gt;
+
+&lt;p&gt;We think Flutter will help you create beautiful, fast apps, with a productive,
+extensible and open development model.&lt;/p&gt;
+
+&lt;h3 id=&quot;beautiful-user-experiences&quot;&gt;Beautiful user experiences&lt;/h3&gt;
+
+&lt;p&gt;We want to enable designers to deliver their full creative vision without being
+forced to water it down due to limitations of the underlying framework.
+Flutter’s &lt;a href=&quot;https://flutter.dev/docs/resources/inside-flutter&quot;&gt;layered architecture&lt;/a&gt; gives you control over every pixel on the
+screen, and its powerful compositing capabilities let you overlay and animate
+graphics, video, text and controls without limitation. Flutter includes a full
+&lt;a href=&quot;https://flutter.dev/widgets/&quot;&gt;set of widgets&lt;/a&gt; that deliver pixel-perfect experiences on both
+iOS and Android.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/flutter/website/blob/master/src/images/homepage/reflectly-hero-600px.png&quot;&gt;&lt;img src=&quot;https://github.com/flutter/website/blob/master/src/images/homepage/reflectly-hero-600px.png&quot; alt=&quot;Reflectly hero image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;fast-results&quot;&gt;Fast results&lt;/h3&gt;
+
+&lt;p&gt;Flutter is fast. It’s powered by the same hardware-accelerated &lt;a href=&quot;https://skia.org/&quot;&gt;Skia&lt;/a&gt; 2D
+graphics library that underpins Chrome and Android. We architected Flutter to
+support glitch-free, jank-free graphics at the native speed of your device.
+Flutter code is powered by the world-class &lt;a href=&quot;https://dart.dev/&quot;&gt;Dart platform&lt;/a&gt;, which enables
+compilation to 32-bit and 64-bit ARM machine code for iOS and Android, as well
+as JavaScript for the web and Intel x64 for desktop devices.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/flutter/website/blob/master/src/images/homepage/dart-diagram-small.png&quot;&gt;&lt;img src=&quot;https://github.com/flutter/website/blob/master/src/images/homepage/dart-diagram-small.png&quot; alt=&quot;Dart platform diagram&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;productive-development&quot;&gt;Productive development&lt;/h3&gt;
+
+&lt;p&gt;Flutter offers stateful hot reload, allowing you to make changes to your code
+and see the results instantly without restarting your app or losing its state.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://flutter.dev/docs/development/tools/hot-reload&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/flutter/website/master/src/_assets/image/tools/android-studio/hot-reload.gif&quot; alt=&quot;Hot reload animation&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;extensible-and-open-model&quot;&gt;Extensible and open model&lt;/h3&gt;
+
+&lt;p&gt;Flutter works with any development tool (or none at all), but includes editor
+plug-ins for both &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter&quot;&gt;Visual Studio Code&lt;/a&gt; and &lt;a href=&quot;https://plugins.jetbrains.com/plugin/9212-flutter&quot;&gt;IntelliJ / Android Studio&lt;/a&gt;. Flutter
+provides &lt;a href=&quot;https://pub.dev/flutter&quot;&gt;thousands of packages&lt;/a&gt; to speed your development,
+regardless of your target platform. And accessing other native code is easy,
+with support for both &lt;a href=&quot;https://flutter.dev/docs/development/platform-integration/c-interop&quot;&gt;FFI&lt;/a&gt; and &lt;a href=&quot;https://flutter.dev/docs/development/platform-integration/platform-channels&quot;&gt;platform-specific APIs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Flutter is a fully open source project, and we welcome contributions.
+Information on how to get started can be found at our
+&lt;a href=&quot;CONTRIBUTING.md&quot;&gt;contributor guide&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 11 Jun 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/computer%20science/app%20development/2020/06/11/Flutter-App-Development.html</link>
+        <guid isPermaLink="true">http://localhost:4000/computer%20science/app%20development/2020/06/11/Flutter-App-Development.html</guid>
+        
+        
+        <category>Computer Science</category>
+        
+        <category>App Development</category>
+        
+      </item>
+    
+      <item>
+        <title>freeCodeCamp</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://makeapullrequest.com&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&quot; alt=&quot;Pull Requests Welcome&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://www.firsttimersonly.com/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/first--timers--only-friendly-blue.svg&quot; alt=&quot;first-timers-only Friendly&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://www.codetriage.com/freecodecamp/freecodecamp&quot;&gt;&lt;img src=&quot;https://www.codetriage.com/freecodecamp/freecodecamp/badges/users.svg&quot; alt=&quot;Open Source Helpers&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://gitpod.io/from-referrer/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/setup-automated-blue?logo=gitpod&quot; alt=&quot;Setup Automated&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;freecodecamporgs-open-source-codebase-and-curriculum&quot;&gt;freeCodeCamp.org’s open-source codebase and curriculum&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.freecodecamp.org&quot;&gt;freeCodeCamp.org&lt;/a&gt; is a friendly community where you can learn to code for free. It is run by a &lt;a href=&quot;https://donate.freecodecamp.org&quot;&gt;donor-supported 501(c)(3) nonprofit&lt;/a&gt; to help millions of busy adults transition into tech. Our community has already helped more than 10,000 people get their first developer job.&lt;/p&gt;
+
+&lt;p&gt;Our full-stack web development curriculum is completely free and self-paced. We have thousands of interactive coding challenges to help you expand your skills.&lt;/p&gt;
+
+&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://airtable.com/&quot;&gt;airtable.com&lt;/a&gt; — Looks like a spreadsheet, but it’s a relational database, unlimited bases, 1,200 rows/base and 1,000 API requests/month&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.elephantsql.com/&quot;&gt;elephantsql.com&lt;/a&gt; — PostgreSQL as a service, 20 MB free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://fauna.com/&quot;&gt;FaunaDB&lt;/a&gt; — Serverless cloud database, with native GraphQL, multi-model access and daily free tiers up to 5GB&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.graphenedb.com/&quot;&gt;graphenedb.com&lt;/a&gt; — Neo4j as a service, up to 1,000 nodes and 10,000 relations free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.heroku.com/&quot;&gt;heroku.com&lt;/a&gt; — PostgreSQL as a service, up to 10,000 rows and 20 connections free (provided as an “addon,” but can be attached to an otherwise empty app and accessed externally)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mongodb.com/cloud/atlas&quot;&gt;MongoDB Atlas&lt;/a&gt; — free tier gives 512 MB&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.redsmin.com/&quot;&gt;redsmin.com&lt;/a&gt; — Online real-time monitoring and administration service for Redis, 1 Redis instance free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.memcachier.com/&quot;&gt;MemCachier&lt;/a&gt; — Managed Memcache service. Free for up to 25MB, 1 Proxy Server and basic analytics&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://scalingo.com/&quot;&gt;scalingo.com&lt;/a&gt; — Primarily a PaaS but offers a 128MB to 192MB free tier of MySQL, PostgreSQL or MongoDB&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://skyvia.com/&quot;&gt;skyvia.com&lt;/a&gt; — Cloud Data Platform, offers free tier and all plans are completely free while in beta&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://remotemysql.com&quot;&gt;remotemysql.com&lt;/a&gt; — Remote MySQL Database hosting, setup is instant and use phpMyAdmin for administration, free for 100Mb data, free backups, no query limits and 99% uptime.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.influxdata.com/&quot;&gt;InfluxDB&lt;/a&gt; — Timeseries database, free up to 3MB/5 minutes writes, 30MB/5 minutes reads and 10,000 cardinalities series&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.quickmetrics.io/&quot;&gt;Quickmetrics&lt;/a&gt; — Timeseries database with dashboard included, free up to 10,000 events/day and total of 5 metrics.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://restdb.io/&quot;&gt;restdb.io&lt;/a&gt; - a fast and simple NoSQL cloud database service. With restdb.io you get schema, relations, automatic REST API (with MongoDB-like queries) and an efficient multi-user admin UI for working with data. Free plan allows 3 users, 2500 records and 1 API requests per second.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.unbounded.cloud/&quot;&gt;Unbounded&lt;/a&gt; - a NoSQL DBaaS which uses Javascript as a query language. Free tier allows 50,000 reads and writes per month, forever.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#certifications&quot;&gt;Certifications&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-learning-platform&quot;&gt;The Learning Platform&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#reporting-bugs-and-issues&quot;&gt;Reporting Bugs and Issues&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#reporting-security-issues-and-responsible-disclosure&quot;&gt;Reporting Security Issues and Responsible Disclosure&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#contributing&quot;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#platform-build-and-deployment-status&quot;&gt;Platform, Build and Deployment Status&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#license&quot;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;certifications&quot;&gt;Certifications&lt;/h3&gt;
+
+&lt;p&gt;freeCodeCamp.org offers several free developer certifications. Each of these certifications involves building 5 required web app projects, along with hundreds of optional coding challenges to help you prepare for those projects. We estimate that each certification will take a beginner programmer around 300 hours to earn.&lt;/p&gt;
+
+&lt;p&gt;Each of these 30 projects in the freeCodeCamp.org curriculum has its own agile user stories and automated tests. These help you build up your project incrementally and ensure you’ve fulfilled all the user stories before you submit it.&lt;/p&gt;
+
+&lt;p&gt;You can pull in these test suites through &lt;a href=&quot;https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js&quot;&gt;freeCodeCamp’s CDN&lt;/a&gt;. This means you can build these projects on websites like CodePen and Glitch - or even on your local computer’s development environment.&lt;/p&gt;
+
+&lt;p&gt;Once you’ve earned a certification, you will always have it. You will always be able to link to it from your LinkedIn or résumé. And when your prospective employers or freelance clients click that link, they’ll see a verified certification specific to you.&lt;/p&gt;
+
+&lt;p&gt;The one exception to this is if we discover violations of our &lt;a href=&quot;https://www.freecodecamp.org/academic-honesty&quot;&gt;Academic Honesty Policy&lt;/a&gt;. When we catch people unambiguously plagiarizing (submitting other people’s code or projects as their own without citation), we do what all rigorous institutions of learning should do - we revoke their certifications and ban those people.&lt;/p&gt;
+
+&lt;p&gt;Here are our six core certifications:&lt;/p&gt;
+
+&lt;h4 id=&quot;1-responsive-web-design-certification&quot;&gt;1. Responsive Web Design Certification&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5&quot;&gt;Basic HTML and HTML5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/responsive-web-design/basic-css&quot;&gt;Basic CSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/responsive-web-design/applied-visual-design&quot;&gt;Applied Visual Design&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/responsive-web-design/applied-accessibility&quot;&gt;Applied Accessibility&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-principles&quot;&gt;Responsive Web Design Principles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/responsive-web-design/css-flexbox&quot;&gt;CSS Flexbox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/responsive-web-design/css-grid&quot;&gt;CSS Grid&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Projects&lt;/strong&gt;: Tribute Page, Survey Form, Product Landing Page, Technical Documentation Page, Personal Portfolio Webpage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;2-javascript-algorithms-and-data-structures-certification&quot;&gt;2. JavaScript Algorithms and Data Structures Certification&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript&quot;&gt;Basic JavaScript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6&quot;&gt;ES6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/regular-expressions&quot;&gt;Regular Expressions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/debugging&quot;&gt;Debugging&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures&quot;&gt;Basic Data Structures&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting&quot;&gt;Algorithm Scripting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/object-oriented-programming&quot;&gt;Object-Oriented Programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming&quot;&gt;Functional Programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting&quot;&gt;Intermediate Algorithm Scripting&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Projects&lt;/strong&gt;: Palindrome Checker, Roman Numeral Converter, Caesar’s Cipher, Telephone Number Validator, Cash Register&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;3-front-end-libraries-certification&quot;&gt;3. Front End Libraries Certification&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/front-end-libraries/bootstrap&quot;&gt;Bootstrap&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/front-end-libraries/jquery&quot;&gt;jQuery&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/front-end-libraries/sass&quot;&gt;Sass&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/front-end-libraries/react&quot;&gt;React&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/front-end-libraries/redux&quot;&gt;Redux&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/front-end-libraries/react-and-redux&quot;&gt;React and Redux&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Projects&lt;/strong&gt;: Random Quote Machine, Markdown Previewer, Drum Machine, JavaScript Calculator, Pomodoro Clock&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;4-data-visualization-certification&quot;&gt;4. Data Visualization Certification&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/data-visualization/data-visualization-with-d3&quot;&gt;Data Visualization with D3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/data-visualization/json-apis-and-ajax&quot;&gt;JSON APIs and Ajax&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Projects&lt;/strong&gt;: Bar Chart, Scatterplot Graph, Heat Map, Choropleth Map, Treemap Diagram&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;5-apis-and-microservices-certification&quot;&gt;5. APIs and Microservices Certification&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/apis-and-microservices/managing-packages-with-npm&quot;&gt;Managing Packages with Npm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/apis-and-microservices/basic-node-and-express&quot;&gt;Basic Node and Express&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/apis-and-microservices/mongodb-and-mongoose&quot;&gt;MongoDB and Mongoose&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Projects&lt;/strong&gt;: Timestamp Microservice, Request Header Parser, URL Shortener, Exercise Tracker, File Metadata Microservice&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;6-information-security-and-quality-assurance-certification&quot;&gt;6. Information Security and Quality Assurance Certification&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/information-security-and-quality-assurance/information-security-with-helmetjs&quot;&gt;Information Security with HelmetJS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/information-security-and-quality-assurance/quality-assurance-and-testing-with-chai&quot;&gt;Quality Assurance and Testing with Chai&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.freecodecamp.org/information-security-and-quality-assurance/advanced-node-and-express&quot;&gt;Advanced Node and Express&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Projects&lt;/strong&gt;: Metric-Imperial Converter, Issue Tracker, Personal Library, Stock Price Checker, Anonymous Message Board&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;full-stack-development-certification&quot;&gt;Full Stack Development Certification&lt;/h4&gt;
+
+&lt;p&gt;Once you have earned all 6 of these certifications, you’ll be able to claim your freeCodeCamp.org Full Stack Development Certification. This final distinction signifies that you’ve completed around 1,800 hours of coding with a wide range of web development tools.&lt;/p&gt;
+
+&lt;h4 id=&quot;legacy-certifications&quot;&gt;Legacy Certifications&lt;/h4&gt;
+
+&lt;p&gt;We also have 3 legacy certifications from our 2015 curriculum, which are still available. All of the required projects for these legacy certifications will remain available on freeCodeCamp.org.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Legacy Front End Development Certification&lt;/li&gt;
+  &lt;li&gt;Legacy Data Visualization Certification&lt;/li&gt;
+  &lt;li&gt;Legacy Back End Development Certification&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;the-learning-platform&quot;&gt;The Learning Platform&lt;/h3&gt;
+
+&lt;p&gt;This code is running live at &lt;a href=&quot;https://www.freecodecamp.org&quot;&gt;freeCodeCamp.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our community also has:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A &lt;a href=&quot;https://www.freecodecamp.org/forum&quot;&gt;forum&lt;/a&gt; where you can usually get programming help or project feedback within hours.&lt;/li&gt;
+  &lt;li&gt;A &lt;a href=&quot;https://youtube.com/freecodecamp&quot;&gt;YouTube channel&lt;/a&gt; with free courses on Python, SQL, Android, and a wide variety of other technologies.&lt;/li&gt;
+  &lt;li&gt;A &lt;a href=&quot;https://podcast.freecodecamp.org/&quot;&gt;podcast&lt;/a&gt; with technology insights and inspiring stories from developers.&lt;/li&gt;
+  &lt;li&gt;A &lt;a href=&quot;https://www.freecodecamp.org/news&quot;&gt;Developer News&lt;/a&gt; publication, a free, open source, no-ads place to cross-post your blog articles.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;join-our-community-here&quot;&gt;&lt;a href=&quot;https://www.freecodecamp.org/signin&quot;&gt;Join our community here&lt;/a&gt;.&lt;/h4&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;reporting-bugs-and-issues&quot;&gt;Reporting Bugs and Issues&lt;/h3&gt;
+
+&lt;p&gt;If you think you’ve found a bug, first read the &lt;a href=&quot;https://www.freecodecamp.org/forum/t/how-to-report-a-bug/19543&quot;&gt;how to report a bug&lt;/a&gt; article and follow its instructions.&lt;/p&gt;
+
+&lt;p&gt;If you’re confident it’s a new bug and have confirmed that someone else is facing the same issue, go ahead and create a new GitHub issue. Be sure to include as much information as possible so we can reproduce the bug.&lt;/p&gt;
+
+&lt;h3 id=&quot;reporting-security-issues-and-responsible-disclosure&quot;&gt;Reporting Security Issues and Responsible Disclosure&lt;/h3&gt;
+
+&lt;p&gt;If you think you have found a vulnerability, &lt;em&gt;please report responsibly&lt;/em&gt;. Don’t create GitHub issues for security issues. Instead, please send an email to &lt;code class=&quot;highlighter-rouge&quot;&gt;security@freecodecamp.org&lt;/code&gt; and we’ll look into it immediately.&lt;/p&gt;
+
+&lt;p&gt;We appreciate any responsible disclosure of vulnerabilities that might impact the integrity of our platforms and users. While we do not offer any bounties or swags at the moment, we’ll be happy to list your name in our &lt;a href=&quot;HoF.md&quot;&gt;Hall of Fame&lt;/a&gt; for security researchers.&lt;/p&gt;
+
+&lt;h3 id=&quot;contributing&quot;&gt;Contributing&lt;/h3&gt;
+
+&lt;p&gt;The freeCodeCamp.org community is possible thanks to thousands of kind volunteers like you. We welcome any and all contributions to the community and are excited to welcome you aboard.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;please-follow-these-steps-to-contribute&quot;&gt;&lt;a href=&quot;https://contribute.freecodecamp.org&quot;&gt;Please follow these steps to contribute&lt;/a&gt;.&lt;/h4&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;platform-build-and-deployment-status&quot;&gt;Platform, Build and Deployment Status&lt;/h3&gt;
+
+&lt;p&gt;The general platform status for all our applications is available at &lt;a href=&quot;https://status.freecodecamp.org&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;status.freecodecamp.org&lt;/code&gt;&lt;/a&gt;. The build and deployment status for the code is available in &lt;a href=&quot;/docs/devops.md&quot;&gt;our DevOps Guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;license&quot;&gt;License&lt;/h3&gt;
+
+&lt;p&gt;Copyright © 2020 freeCodeCamp.org&lt;/p&gt;
+
+&lt;p&gt;The content of this repository is bound by the following licenses:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The computer software is licensed under the &lt;a href=&quot;LICENSE.md&quot;&gt;BSD-3-Clause&lt;/a&gt; license.&lt;/li&gt;
+  &lt;li&gt;The learning resources in the &lt;a href=&quot;/curriculum&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/curriculum&lt;/code&gt;&lt;/a&gt; directory including their subdirectories thereon are licensed under the &lt;a href=&quot;/curriculum/LICENSE.md&quot;&gt;CC-BY-SA-4.0&lt;/a&gt; license.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 18 May 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/developer/student/2020/05/18/freeCodeCamp.html</link>
+        <guid isPermaLink="true">http://localhost:4000/developer/student/2020/05/18/freeCodeCamp.html</guid>
+        
+        <category>certification</category>
+        
+        
+        <category>Developer</category>
+        
+        <category>Student</category>
+        
+      </item>
+    
+      <item>
+        <title>Storage and Media Processing</title>
+        <description>&lt;h2 id=&quot;storage-and-media-processing&quot;&gt;Storage and Media Processing&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/transloadit.jpg&quot; alt=&quot;Transloadit&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://transloadit.com/&quot;&gt;transloadit.com&lt;/a&gt; — Handles file uploads and encoding of video, audio, images, documents. Free for Open source, charities, and students via the GitHub Student Developer Pack. Commercial applications get 2 GB free for test driving&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://image4.io/&quot;&gt;image4.io&lt;/a&gt; — Image upload, powerful manipulations, storage and delivery for websites and apps, with SDK’s, integrations and migration tools. Free tier includes 25 credits. 1 credit is equal to 1 GB of CDN usage, 1GB of storage or 1000 image transformations.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cloudimage.com/&quot;&gt;cloudimage.com&lt;/a&gt; — Full image optimization and CDN service with 1500+ Points of Presence around the world. A variety of image resizing, compression, watermarking functions. Open source plugins for responsive images, 360 image making and image editing. Free monthly plan with 25GB of CDN traffic and 25GB of cache storage and unlimited transformations.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cloudinary.com/&quot;&gt;cloudinary.com&lt;/a&gt; — Image upload, powerful manipulations, storage and delivery for sites and apps, with libraries for Ruby, Python, Java, PHP, Objective-C and more. Perpetual free tier includes 7,500 images/month, 2 GB storage, 5 GB bandwidth&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://easydb.io/&quot;&gt;easyDB.io&lt;/a&gt; — one-click, hosted database provider. They provide a database for the programming language of your choice for development purposes. The DB is ephemeral and will be deleted after 24 or 72 hours on the free tier.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://embed.ly/&quot;&gt;embed.ly&lt;/a&gt; — Provides APIs for embedding media in a webpage, responsive image scaling, extracting elements from a webpage. Free for up to 5,000 URLs/month at 15 requests/second&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.filestack.com/&quot;&gt;filestack.com&lt;/a&gt; — File picker, transform and deliver, free for 250 files, 500 transformations and 3 GB bandwidth&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gumlet.com/&quot;&gt;gumlet.com&lt;/a&gt; — Image resize-as-a-service. It also optimizes images and performs delivery via CDN. Free tier includes 1 GB bandwidth and unlimited number of image processing every month for 1 year.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.image-charts.com/&quot;&gt;image-charts.com&lt;/a&gt; — Unlimited image chart generation with a watermark&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jsonbin.io/&quot;&gt;jsonbin.io&lt;/a&gt; — Free JSON data storage service, ideal for small-scale web apps, website, mobile apps.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kraken.io/&quot;&gt;kraken.io&lt;/a&gt; — Image optimization for website performance as a service, free plan up to 1 MB file size&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.npoint.io/&quot;&gt;npoint.io&lt;/a&gt; — JSON store with collaborative schema editing&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.otixo.com/&quot;&gt;otixo.com&lt;/a&gt; — Encrypt, share, copy and move all your cloud storage files from one place. Basic plan provides unlimited files transfer with 250 MB max. file size and allows 5 encrypted files&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://packagecloud.io/&quot;&gt;packagecloud.io&lt;/a&gt; — Hosted Package Repositories for YUM, APT, RubyGem and PyPI.  Limited free plans, open source plans available via request&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://piio.co/&quot;&gt;piio.co&lt;/a&gt; — Responsive image optimization and delivery for every website. Free plan for developers and personal websites. Includes free CDN, WebP and Lazy Loading out of the box.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://placeholder.com/&quot;&gt;placeholder.com&lt;/a&gt; — A quick and simple image placeholder service&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://placekitten.com/&quot;&gt;placekitten.com&lt;/a&gt; — A quick and simple service for getting pictures of kittens for use as placeholders&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plot.ly/&quot;&gt;plot.ly&lt;/a&gt; — Graph and share your data. Free tier includes unlimited public files and 10 private files&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://podio.com/&quot;&gt;podio.com&lt;/a&gt; — You can use Podio with a team of up to five people and try out the features of the Basic Plan, except user management&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://quickchart.io&quot;&gt;QuickChart&lt;/a&gt; — Generate embeddable image charts, graphs, and QR codes&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://redbooth.com&quot;&gt;redbooth.com&lt;/a&gt; — P2P file syncing, free for up to 2 users&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tinypng.com/&quot;&gt;tinypng.com&lt;/a&gt; — API to compress and resize PNG and JPEG images, offers 500 compressions for free each month&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;If you wish to add more to this this post please let us know and we would cosider adding it here.&lt;/p&gt;
 
-&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;</content><author><name>Sangram</name></author><summary type="html">IaaS</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/1.jpg" /></entry><entry><title type="html">Issue Tracking and Project Management</title><link href="http://localhost:4000/Issue-Tracking-and-Project-Management/" rel="alternate" type="text/html" title="Issue Tracking and Project Management" /><published>2020-05-18T00:00:00+01:00</published><updated>2020-05-18T00:00:00+01:00</updated><id>http://localhost:4000/Issue-Tracking-and-Project-Management</id><content type="html" xml:base="http://localhost:4000/Issue-Tracking-and-Project-Management/">&lt;h2 id=&quot;issue-tracking-and-project-management&quot;&gt;Issue Tracking and Project Management&lt;/h2&gt;
+&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 May 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/developer/2020/05/18/Storage-and-Media-Processing.html</link>
+        <guid isPermaLink="true">http://localhost:4000/developer/2020/05/18/Storage-and-Media-Processing.html</guid>
+        
+        
+        <category>Developer</category>
+        
+      </item>
+    
+      <item>
+        <title>Security and PKI</title>
+        <description>&lt;h2 id=&quot;security-and-pki&quot;&gt;Security and PKI&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.acunote.com/&quot;&gt;acunote.com&lt;/a&gt; — Free project management and SCRUM software for up to 5 team members&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://asana.com/&quot;&gt;asana.com&lt;/a&gt; — Free for private project with collaborators&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://azure.microsoft.com/services/devops/&quot;&gt;Azure DevOps&lt;/a&gt; — Unlimited free private code repositories; Tracks bugs, work items, feedback and more&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://basecamp.com/personal&quot;&gt;Basecamp&lt;/a&gt; - To-do lists, milestone management, forum-like messaging, file sharing, and time tracking. Up to 3 projects, 20 users, and 1GB of storage space.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.bitrix24.com/&quot;&gt;bitrix24.com&lt;/a&gt; — Free intranet and project management tool&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cacoo.com/&quot;&gt;cacoo.com&lt;/a&gt; — Online diagrams in real-time: flowchart, UML, network. Free max. 15 users/diagram, 25 sheets&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://clickup.com/&quot;&gt;clickup.com&lt;/a&gt; — Project management. Free, premium version with cloud storage. Mobile applications and Git integrations available&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cloudcraft.co/&quot;&gt;Cloudcraft&lt;/a&gt; — Design a professional architecture diagram in minutes with the Cloudcraft visual designer, optimized for AWS with smart components that show live data too.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://clubhouse.io/&quot;&gt;Clubhouse&lt;/a&gt; - Project management platform. Free for up to 10 users forever&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/software/confluence&quot;&gt;Confluence&lt;/a&gt; - Atlassian’s content collaboration tool used to help teams collaborate and share knowledge efficiently. Free plan up to 10 users.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.contriber.com/&quot;&gt;contriber.com&lt;/a&gt; — Customizable project management platform, free starter plan, 5 workspaces&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.draw.io/&quot;&gt;draw.io&lt;/a&gt; — Online diagrams stored locally, in Google Drive, OneDrive or Dropbox. Free for all features and storage levels&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/&quot;&gt;github.com&lt;/a&gt; — In addition to its Git storage facility, GitHub offers basic issue tracking&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gitlab.com&quot;&gt;Gitlab&lt;/a&gt; - Offers basic issue tracking for projects.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.gliffy.com/&quot;&gt;gliffy.com&lt;/a&gt; — Online diagrams: flowchart, UML, wireframe,… Also plugins for Jira and Confluence. 5 diagrams and 2 MB free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/marketplace/graphql-inspector&quot;&gt;GraphQL Inspector&lt;/a&gt; - GraphQL Inspector ouputs a list of changes between two GraphQL schemas. Every change is precisely explained and marked as breaking, non-breaking or dangerous.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://huboard.com/&quot;&gt;huboard.com&lt;/a&gt; — Instant project management for your GitHub issues, free for Open Source&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://instabug.com&quot;&gt;Instabug&lt;/a&gt; —  A comprehensive bug reporting and in-app feedback SDK for mobile apps. Free plan up to 1 app and 1 member.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.ilograph.com/&quot;&gt;Ilograph&lt;/a&gt;  — interactive diagrams that allow users to see their infrastructure from multiple perspectives and levels of detail. Diagrams can be expressed in code. Free tier has unlimited private diagrams with up to 3 viewers.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/software/jira&quot;&gt;Jira&lt;/a&gt; — Advanced software development project management tool used in many corporate environments. Free plan up to 10 users.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kanbanflow.com/&quot;&gt;kanbanflow.com&lt;/a&gt; — Board-based project management. Free, premium version with more options&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kanbantool.com/&quot;&gt;kanbantool.com&lt;/a&gt; — Kanban board-based project management. Free, paid plans with more options&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kanrails.com/&quot;&gt;kanrails.com&lt;/a&gt; — Kanban board-based project management. Free for 3 collaborators, 2 projects and 5 tracks. Paid plans available for unlimited collaborators, projects and tracks.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kumu.io/&quot;&gt;Kumu.io&lt;/a&gt;  — Relationship maps with animation, decorations, filters, clustering, spreadsheet imports and more. Free tier allows unlimited public projects. Graph size unlimited. Free private projects for students. Sandbox mode is available if you prefer to not leave your file publicly online (upload, edit, download, discard).&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.leanboard.io&quot;&gt;LeanBoard&lt;/a&gt; — Collaborative whiteboard with sticky notes for your GitHub issues (Useful for Example Mapping and other techniques)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.meuscrum.com/en&quot;&gt;MeuScrum&lt;/a&gt; - Free online scrum tool with kanban board&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developer.microsoft.com/en-us/office/dev-program&quot;&gt;Office 365 Developer&lt;/a&gt; — Free one-year Office 365 E3 subscription for development/testing.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ora.pm/&quot;&gt;Ora&lt;/a&gt; - Agile task management &amp;amp; team collaboration. Free for up to 3 users and files are limited to 10 MB.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.pivotaltracker.com/&quot;&gt;pivotaltracker.com&lt;/a&gt; — Free for unlimited public projects and two private projects with 3 total active users (read-write) and unlimited passive users (read-only).&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://plan.io/&quot;&gt;plan.io&lt;/a&gt; — Project Management with Repository Hosting and more options. Free for 2 users with 10 customers and 500MB Storage&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.planitpoker.com/&quot;&gt;planitpoker.com&lt;/a&gt; — Free online planning poker (estimation tool)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.senseitool.com/&quot;&gt;senseitool.com&lt;/a&gt; — An agile retrospective tool - Free.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://speedboard.app&quot;&gt;SpeedBoard&lt;/a&gt; - Board for Agile and Scrum retrospectives - Free.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://tadum.app&quot;&gt;Tadum&lt;/a&gt; - Meeting agenda and minutes app designed for recurring meetings, free for teams up to 10&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://taiga.io/&quot;&gt;taiga.io&lt;/a&gt; — Project management platform for startups and agile developers, free for Open Source&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.targetprocess.com/&quot;&gt;targetprocess.com&lt;/a&gt; — Visual project management, from Kanban and Scrum to almost any operational process. Free for unlimited users, up to 1,000 data entities {&lt;a href=&quot;https://www.targetprocess.com/pricing/&quot;&gt;more details&lt;/a&gt;}&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.taskade.com/&quot;&gt;taskade.com&lt;/a&gt; — Real-time collaborative task lists and outlines for teams&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://taskulu.com/&quot;&gt;taskulu.com&lt;/a&gt; — Role based project management. Free up to 5 users. Integration with GitHub/Trello/Dropbox/Google Drive&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://testlio.com/&quot;&gt;testlio.com&lt;/a&gt; — Issue tracking, test management and beta testing platform. Free for private use&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://todoist.com/&quot;&gt;todoist.com&lt;/a&gt; — Collaborative and individual task management. Free, Premium and Team plans are available. Discounts provided for eligible users.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://trello.com/&quot;&gt;trello.com&lt;/a&gt; — Board-based project management. Unlimited Personal Boards, 10 Team Boards.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ubertesters.com/&quot;&gt;ubertesters.com&lt;/a&gt; — Test platform, integration and crowdtesters, 2 projects, 5 members&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.vivifyscrum.com/&quot;&gt;vivifyscrum.com&lt;/a&gt; — Free tool for Agile project management. Scrum Compatible&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.jetbrains.com/youtrack/buy/#edition=incloud&quot;&gt;YouTrack&lt;/a&gt; — Free hosted YouTrack (InCloud) for FOSS projects, private projects (free for 3 users). Includes time tracking and agile boards&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.zenhub.io/&quot;&gt;zenhub.io&lt;/a&gt; — The only project management solution inside GitHub. Free for public repos, OSS and nonprofit organizations&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zepel.io/&quot;&gt;zepel.io&lt;/a&gt; - The project management tool that lets you plan features, collaborate across disciplines, and build software together. Free up to 5 members. No feature restrictions.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zenkit.com&quot;&gt;zenkit.com&lt;/a&gt; — Project management and collaboration tool. Free for up to 5 members, 5 GB attachments.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.alienvault.com/open-threat-exchange/reputation-monitor&quot;&gt;alienvault.com&lt;/a&gt; — Uncovers compromised systems in your network&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://auth0.com/&quot;&gt;auth0.com&lt;/a&gt; — Hosted free for development SSO. Up to 2 social identity providers for closed-source projects.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitninja.io/&quot;&gt;bitninja.io&lt;/a&gt; — Botnet protection through a blacklist, free plan only reports limited information on each attack&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cloudsploit.com/&quot;&gt;cloudsploit.com&lt;/a&gt; — Amazon Web Services (AWS) security and compliance auditing and monitoring&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.codenotary.io/&quot;&gt;CodeNotary.io&lt;/a&gt; — Open Source platform with indelible proof to notarize code, files, directories or container&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.crypteron.com/&quot;&gt;crypteron.com&lt;/a&gt; — Cloud-first, developer-friendly security platform prevents data breaches in .NET and Java applications&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dependabot.com/&quot;&gt;Dependabot&lt;/a&gt; Automated dependency updates for Ruby, JavaScript, Python, PHP, Elixir, Rust, Java (Maven and Gradle), .NET, Go, Elm, Docker, Terraform, Git Submodules and GitHub Actions.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://duo.com/&quot;&gt;duo.com&lt;/a&gt; — Two-factor authentication (2FA) for website or app. Free for 10 users, all authentication methods, unlimited, integrations, hardware tokens&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.foxpass.com/&quot;&gt;foxpass.com&lt;/a&gt; — Hosted LDAP and RADIUS. Easy per-user logins to servers, VPNs and wireless networks. Free for 10 users&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.globalsign.com/en/ssl/ssl-open-source/&quot;&gt;globalsign.com&lt;/a&gt; — Free SSL certificates for Open Source&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://haveibeenpwned.com&quot;&gt;Have I been pwned?&lt;/a&gt; — REST API for fetching the information on the breaches.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://internet.nl&quot;&gt;Internet.nl&lt;/a&gt; — Test for modern Internet Standards like IPv6, DNSSEC, HTTPS, DMARC, STARTTLS and DANE&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jumpcloud.com/&quot;&gt;Jumpcloud&lt;/a&gt; — Provides directory as a service similar to Azure AD, user management, single sign-on, and RADIUS authentication. Free for up to 10 users.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://keychest.net&quot;&gt;keychest.net&lt;/a&gt; - SSL expiry management and cert purchase with an integrated CT database&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://letsencrypt.org/&quot;&gt;letsencrypt.org&lt;/a&gt; — Free SSL Certificate Authority with certs trusted by all major browsers&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.loginradius.com/&quot;&gt;LoginRadius&lt;/a&gt; — Managed User Authentication service for free. Email registartion and 3 social providers.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.logintc.com/&quot;&gt;logintc.com&lt;/a&gt; — Two-factor authentication (2FA) by push notifications, free for 10 users, VPN, Websites and SSH&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.meterian.io/&quot;&gt;meterian.io&lt;/a&gt; - Monitor Java, Javascript, .NET, Scala, Ruby and NodeJS projects for security vulnerabilities in dependencies. Free for one private project, unlimited projects for open source.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://observatory.mozilla.org/&quot;&gt;Mozilla Observatory&lt;/a&gt; — Find and fix security vulnerabilities in your site.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.okta.com/&quot;&gt;Okta&lt;/a&gt; — User management, authentication and authorization. Free for up to 1000 monthly active users.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.onelogin.com/&quot;&gt;onelogin.com&lt;/a&gt; — Identity as a Service (IDaaS), Single Sign-On Identity Provider, Cloud SSO IdP, 3 company apps and 5 personal apps, unlimited users&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.opswat.com/&quot;&gt;opswat.com&lt;/a&gt; — Security Monitoring of computers, devices, applications, configurations,… Free 25 users and 30 days history&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ponycheckup.com/&quot;&gt;ponycheckup.com&lt;/a&gt; — An automated security checkup tool for Django websites&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://protectumus.com&quot;&gt;Protectumus&lt;/a&gt; - Free website security check, site antivirus and server firewall (WAF). Email and SMS notifications for registered users.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pyup.io&quot;&gt;pyup.io&lt;/a&gt; — Monitor Python dependencies for security vulnerabilities and update them automatically. Free for one private project, unlimited projects for open source.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.qualys.com/community-edition&quot;&gt;qualys.com&lt;/a&gt; — Find web app vulnerabilities, audit for OWASP Risks&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://report-uri.io/&quot;&gt;report-uri.io&lt;/a&gt; — CSP and HPKP violation reporting&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ringcaptcha.com/&quot;&gt;ringcaptcha.com&lt;/a&gt; — Tools to use phone number as id, available for free&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://shieldfy.io&quot;&gt;Shieldfy&lt;/a&gt; — Web application firewall and vulnerability detection for developers, free plan up to 100k requests per month.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://snyk.io&quot;&gt;snyk.io&lt;/a&gt; — Can find and fix known security vulnerabilities in your open source dependencies. Unlimited tests and remediation for open source projects. Limited to 200 tests/month for your private projects.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sqreen.com/&quot;&gt;Sqreen&lt;/a&gt; — Application security monitoring and protection (RASP, WAF and more) for web applications and APIs. Free for 1 app and 3 million requests.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ssllabs.com/ssltest/&quot;&gt;ssllabs.com&lt;/a&gt; — Very deep analysis of the configuration of any SSL web server&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sitecheck.sucuri.net&quot;&gt;Sucuri SiteCheck&lt;/a&gt; - Free website security check and malware scanner&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://threatconnect.com&quot;&gt;threatconnect.com&lt;/a&gt; — Threat intelligence: It is designed for individual researchers, analysts and organizations who are starting to learn about cyber threat intelligence. Free up to 3 Users&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.tinfoilsecurity.com/&quot;&gt;tinfoilsecurity.com&lt;/a&gt; — Automated vulnerability scanning. Free plan allows weekly XSS scans&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://virgilsecurity.com/&quot;&gt;Virgil Security&lt;/a&gt; — Tools and services for implementing end-to-end encryption, database protection, IoT security and more in your digital solution. Free for applications with up to 250 users.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://virushee.com/&quot;&gt;Virushee&lt;/a&gt; — Privacy-oriented file/data scanning powered by hybrid heuristic and AI-assisted engine. Possible to use internal dynamic sandbox analysis. Limited to 50MB per file upload&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;If you wish to add more to this this post please let us know and we would cosider adding it here.&lt;/p&gt;
 
-&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;</content><author><name>Sangram</name></author><category term="featured" /><summary type="html">Issue Tracking and Project Management</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/1.jpg" /></entry><entry><title type="html">Messaging and Email</title><link href="http://localhost:4000/Messaging-and-Email/" rel="alternate" type="text/html" title="Messaging and Email" /><published>2020-05-18T00:00:00+01:00</published><updated>2020-05-18T00:00:00+01:00</updated><id>http://localhost:4000/Messaging-and-Email</id><content type="html" xml:base="http://localhost:4000/Messaging-and-Email/">&lt;p&gt;Realtime messaging service and Free mailbox / free email hosting / free email service with various features.&lt;/p&gt;
+&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 May 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/developer/2020/05/18/Security-and-PKI.html</link>
+        <guid isPermaLink="true">http://localhost:4000/developer/2020/05/18/Security-and-PKI.html</guid>
+        
+        
+        <category>Developer</category>
+        
+      </item>
+    
+      <item>
+        <title>STUN, WebRTC, Web Socket Servers and Other Routers</title>
+        <description>&lt;h2 id=&quot;stun-webrtc-web-socket-servers-and-other-routers&quot;&gt;STUN, WebRTC, Web Socket Servers and Other Routers&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/localhost run.gif&quot; alt=&quot;localhostrun&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://localhost.run/&quot;&gt;localhost.run&lt;/a&gt; — Instantly share your localhost environment! No download required. Run your app on port 8080 and then run this command and share the URL.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://conveyor.cloud/&quot;&gt;conveyor.cloud&lt;/a&gt; — Visual Studio extension to expose IIS Express to the local network or over a tunnel to a public URL.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.vpn.net/&quot;&gt;Hamachi&lt;/a&gt; — LogMeIn Hamachi is a hosted VPN service that lets you securely extend LAN-like networks to distributed teams with free plan allows unlimited networks with up to 5 peoples&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.radmin-vpn.com/&quot;&gt;Radmin VPN&lt;/a&gt; - Connect multiple computers together via a VPN enabling LAN-like networks. Unlimited peers. (Hamachi alternative)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ngrok.com/&quot;&gt;ngrok.com&lt;/a&gt; — Expose locally running servers over a tunnel to a public URL.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://segment.com/&quot;&gt;segment.com&lt;/a&gt; — Hub to translate and route events to other third-party services. 100,000 events/month free&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://serveo.net/&quot;&gt;serveo.net&lt;/a&gt; — Quickly expose any local port to the public internet on a servo subdomain using an SSH tunnel, includes SSH GUI to replay requests over HTTP.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;stun:global.stun.twilio.com:3478?transport=udp&quot;&gt;stun:global.stun.twilio.com:3478?transport=udp&lt;/a&gt; — Twilio STUN&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;stun:stun.l.google.com:19302&quot;&gt;stun:stun.l.google.com:19302&lt;/a&gt; — Google STUN&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://webhookrelay.com&quot;&gt;webhookrelay.com&lt;/a&gt; — Manage, debug, fan-out and proxy all your webhooks to public or internal (ie: localhost) destinations. Also, expose servers running in a private network over a tunnel by getting a public HTTP endpoint (&lt;code class=&quot;highlighter-rouge&quot;&gt;https://yoursubdomain.webrelay.io &amp;lt;----&amp;gt; http://localhost:8080&lt;/code&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zerotier.com&quot;&gt;ZeroTier&lt;/a&gt; — FOSS managed virtual Ethernet as a service. Unlimited end-to-end encrypted networks of 100 clients on free plan. Clients for desktop/mobile/NA; web interface for configuration of custom routing rules and approval of new client nodes on private networks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you wish to add more to this this post please let us know and we would cosider adding it here.&lt;/p&gt;
+
+&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 May 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/developer/2020/05/18/STUN-WebRTC-Web-Socket-Servers-and-Other-Routers.html</link>
+        <guid isPermaLink="true">http://localhost:4000/developer/2020/05/18/STUN-WebRTC-Web-Socket-Servers-and-Other-Routers.html</guid>
+        
+        
+        <category>Developer</category>
+        
+      </item>
+    
+      <item>
+        <title>Miscellaneous</title>
+        <description>&lt;h2 id=&quot;miscellaneous&quot;&gt;Miscellaneous&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://configcat.com&quot;&gt;ConfigCat&lt;/a&gt; - Cross-platform feature flag service. SDKs for all major languages. Free plan up to 10 flags, 2 environments, 1 product and 5 Million requests per month. Unlimited user seats. Students get 100 flags and 100 Million requests per month for free.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.docsapp.io/&quot;&gt;docsapp.io&lt;/a&gt; — Easiest way to publish documentation, free for Open Source&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://fill.ly&quot;&gt;Filly&lt;/a&gt; — Boost your web development workflow by reusing manual actions done previously on your app. Form filler for improved team collaboration.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://fossa.com/&quot;&gt;FOSSA&lt;/a&gt; - Scalable, end-to-end management for third-party code, license compliance and vulnerabilities.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.fullcontact.com/developer/pricing/&quot;&gt;fullcontact.com&lt;/a&gt; — Help your users know more about their contacts by adding social profile into your app. 500 free Person API matches/month&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://http2.pro&quot;&gt;http2.pro&lt;/a&gt; — HTTP/2 protocol readiness test and client HTTP/2 support detection API.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://newreleases.io/&quot;&gt;newreleases.io&lt;/a&gt; - Receive notifications on email, Slack, Telegram, Discord and custom webhooks for new releases from GitHub, GitLab, Bitbucket, Python PyPI, Java Maven, Node.js NPM, Node.js Yarn, Ruby Gems, PHP Packagist, .NET NuGet, Rust Cargo and Docker Hub.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.pdfmonkey.io/&quot;&gt;PDFMonkey&lt;/a&gt; — Manage PDF templates in a dashboard, call the API with dynamic data, download your PDF. Offers 1000 free documents per month.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://readme.com/&quot;&gt;readme.com&lt;/a&gt; — Beautiful documentation made easy, free for Open Source: see &lt;a href=&quot;https://readme.readme.io/docs/open-source&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reqbin.com/&quot;&gt;ReqBin&lt;/a&gt; — Post HTTP Requests Online. Popular Request Methods include GET, POST, PUT, DELETE, and HEAD. Supports Headers and Token Authentication. Includes a basic login system for saving your requests.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://superfeedr.com/&quot;&gt;superfeedr.com&lt;/a&gt; — Real-time PubSubHubbub compliant feeds, export, analytics. Free with less customization&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.surveymonkey.com&quot;&gt;SurveyMonkey.com&lt;/a&gt; — Create online surveys. Analyze the results online.  Free plan allows only 10 questions and 100 responses per survey.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;other-free-resources&quot;&gt;Other Free Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://education.github.com/pack&quot;&gt;education.github.com&lt;/a&gt; — Collection of free services for students. Registration required&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://degooglisons-internet.org/en/list/&quot;&gt;Framacloud&lt;/a&gt; — A list of Free/Libre Open Source Software and SaaS by the French non-profit &lt;a href=&quot;https://framasoft.org/en/&quot;&gt;Framasoft&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://getawesomeness.herokuapp.com&quot;&gt;getawesomeness&lt;/a&gt; — Retrieve all amazing awesomeness from GitHub… a must see&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tvvocold/FOSS-for-Dev&quot;&gt;github.com — FOSS for Dev&lt;/a&gt; — A hub of free and Open Source software for developers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you wish to add more to this this post please let us know and we would cosider adding it here.&lt;/p&gt;
+
+&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 May 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/developer/2020/05/18/Miscellaneous.html</link>
+        <guid isPermaLink="true">http://localhost:4000/developer/2020/05/18/Miscellaneous.html</guid>
+        
+        
+        <category>Developer</category>
+        
+      </item>
+    
+      <item>
+        <title>Messaging and Email</title>
+        <description>&lt;p&gt;Realtime messaging service and Free mailbox / free email hosting / free email service with various features.&lt;/p&gt;
 
 &lt;h2 id=&quot;messaging&quot;&gt;Messaging&lt;/h2&gt;
 
@@ -162,424 +545,195 @@
 
 &lt;p&gt;If you wish to add more to this this post please let us know and we would cosider adding it here.&lt;/p&gt;
 
-&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;</content><author><name>Sangram</name></author><category term="featured" /><summary type="html">Realtime messaging service and Free mailbox / free email hosting / free email service with various features.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/messages%20and%20email.jpg" /></entry><entry><title type="html">Miscellaneous</title><link href="http://localhost:4000/Miscellaneous/" rel="alternate" type="text/html" title="Miscellaneous" /><published>2020-05-18T00:00:00+01:00</published><updated>2020-05-18T00:00:00+01:00</updated><id>http://localhost:4000/Miscellaneous</id><content type="html" xml:base="http://localhost:4000/Miscellaneous/">&lt;h2 id=&quot;miscellaneous&quot;&gt;Miscellaneous&lt;/h2&gt;
+&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 May 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/developer/2020/05/18/Messaging-and-Email.html</link>
+        <guid isPermaLink="true">http://localhost:4000/developer/2020/05/18/Messaging-and-Email.html</guid>
+        
+        <category>featured</category>
+        
+        
+        <category>Developer</category>
+        
+      </item>
+    
+      <item>
+        <title>Issue Tracking and Project Management</title>
+        <description>&lt;h2 id=&quot;issue-tracking-and-project-management&quot;&gt;Issue Tracking and Project Management&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://configcat.com&quot;&gt;ConfigCat&lt;/a&gt; - Cross-platform feature flag service. SDKs for all major languages. Free plan up to 10 flags, 2 environments, 1 product and 5 Million requests per month. Unlimited user seats. Students get 100 flags and 100 Million requests per month for free.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.docsapp.io/&quot;&gt;docsapp.io&lt;/a&gt; — Easiest way to publish documentation, free for Open Source&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://fill.ly&quot;&gt;Filly&lt;/a&gt; — Boost your web development workflow by reusing manual actions done previously on your app. Form filler for improved team collaboration.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://fossa.com/&quot;&gt;FOSSA&lt;/a&gt; - Scalable, end-to-end management for third-party code, license compliance and vulnerabilities.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.fullcontact.com/developer/pricing/&quot;&gt;fullcontact.com&lt;/a&gt; — Help your users know more about their contacts by adding social profile into your app. 500 free Person API matches/month&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://http2.pro&quot;&gt;http2.pro&lt;/a&gt; — HTTP/2 protocol readiness test and client HTTP/2 support detection API.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://newreleases.io/&quot;&gt;newreleases.io&lt;/a&gt; - Receive notifications on email, Slack, Telegram, Discord and custom webhooks for new releases from GitHub, GitLab, Bitbucket, Python PyPI, Java Maven, Node.js NPM, Node.js Yarn, Ruby Gems, PHP Packagist, .NET NuGet, Rust Cargo and Docker Hub.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.pdfmonkey.io/&quot;&gt;PDFMonkey&lt;/a&gt; — Manage PDF templates in a dashboard, call the API with dynamic data, download your PDF. Offers 1000 free documents per month.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://readme.com/&quot;&gt;readme.com&lt;/a&gt; — Beautiful documentation made easy, free for Open Source: see &lt;a href=&quot;https://readme.readme.io/docs/open-source&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.reqbin.com/&quot;&gt;ReqBin&lt;/a&gt; — Post HTTP Requests Online. Popular Request Methods include GET, POST, PUT, DELETE, and HEAD. Supports Headers and Token Authentication. Includes a basic login system for saving your requests.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://superfeedr.com/&quot;&gt;superfeedr.com&lt;/a&gt; — Real-time PubSubHubbub compliant feeds, export, analytics. Free with less customization&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.surveymonkey.com&quot;&gt;SurveyMonkey.com&lt;/a&gt; — Create online surveys. Analyze the results online.  Free plan allows only 10 questions and 100 responses per survey.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;other-free-resources&quot;&gt;Other Free Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://education.github.com/pack&quot;&gt;education.github.com&lt;/a&gt; — Collection of free services for students. Registration required&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://degooglisons-internet.org/en/list/&quot;&gt;Framacloud&lt;/a&gt; — A list of Free/Libre Open Source Software and SaaS by the French non-profit &lt;a href=&quot;https://framasoft.org/en/&quot;&gt;Framasoft&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://getawesomeness.herokuapp.com&quot;&gt;getawesomeness&lt;/a&gt; — Retrieve all amazing awesomeness from GitHub… a must see&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/tvvocold/FOSS-for-Dev&quot;&gt;github.com — FOSS for Dev&lt;/a&gt; — A hub of free and Open Source software for developers&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you wish to add more to this this post please let us know and we would cosider adding it here.&lt;/p&gt;
-
-&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;</content><author><name>Sangram</name></author><summary type="html">Miscellaneous</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/1.jpg" /></entry><entry><title type="html">STUN, WebRTC, Web Socket Servers and Other Routers</title><link href="http://localhost:4000/STUN-WebRTC-Web-Socket-Servers-and-Other-Routers/" rel="alternate" type="text/html" title="STUN, WebRTC, Web Socket Servers and Other Routers" /><published>2020-05-18T00:00:00+01:00</published><updated>2020-05-18T00:00:00+01:00</updated><id>http://localhost:4000/STUN-WebRTC-Web-Socket-Servers-and-Other-Routers</id><content type="html" xml:base="http://localhost:4000/STUN-WebRTC-Web-Socket-Servers-and-Other-Routers/">&lt;h2 id=&quot;stun-webrtc-web-socket-servers-and-other-routers&quot;&gt;STUN, WebRTC, Web Socket Servers and Other Routers&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/localhost run.gif&quot; alt=&quot;localhostrun&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://localhost.run/&quot;&gt;localhost.run&lt;/a&gt; — Instantly share your localhost environment! No download required. Run your app on port 8080 and then run this command and share the URL.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://conveyor.cloud/&quot;&gt;conveyor.cloud&lt;/a&gt; — Visual Studio extension to expose IIS Express to the local network or over a tunnel to a public URL.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.vpn.net/&quot;&gt;Hamachi&lt;/a&gt; — LogMeIn Hamachi is a hosted VPN service that lets you securely extend LAN-like networks to distributed teams with free plan allows unlimited networks with up to 5 peoples&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.radmin-vpn.com/&quot;&gt;Radmin VPN&lt;/a&gt; - Connect multiple computers together via a VPN enabling LAN-like networks. Unlimited peers. (Hamachi alternative)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ngrok.com/&quot;&gt;ngrok.com&lt;/a&gt; — Expose locally running servers over a tunnel to a public URL.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://segment.com/&quot;&gt;segment.com&lt;/a&gt; — Hub to translate and route events to other third-party services. 100,000 events/month free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://serveo.net/&quot;&gt;serveo.net&lt;/a&gt; — Quickly expose any local port to the public internet on a servo subdomain using an SSH tunnel, includes SSH GUI to replay requests over HTTP.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;stun:global.stun.twilio.com:3478?transport=udp&quot;&gt;stun:global.stun.twilio.com:3478?transport=udp&lt;/a&gt; — Twilio STUN&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;stun:stun.l.google.com:19302&quot;&gt;stun:stun.l.google.com:19302&lt;/a&gt; — Google STUN&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://webhookrelay.com&quot;&gt;webhookrelay.com&lt;/a&gt; — Manage, debug, fan-out and proxy all your webhooks to public or internal (ie: localhost) destinations. Also, expose servers running in a private network over a tunnel by getting a public HTTP endpoint (&lt;code class=&quot;highlighter-rouge&quot;&gt;https://yoursubdomain.webrelay.io &amp;lt;----&amp;gt; http://localhost:8080&lt;/code&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.zerotier.com&quot;&gt;ZeroTier&lt;/a&gt; — FOSS managed virtual Ethernet as a service. Unlimited end-to-end encrypted networks of 100 clients on free plan. Clients for desktop/mobile/NA; web interface for configuration of custom routing rules and approval of new client nodes on private networks.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you wish to add more to this this post please let us know and we would cosider adding it here.&lt;/p&gt;
-
-&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;</content><author><name>Sangram</name></author><summary type="html">STUN, WebRTC, Web Socket Servers and Other Routers</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/1.jpg" /></entry><entry><title type="html">Security and PKI</title><link href="http://localhost:4000/Security-and-PKI/" rel="alternate" type="text/html" title="Security and PKI" /><published>2020-05-18T00:00:00+01:00</published><updated>2020-05-18T00:00:00+01:00</updated><id>http://localhost:4000/Security-and-PKI</id><content type="html" xml:base="http://localhost:4000/Security-and-PKI/">&lt;h2 id=&quot;security-and-pki&quot;&gt;Security and PKI&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.alienvault.com/open-threat-exchange/reputation-monitor&quot;&gt;alienvault.com&lt;/a&gt; — Uncovers compromised systems in your network&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://auth0.com/&quot;&gt;auth0.com&lt;/a&gt; — Hosted free for development SSO. Up to 2 social identity providers for closed-source projects.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bitninja.io/&quot;&gt;bitninja.io&lt;/a&gt; — Botnet protection through a blacklist, free plan only reports limited information on each attack&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cloudsploit.com/&quot;&gt;cloudsploit.com&lt;/a&gt; — Amazon Web Services (AWS) security and compliance auditing and monitoring&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.codenotary.io/&quot;&gt;CodeNotary.io&lt;/a&gt; — Open Source platform with indelible proof to notarize code, files, directories or container&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.crypteron.com/&quot;&gt;crypteron.com&lt;/a&gt; — Cloud-first, developer-friendly security platform prevents data breaches in .NET and Java applications&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://dependabot.com/&quot;&gt;Dependabot&lt;/a&gt; Automated dependency updates for Ruby, JavaScript, Python, PHP, Elixir, Rust, Java (Maven and Gradle), .NET, Go, Elm, Docker, Terraform, Git Submodules and GitHub Actions.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://duo.com/&quot;&gt;duo.com&lt;/a&gt; — Two-factor authentication (2FA) for website or app. Free for 10 users, all authentication methods, unlimited, integrations, hardware tokens&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.foxpass.com/&quot;&gt;foxpass.com&lt;/a&gt; — Hosted LDAP and RADIUS. Easy per-user logins to servers, VPNs and wireless networks. Free for 10 users&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.globalsign.com/en/ssl/ssl-open-source/&quot;&gt;globalsign.com&lt;/a&gt; — Free SSL certificates for Open Source&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://haveibeenpwned.com&quot;&gt;Have I been pwned?&lt;/a&gt; — REST API for fetching the information on the breaches.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://internet.nl&quot;&gt;Internet.nl&lt;/a&gt; — Test for modern Internet Standards like IPv6, DNSSEC, HTTPS, DMARC, STARTTLS and DANE&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jumpcloud.com/&quot;&gt;Jumpcloud&lt;/a&gt; — Provides directory as a service similar to Azure AD, user management, single sign-on, and RADIUS authentication. Free for up to 10 users.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://keychest.net&quot;&gt;keychest.net&lt;/a&gt; - SSL expiry management and cert purchase with an integrated CT database&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://letsencrypt.org/&quot;&gt;letsencrypt.org&lt;/a&gt; — Free SSL Certificate Authority with certs trusted by all major browsers&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.loginradius.com/&quot;&gt;LoginRadius&lt;/a&gt; — Managed User Authentication service for free. Email registartion and 3 social providers.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.logintc.com/&quot;&gt;logintc.com&lt;/a&gt; — Two-factor authentication (2FA) by push notifications, free for 10 users, VPN, Websites and SSH&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.meterian.io/&quot;&gt;meterian.io&lt;/a&gt; - Monitor Java, Javascript, .NET, Scala, Ruby and NodeJS projects for security vulnerabilities in dependencies. Free for one private project, unlimited projects for open source.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://observatory.mozilla.org/&quot;&gt;Mozilla Observatory&lt;/a&gt; — Find and fix security vulnerabilities in your site.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developer.okta.com/&quot;&gt;Okta&lt;/a&gt; — User management, authentication and authorization. Free for up to 1000 monthly active users.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.onelogin.com/&quot;&gt;onelogin.com&lt;/a&gt; — Identity as a Service (IDaaS), Single Sign-On Identity Provider, Cloud SSO IdP, 3 company apps and 5 personal apps, unlimited users&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.opswat.com/&quot;&gt;opswat.com&lt;/a&gt; — Security Monitoring of computers, devices, applications, configurations,… Free 25 users and 30 days history&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.ponycheckup.com/&quot;&gt;ponycheckup.com&lt;/a&gt; — An automated security checkup tool for Django websites&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://protectumus.com&quot;&gt;Protectumus&lt;/a&gt; - Free website security check, site antivirus and server firewall (WAF). Email and SMS notifications for registered users.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pyup.io&quot;&gt;pyup.io&lt;/a&gt; — Monitor Python dependencies for security vulnerabilities and update them automatically. Free for one private project, unlimited projects for open source.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.qualys.com/community-edition&quot;&gt;qualys.com&lt;/a&gt; — Find web app vulnerabilities, audit for OWASP Risks&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://report-uri.io/&quot;&gt;report-uri.io&lt;/a&gt; — CSP and HPKP violation reporting&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ringcaptcha.com/&quot;&gt;ringcaptcha.com&lt;/a&gt; — Tools to use phone number as id, available for free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shieldfy.io&quot;&gt;Shieldfy&lt;/a&gt; — Web application firewall and vulnerability detection for developers, free plan up to 100k requests per month.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://snyk.io&quot;&gt;snyk.io&lt;/a&gt; — Can find and fix known security vulnerabilities in your open source dependencies. Unlimited tests and remediation for open source projects. Limited to 200 tests/month for your private projects.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sqreen.com/&quot;&gt;Sqreen&lt;/a&gt; — Application security monitoring and protection (RASP, WAF and more) for web applications and APIs. Free for 1 app and 3 million requests.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.ssllabs.com/ssltest/&quot;&gt;ssllabs.com&lt;/a&gt; — Very deep analysis of the configuration of any SSL web server&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sitecheck.sucuri.net&quot;&gt;Sucuri SiteCheck&lt;/a&gt; - Free website security check and malware scanner&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://threatconnect.com&quot;&gt;threatconnect.com&lt;/a&gt; — Threat intelligence: It is designed for individual researchers, analysts and organizations who are starting to learn about cyber threat intelligence. Free up to 3 Users&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.tinfoilsecurity.com/&quot;&gt;tinfoilsecurity.com&lt;/a&gt; — Automated vulnerability scanning. Free plan allows weekly XSS scans&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://virgilsecurity.com/&quot;&gt;Virgil Security&lt;/a&gt; — Tools and services for implementing end-to-end encryption, database protection, IoT security and more in your digital solution. Free for applications with up to 250 users.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://virushee.com/&quot;&gt;Virushee&lt;/a&gt; — Privacy-oriented file/data scanning powered by hybrid heuristic and AI-assisted engine. Possible to use internal dynamic sandbox analysis. Limited to 50MB per file upload&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.acunote.com/&quot;&gt;acunote.com&lt;/a&gt; — Free project management and SCRUM software for up to 5 team members&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://asana.com/&quot;&gt;asana.com&lt;/a&gt; — Free for private project with collaborators&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://azure.microsoft.com/services/devops/&quot;&gt;Azure DevOps&lt;/a&gt; — Unlimited free private code repositories; Tracks bugs, work items, feedback and more&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://basecamp.com/personal&quot;&gt;Basecamp&lt;/a&gt; - To-do lists, milestone management, forum-like messaging, file sharing, and time tracking. Up to 3 projects, 20 users, and 1GB of storage space.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bitrix24.com/&quot;&gt;bitrix24.com&lt;/a&gt; — Free intranet and project management tool&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cacoo.com/&quot;&gt;cacoo.com&lt;/a&gt; — Online diagrams in real-time: flowchart, UML, network. Free max. 15 users/diagram, 25 sheets&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://clickup.com/&quot;&gt;clickup.com&lt;/a&gt; — Project management. Free, premium version with cloud storage. Mobile applications and Git integrations available&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cloudcraft.co/&quot;&gt;Cloudcraft&lt;/a&gt; — Design a professional architecture diagram in minutes with the Cloudcraft visual designer, optimized for AWS with smart components that show live data too.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://clubhouse.io/&quot;&gt;Clubhouse&lt;/a&gt; - Project management platform. Free for up to 10 users forever&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/software/confluence&quot;&gt;Confluence&lt;/a&gt; - Atlassian’s content collaboration tool used to help teams collaborate and share knowledge efficiently. Free plan up to 10 users.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.contriber.com/&quot;&gt;contriber.com&lt;/a&gt; — Customizable project management platform, free starter plan, 5 workspaces&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.draw.io/&quot;&gt;draw.io&lt;/a&gt; — Online diagrams stored locally, in Google Drive, OneDrive or Dropbox. Free for all features and storage levels&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/&quot;&gt;github.com&lt;/a&gt; — In addition to its Git storage facility, GitHub offers basic issue tracking&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gitlab.com&quot;&gt;Gitlab&lt;/a&gt; - Offers basic issue tracking for projects.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gliffy.com/&quot;&gt;gliffy.com&lt;/a&gt; — Online diagrams: flowchart, UML, wireframe,… Also plugins for Jira and Confluence. 5 diagrams and 2 MB free&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/marketplace/graphql-inspector&quot;&gt;GraphQL Inspector&lt;/a&gt; - GraphQL Inspector ouputs a list of changes between two GraphQL schemas. Every change is precisely explained and marked as breaking, non-breaking or dangerous.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://huboard.com/&quot;&gt;huboard.com&lt;/a&gt; — Instant project management for your GitHub issues, free for Open Source&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://instabug.com&quot;&gt;Instabug&lt;/a&gt; —  A comprehensive bug reporting and in-app feedback SDK for mobile apps. Free plan up to 1 app and 1 member.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ilograph.com/&quot;&gt;Ilograph&lt;/a&gt;  — interactive diagrams that allow users to see their infrastructure from multiple perspectives and levels of detail. Diagrams can be expressed in code. Free tier has unlimited private diagrams with up to 3 viewers.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/software/jira&quot;&gt;Jira&lt;/a&gt; — Advanced software development project management tool used in many corporate environments. Free plan up to 10 users.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kanbanflow.com/&quot;&gt;kanbanflow.com&lt;/a&gt; — Board-based project management. Free, premium version with more options&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kanbantool.com/&quot;&gt;kanbantool.com&lt;/a&gt; — Kanban board-based project management. Free, paid plans with more options&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kanrails.com/&quot;&gt;kanrails.com&lt;/a&gt; — Kanban board-based project management. Free for 3 collaborators, 2 projects and 5 tracks. Paid plans available for unlimited collaborators, projects and tracks.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kumu.io/&quot;&gt;Kumu.io&lt;/a&gt;  — Relationship maps with animation, decorations, filters, clustering, spreadsheet imports and more. Free tier allows unlimited public projects. Graph size unlimited. Free private projects for students. Sandbox mode is available if you prefer to not leave your file publicly online (upload, edit, download, discard).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.leanboard.io&quot;&gt;LeanBoard&lt;/a&gt; — Collaborative whiteboard with sticky notes for your GitHub issues (Useful for Example Mapping and other techniques)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.meuscrum.com/en&quot;&gt;MeuScrum&lt;/a&gt; - Free online scrum tool with kanban board&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.microsoft.com/en-us/office/dev-program&quot;&gt;Office 365 Developer&lt;/a&gt; — Free one-year Office 365 E3 subscription for development/testing.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ora.pm/&quot;&gt;Ora&lt;/a&gt; - Agile task management &amp;amp; team collaboration. Free for up to 3 users and files are limited to 10 MB.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.pivotaltracker.com/&quot;&gt;pivotaltracker.com&lt;/a&gt; — Free for unlimited public projects and two private projects with 3 total active users (read-write) and unlimited passive users (read-only).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plan.io/&quot;&gt;plan.io&lt;/a&gt; — Project Management with Repository Hosting and more options. Free for 2 users with 10 customers and 500MB Storage&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.planitpoker.com/&quot;&gt;planitpoker.com&lt;/a&gt; — Free online planning poker (estimation tool)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.senseitool.com/&quot;&gt;senseitool.com&lt;/a&gt; — An agile retrospective tool - Free.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://speedboard.app&quot;&gt;SpeedBoard&lt;/a&gt; - Board for Agile and Scrum retrospectives - Free.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tadum.app&quot;&gt;Tadum&lt;/a&gt; - Meeting agenda and minutes app designed for recurring meetings, free for teams up to 10&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://taiga.io/&quot;&gt;taiga.io&lt;/a&gt; — Project management platform for startups and agile developers, free for Open Source&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.targetprocess.com/&quot;&gt;targetprocess.com&lt;/a&gt; — Visual project management, from Kanban and Scrum to almost any operational process. Free for unlimited users, up to 1,000 data entities {&lt;a href=&quot;https://www.targetprocess.com/pricing/&quot;&gt;more details&lt;/a&gt;}&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.taskade.com/&quot;&gt;taskade.com&lt;/a&gt; — Real-time collaborative task lists and outlines for teams&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://taskulu.com/&quot;&gt;taskulu.com&lt;/a&gt; — Role based project management. Free up to 5 users. Integration with GitHub/Trello/Dropbox/Google Drive&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://testlio.com/&quot;&gt;testlio.com&lt;/a&gt; — Issue tracking, test management and beta testing platform. Free for private use&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://todoist.com/&quot;&gt;todoist.com&lt;/a&gt; — Collaborative and individual task management. Free, Premium and Team plans are available. Discounts provided for eligible users.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://trello.com/&quot;&gt;trello.com&lt;/a&gt; — Board-based project management. Unlimited Personal Boards, 10 Team Boards.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ubertesters.com/&quot;&gt;ubertesters.com&lt;/a&gt; — Test platform, integration and crowdtesters, 2 projects, 5 members&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.vivifyscrum.com/&quot;&gt;vivifyscrum.com&lt;/a&gt; — Free tool for Agile project management. Scrum Compatible&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.jetbrains.com/youtrack/buy/#edition=incloud&quot;&gt;YouTrack&lt;/a&gt; — Free hosted YouTrack (InCloud) for FOSS projects, private projects (free for 3 users). Includes time tracking and agile boards&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zenhub.io/&quot;&gt;zenhub.io&lt;/a&gt; — The only project management solution inside GitHub. Free for public repos, OSS and nonprofit organizations&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zepel.io/&quot;&gt;zepel.io&lt;/a&gt; - The project management tool that lets you plan features, collaborate across disciplines, and build software together. Free up to 5 members. No feature restrictions.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zenkit.com&quot;&gt;zenkit.com&lt;/a&gt; — Project management and collaboration tool. Free for up to 5 members, 5 GB attachments.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;If you wish to add more to this this post please let us know and we would cosider adding it here.&lt;/p&gt;
 
-&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;</content><author><name>Sangram</name></author><summary type="html">Security and PKI</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/1.jpg" /></entry><entry><title type="html">Storage and Media Processing</title><link href="http://localhost:4000/Storage-and-Media-Processing/" rel="alternate" type="text/html" title="Storage and Media Processing" /><published>2020-05-18T00:00:00+01:00</published><updated>2020-05-18T00:00:00+01:00</updated><id>http://localhost:4000/Storage-and-Media-Processing</id><content type="html" xml:base="http://localhost:4000/Storage-and-Media-Processing/">&lt;h2 id=&quot;storage-and-media-processing&quot;&gt;Storage and Media Processing&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/transloadit.jpg&quot; alt=&quot;Transloadit&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 May 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/developer/2020/05/18/Issue-Tracking-and-Project-Management.html</link>
+        <guid isPermaLink="true">http://localhost:4000/developer/2020/05/18/Issue-Tracking-and-Project-Management.html</guid>
+        
+        <category>featured</category>
+        
+        
+        <category>Developer</category>
+        
+      </item>
+    
+      <item>
+        <title>IaaS and DBaaS</title>
+        <description>&lt;h2 id=&quot;iaas&quot;&gt;IaaS&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://transloadit.com/&quot;&gt;transloadit.com&lt;/a&gt; — Handles file uploads and encoding of video, audio, images, documents. Free for Open source, charities, and students via the GitHub Student Developer Pack. Commercial applications get 2 GB free for test driving&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://image4.io/&quot;&gt;image4.io&lt;/a&gt; — Image upload, powerful manipulations, storage and delivery for websites and apps, with SDK’s, integrations and migration tools. Free tier includes 25 credits. 1 credit is equal to 1 GB of CDN usage, 1GB of storage or 1000 image transformations.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cloudimage.com/&quot;&gt;cloudimage.com&lt;/a&gt; — Full image optimization and CDN service with 1500+ Points of Presence around the world. A variety of image resizing, compression, watermarking functions. Open source plugins for responsive images, 360 image making and image editing. Free monthly plan with 25GB of CDN traffic and 25GB of cache storage and unlimited transformations.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cloudinary.com/&quot;&gt;cloudinary.com&lt;/a&gt; — Image upload, powerful manipulations, storage and delivery for sites and apps, with libraries for Ruby, Python, Java, PHP, Objective-C and more. Perpetual free tier includes 7,500 images/month, 2 GB storage, 5 GB bandwidth&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://easydb.io/&quot;&gt;easyDB.io&lt;/a&gt; — one-click, hosted database provider. They provide a database for the programming language of your choice for development purposes. The DB is ephemeral and will be deleted after 24 or 72 hours on the free tier.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://embed.ly/&quot;&gt;embed.ly&lt;/a&gt; — Provides APIs for embedding media in a webpage, responsive image scaling, extracting elements from a webpage. Free for up to 5,000 URLs/month at 15 requests/second&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.filestack.com/&quot;&gt;filestack.com&lt;/a&gt; — File picker, transform and deliver, free for 250 files, 500 transformations and 3 GB bandwidth&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.gumlet.com/&quot;&gt;gumlet.com&lt;/a&gt; — Image resize-as-a-service. It also optimizes images and performs delivery via CDN. Free tier includes 1 GB bandwidth and unlimited number of image processing every month for 1 year.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.image-charts.com/&quot;&gt;image-charts.com&lt;/a&gt; — Unlimited image chart generation with a watermark&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jsonbin.io/&quot;&gt;jsonbin.io&lt;/a&gt; — Free JSON data storage service, ideal for small-scale web apps, website, mobile apps.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kraken.io/&quot;&gt;kraken.io&lt;/a&gt; — Image optimization for website performance as a service, free plan up to 1 MB file size&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.npoint.io/&quot;&gt;npoint.io&lt;/a&gt; — JSON store with collaborative schema editing&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.otixo.com/&quot;&gt;otixo.com&lt;/a&gt; — Encrypt, share, copy and move all your cloud storage files from one place. Basic plan provides unlimited files transfer with 250 MB max. file size and allows 5 encrypted files&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://packagecloud.io/&quot;&gt;packagecloud.io&lt;/a&gt; — Hosted Package Repositories for YUM, APT, RubyGem and PyPI.  Limited free plans, open source plans available via request&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://piio.co/&quot;&gt;piio.co&lt;/a&gt; — Responsive image optimization and delivery for every website. Free plan for developers and personal websites. Includes free CDN, WebP and Lazy Loading out of the box.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://placeholder.com/&quot;&gt;placeholder.com&lt;/a&gt; — A quick and simple image placeholder service&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://placekitten.com/&quot;&gt;placekitten.com&lt;/a&gt; — A quick and simple service for getting pictures of kittens for use as placeholders&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://plot.ly/&quot;&gt;plot.ly&lt;/a&gt; — Graph and share your data. Free tier includes unlimited public files and 10 private files&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://podio.com/&quot;&gt;podio.com&lt;/a&gt; — You can use Podio with a team of up to five people and try out the features of the Basic Plan, except user management&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://quickchart.io&quot;&gt;QuickChart&lt;/a&gt; — Generate embeddable image charts, graphs, and QR codes&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://redbooth.com&quot;&gt;redbooth.com&lt;/a&gt; — P2P file syncing, free for up to 2 users&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://tinypng.com/&quot;&gt;tinypng.com&lt;/a&gt; — API to compress and resize PNG and JPEG images, offers 500 compressions for free each month&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.backblaze.com/b2/&quot;&gt;backblaze.com&lt;/a&gt; — Backblaze B2 cloud storage. Free 10 GB (Amazon S3-like) object storage for unlimited time&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.scaleway.com/en/object-storage/&quot;&gt;scaleway.com&lt;/a&gt; — S3-Compatible Object Storage. Free 75 GB storage and external outgoing traffic&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.terraform.io/&quot;&gt;www.terraform.io&lt;/a&gt; — Terraform Cloud. Free remote state management and team collaboration for teams up to 5 users.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;dbaas&quot;&gt;DBaaS&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://airtable.com/&quot;&gt;airtable.com&lt;/a&gt; — Looks like a spreadsheet, but it’s a relational database, unlimited bases, 1,200 rows/base and 1,000 API requests/month&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.elephantsql.com/&quot;&gt;elephantsql.com&lt;/a&gt; — PostgreSQL as a service, 20 MB free&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://fauna.com/&quot;&gt;FaunaDB&lt;/a&gt; — Serverless cloud database, with native GraphQL, multi-model access and daily free tiers up to 5GB&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.graphenedb.com/&quot;&gt;graphenedb.com&lt;/a&gt; — Neo4j as a service, up to 1,000 nodes and 10,000 relations free&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.heroku.com/&quot;&gt;heroku.com&lt;/a&gt; — PostgreSQL as a service, up to 10,000 rows and 20 connections free (provided as an “addon,” but can be attached to an otherwise empty app and accessed externally)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mongodb.com/cloud/atlas&quot;&gt;MongoDB Atlas&lt;/a&gt; — free tier gives 512 MB&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.redsmin.com/&quot;&gt;redsmin.com&lt;/a&gt; — Online real-time monitoring and administration service for Redis, 1 Redis instance free&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.memcachier.com/&quot;&gt;MemCachier&lt;/a&gt; — Managed Memcache service. Free for up to 25MB, 1 Proxy Server and basic analytics&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://scalingo.com/&quot;&gt;scalingo.com&lt;/a&gt; — Primarily a PaaS but offers a 128MB to 192MB free tier of MySQL, PostgreSQL or MongoDB&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://skyvia.com/&quot;&gt;skyvia.com&lt;/a&gt; — Cloud Data Platform, offers free tier and all plans are completely free while in beta&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://remotemysql.com&quot;&gt;remotemysql.com&lt;/a&gt; — Remote MySQL Database hosting, setup is instant and use phpMyAdmin for administration, free for 100Mb data, free backups, no query limits and 99% uptime.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.influxdata.com/&quot;&gt;InfluxDB&lt;/a&gt; — Timeseries database, free up to 3MB/5 minutes writes, 30MB/5 minutes reads and 10,000 cardinalities series&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.quickmetrics.io/&quot;&gt;Quickmetrics&lt;/a&gt; — Timeseries database with dashboard included, free up to 10,000 events/day and total of 5 metrics.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://restdb.io/&quot;&gt;restdb.io&lt;/a&gt; - a fast and simple NoSQL cloud database service. With restdb.io you get schema, relations, automatic REST API (with MongoDB-like queries) and an efficient multi-user admin UI for working with data. Free plan allows 3 users, 2500 records and 1 API requests per second.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.unbounded.cloud/&quot;&gt;Unbounded&lt;/a&gt; - a NoSQL DBaaS which uses Javascript as a query language. Free tier allows 50,000 reads and writes per month, forever.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;If you wish to add more to this this post please let us know and we would cosider adding it here.&lt;/p&gt;
 
-&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;</content><author><name>Sangram</name></author><summary type="html">Storage and Media Processing</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/1.jpg" /></entry><entry><title type="html">Design and UI</title><link href="http://localhost:4000/Design-and-UI/" rel="alternate" type="text/html" title="Design and UI" /><published>2020-05-18T00:00:00+01:00</published><updated>2020-05-18T00:00:00+01:00</updated><id>http://localhost:4000/Design-and-UI</id><content type="html" xml:base="http://localhost:4000/Design-and-UI/">&lt;h2 id=&quot;design-and-ui&quot;&gt;Design and UI&lt;/h2&gt;
+&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 May 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/developer/2020/05/18/IaaS-and-DBaaS.html</link>
+        <guid isPermaLink="true">http://localhost:4000/developer/2020/05/18/IaaS-and-DBaaS.html</guid>
+        
+        
+        <category>Developer</category>
+        
+      </item>
+    
+      <item>
+        <title>Free PaaS Deploy Serverless</title>
+        <description>&lt;h2 id=&quot;paas&quot;&gt;PaaS&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.adobe.com/products/xd.html&quot;&gt;Adobe XD&lt;/a&gt; - Wireframe &amp;amp; Prototyping tool similar to Sketch. Free plan covers: 1 active shared design spec, Adobe Fonts Free (limited set of fonts), 2GB of cloud storage.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mockplus.com/idoc&quot;&gt;Mockplus iDoc&lt;/a&gt; - Mockplus iDoc is a powerful design collaboration &amp;amp; handoff tool. Free Plan includes 3 users and 5 projects with all features available.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://allthefreestock.com&quot;&gt;AllTheFreeStock&lt;/a&gt; - a curated list of free stock images, audio and videos.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cleverbrush.com/&quot;&gt;clevebrush.com&lt;/a&gt; — Free Graphics Design / Photo Collage App, also they offer paid integration of it as component.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cloudconvert.com/&quot;&gt;cloudconvert.com&lt;/a&gt; — Convert anything to anything. 208 supported formats including videos to gif.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://codemyui.com&quot;&gt;CodeMyUI&lt;/a&gt; - Handpicked collection of Web Design &amp;amp; UI Inspiration with Code Snippets.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.designer.io/&quot;&gt;designer.io&lt;/a&gt; — Design tool for UI, illustrations and more. Has a native app. Free.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.figma.com&quot;&gt;figma.com&lt;/a&gt; — Online, collaborative design tool for teams; free tier includes unlimited files and viewers with a max of 2 editors and 3 projects.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://imagebin.ca/&quot;&gt;imagebin.ca&lt;/a&gt; — Pastebin for images.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.invisionapp.com&quot;&gt;Invision App&lt;/a&gt; - UI design and prototyping tool. Desktop and webapp available. Free to use with 1 active prototype.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.landen.co&quot;&gt;landen.co&lt;/a&gt; — Generate, edit and publish beautiful websites and landing pages for your startup. All without code. Free tier allows you to have one website, fully customizable and published on the web.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://lensdump.com/&quot;&gt;lensdump.com&lt;/a&gt; - Free cloud image hosting.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://marvelapp.com/&quot;&gt;marvelapp.com&lt;/a&gt; — Design, prototyping and collaboration, free plan limited to one user and one project.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mindmup.com/&quot;&gt;Mindmup.com&lt;/a&gt; — Unlimited mind maps for free, and store them in the cloud. Your mind maps are available everywhere, instantly, from any device.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/evolus/pencil&quot;&gt;Pencil&lt;/a&gt; - Open source design tool using Electron.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.pexels.com/&quot;&gt;pexels.com&lt;/a&gt; - Free stock photos for commercial use. Has free API that allows you to search photos by keywords.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.photopea.com&quot;&gt;photopea.com&lt;/a&gt; — A Free, Advanced online design editor with Adobe Photoshop UI supporting PSD, XCF &amp;amp; Sketch formats (Adobe Photoshop, Gimp and Sketch App).&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pixlr.com/&quot;&gt;pixlr.com&lt;/a&gt; — Free online browser editor on the level of commercial ones.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.proto.io&quot;&gt;Proto.io&lt;/a&gt; - Create fully interactive UI prototypes without coding. Free tier available when free trial ends. Free tier includes: 1 user, 1 project, 5 prototypes, 100MB online storage and preview in proto.io app.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://resizeappicon.com/&quot;&gt;resizeappicon.com&lt;/a&gt; — A simple service to resize and manage your app icons.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://smartmockups.com/&quot;&gt;smartmockups.com&lt;/a&gt; — Create product mockups, 200 free mockups.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://undraw.co/&quot;&gt;unDraw&lt;/a&gt; - A constantly updated collection of beautiful svg images that you can use completely free and without attribution.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://unsplash.com/&quot;&gt;unsplash.com&lt;/a&gt; - Free stock photos for commercial and noncommercial purposes (do-whatever-you-want license).&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://vectr.com/&quot;&gt;vectr.com&lt;/a&gt; — Free Design App for Web + Desktop.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.walkme.com/&quot;&gt;walkme.com&lt;/a&gt; — Enterprise Class Guidance and Engagement Platform, free plan 3 walk-thrus up to 5 steps/walk.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://webflow.com&quot;&gt;Webflow&lt;/a&gt; - WYSIWYG web site builder with animations and website hosting. Free for 2 projects.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://whimsical.com/&quot;&gt;whimsical.com&lt;/a&gt; - Collaborative flowcharts, wireframes, sticky notes and mind maps. Create up to 4 free boards.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zeplin.io/&quot;&gt;Zeplin&lt;/a&gt; — Designer and developer collaboration platform. Show designs, assets and styleguides. Free for 1 project.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pixelixe.com/&quot;&gt;Pixelixe&lt;/a&gt; — Create and edit engaging and unique graphics and images online.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://appharbor.com/&quot;&gt;appharbor.com&lt;/a&gt; — A .Net PaaS that provides 1 free worker&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.configure.it/&quot;&gt;configure.it&lt;/a&gt; — Mobile app development platform, free for 2 projects, limited features but no resource limits&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.codenameone.com/&quot;&gt;codenameone.com&lt;/a&gt; — Open source, cross platform, mobile app development toolchain for Java/Kotlin developers. Free for commercial use with unlimited number of projects&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.engineyard.com/&quot;&gt;engineyard.com&lt;/a&gt; — Engine Yard provides 500 free hours&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://firebase.google.com&quot;&gt;firebase.google.com&lt;/a&gt; — Build real-time apps, the free plan has 100 max connections, 10 GB data transfer, 1 GB data storage, 1 GB hosting storage and 10 GB hosting transfer&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gearhost.com/pricing&quot;&gt;gearhost.com&lt;/a&gt; — Platform for .NET and PHP apps. 256 MB of RAM for free on a shared server with limited resources&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gigalixir.com/&quot;&gt;gigalixir.com&lt;/a&gt; - Gigalixir provide 1 free instance that never sleeps, and free-tier PostgreSQL database limited to 2 connections, 10, 000 rows and no backups, for Elixir/Phoenix apps.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://glitch.com/&quot;&gt;glitch.com&lt;/a&gt; — Free unlimited public/private hosting with features such as code sharing and real-time collaboration&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.heroku.com/&quot;&gt;heroku.com&lt;/a&gt; — Host your apps in the cloud, free for single process apps&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kintohub.com/&quot;&gt;KintoHub&lt;/a&gt; — KintoHub is an all-in-one platform to combine and deploy your backend services, websites, cron jobs, databases and everything your app needs in one place.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://usekrucible.com&quot;&gt;Krucible&lt;/a&gt; — Krucible is a platform for creating Kubernetes clusters for testing and development. Free tier accounts come with 25 cluster-hours per month.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kubesail.com&quot;&gt;kubesail.com&lt;/a&gt; - Managed Kubernetes namespace service designed for developers. Free developer accounts come with with 1 Core of CPU, 512MB of RAM, 100MB of storage and 1 domain.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://k8spin.cloud&quot;&gt;K8Spin&lt;/a&gt; - Managed Kubernetes namespace service designed for developers. Free developer accounts come with with 100 mCore of CPU, 128MB of RAM.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zarvis.ai&quot;&gt;ZARVIS&lt;/a&gt; - Free managed Kubernetes namespace for open source Github project. Free 1GB memory and 1 vCPU.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mendix.com/&quot;&gt;mendix.com&lt;/a&gt; — Rapid Application Development for Enterprises, unlimited number of free sandbox environments supporting 10 users, 100 MB of files and 100 MB database storage each&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://okteto.com&quot;&gt;Okteto Cloud&lt;/a&gt; - Managed Kubernetes service designed for developers. Free developer accounts come with 4GB of RAM, 2 CPUs and 10GB Disk space.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.outsystems.com/&quot;&gt;outsystems.com&lt;/a&gt; — Enterprise web development PaaS for on-premise or cloud, free “personal environment” offering allows for unlimited code and up to 1 GB database&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pipedream.com&quot;&gt;pipedream.com&lt;/a&gt; - An integration platform built for developers. Develop any workflow, based on any trigger. Workflows are code, which you can run &lt;a href=&quot;https://docs.pipedream.com/pricing/&quot;&gt;for free&lt;/a&gt;. No server or cloud resources to manage.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.pythonanywhere.com/&quot;&gt;pythonanywhere.com&lt;/a&gt; — Cloud Python app hosting. Beginner account is free, 1 Python web application at your-username.pythonanywhere.com domain, 512 MB private file storage, one MySQL database&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sandstorm.io/&quot;&gt;sandstorm.io&lt;/a&gt; — Sandstorm is an open source operating system for personal and private clouds. Free plan offers 200 MB storage and 5 grains free&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://scn.sap.com/docs/DOC-56411&quot;&gt;scn.sap.com&lt;/a&gt; — The in-memory Platform-as-a-Service offering from SAP. Free developer accounts come with 1 GB structured, 1 GB unstructured, 1 GB of Git data and allow you to run HTML5, Java and HANA XS apps&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://workers.dev&quot;&gt;workers.dev&lt;/a&gt; - Deploy serverless code for free on Cloudflare’s global network. 100,000 free requests per day with a workers.dev subdomain.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vercel.com/&quot;&gt;vercel.com&lt;/a&gt; — Serverless platform with support for multiple languages (including static sites) and single command deployment. Free tier includes SSL, unlimited (Fair Use) bandwidth, 100 deployments.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://platform9.com/&quot;&gt;Platform9&lt;/a&gt; - Managed Kubernetes service designed for developers. Free developer accounts come with up to 3 clusters &amp;amp; 20 nodes cluster.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://fly.io/&quot;&gt;fly.io&lt;/a&gt; - Fly is a platform for applications that need to run globally. It runs your code close to users and scales compute in cities where your app is busiest. Write your code, package it into a Docker image, deploy it to Fly’s platform and let that do all the work to keep your app snappy. Free for side projects, $10/mo of service credit that automatically applies to any paid service. And if you ran really small virtual machines, credits will go a long way.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;docker-related&quot;&gt;Docker Related&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://canister.io/&quot;&gt;canister.io&lt;/a&gt; — 20 free private repositories for developers, 30 free private repositories for teams to build and store Docker images&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com&quot;&gt;Docker Hub&lt;/a&gt; — One free private repository and unlimited public repositories to build and store Docker images&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gitlab.com&quot;&gt;Gitlab&lt;/a&gt; - Per-repo container registry.  10GB limit.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://labs.play-with-docker.com/&quot;&gt;Play with Docker&lt;/a&gt; — A simple, interactive and fun playground to learn Docker.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://quay.io/&quot;&gt;quay.io&lt;/a&gt; — Build and store container images with unlimited free public repositories&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Gueils/whales&quot;&gt;Whales&lt;/a&gt; — A tool to automatically dockerize your applications for free.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;vagrant-related&quot;&gt;Vagrant Related&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://app.vagrantup.com&quot;&gt;app.vagrantup.com&lt;/a&gt; - HashiCorp Vagrant Cloud. Vagrant box hosting.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.vagrantbox.es/&quot;&gt;vagrantbox.es&lt;/a&gt; — An alternative public box index&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;If you wish to add more to this this post please let us know and we would cosider adding it here.&lt;/p&gt;
 
-&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;</content><author><name>Sangram</name></author><category term="featured" /><summary type="html">Design and UI</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/1.jpg" /></entry><entry><title type="html">Android Security</title><link href="http://localhost:4000/Android-Security/" rel="alternate" type="text/html" title="Android Security" /><published>2020-05-18T00:00:00+01:00</published><updated>2020-05-18T00:00:00+01:00</updated><id>http://localhost:4000/Android-Security</id><content type="html" xml:base="http://localhost:4000/Android-Security/">&lt;h3 id=&quot;online-analyzers&quot;&gt;Online Analyzers&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://andrototal.org/&quot;&gt;AndroTotal&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.appknox.com/&quot;&gt;Appknox&lt;/a&gt; - not free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://undroid.av-comparatives.info/&quot;&gt;AVC UnDroid&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.virustotal.com/&quot;&gt;Virustotal&lt;/a&gt; - max 128MB&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://app-ray.co/&quot;&gt;Fraunhofer App-ray&lt;/a&gt; - not free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://appcritique.boozallen.com&quot;&gt;AppCritique&lt;/a&gt; - Upload your Android APKs and receive comprehensive free security assessments.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nowsecure.com/blog/2016/09/19/announcing-nowsecure-lab-automated/&quot;&gt;NowSecure Lab Automated&lt;/a&gt; - Enterprise tool for mobile app security testing both Android and iOS mobile apps. Lab Automated features dynamic and static analysis on real devices in the cloud to return results in minutes. Not free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://amaaas.com&quot;&gt;AMAaaS&lt;/a&gt; - Free Android Malware Analysis Service. A baremetal service features static and dynamic analysis for Android applications. A product of &lt;a href=&quot;https://malwarepot.com/index.php/AMAaaS&quot;&gt;MalwarePot&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;static-analysis-tools&quot;&gt;Static Analysis Tools&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/maaaaz/androwarn/&quot;&gt;Androwarn&lt;/a&gt; - detect and warn the user about potential malicious behaviours developed by an Android application.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/sonyxperiadev/ApkAnalyser&quot;&gt;ApkAnalyser&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/honeynet/apkinspector/&quot;&gt;APKInspector&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cert.org/secure-coding/tools/didfail.cfm&quot;&gt;Droid Intent Data Flow Analysis for Information Leakage&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bitbucket.org/srl/droidlegacy&quot;&gt;DroidLegacy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/EugenioDelfa/Smali-CFGs&quot;&gt;Smali CFG generator&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blogs.uni-paderborn.de/sse/tools/flowdroid/&quot;&gt;FlowDroid&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.pnfsoftware.com/&quot;&gt;Android Decompiler&lt;/a&gt; – not free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://pscout.csl.toronto.edu/&quot;&gt;PSCout&lt;/a&gt; - A tool that extracts the permission specification from the Android OS source code using static analysis&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://amandroid.sireum.org/&quot;&gt;Amandroid&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/dorneanu/smalisca&quot;&gt;SmaliSCA&lt;/a&gt; - Smali Static Code Analysis&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/douggard/CFGScanDroid&quot;&gt;CFGScanDroid&lt;/a&gt; - Scans and compares CFG against CFG of malicious applications&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/maldroid/maldrolyzer&quot;&gt;Madrolyzer&lt;/a&gt; - extracts actionable data like C&amp;amp;C, phone number etc.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cs.washington.edu/sparta&quot;&gt;SPARTA&lt;/a&gt; - verifies (proves) that an app satisfies an information-flow security policy; built on the &lt;a href=&quot;https://types.cs.washington.edu/checker-framework/&quot;&gt;Checker Framework&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/JulianSchuette/ConDroid&quot;&gt;ConDroid&lt;/a&gt; - Performs a combination of symbolic + concrete execution of the app&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/serval-snt-uni-lu/DroidRA&quot;&gt;DroidRA&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ClaudiuGeorgiu/RiskInDroid&quot;&gt;RiskInDroid&lt;/a&gt; - A tool for calculating the risk of Android apps based on their permissions, with online demo available.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/SUPERAndroidAnalyzer/super&quot;&gt;SUPER&lt;/a&gt; - Secure, Unified, Powerful and Extensible Rust Android Analyzer&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/google/android-classyshark&quot;&gt;ClassyShark&lt;/a&gt; - Standalone binary inspection tool which can browse any Android executable and show important infos.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/vincentcox/StaCoAn&quot;&gt;StaCoAn&lt;/a&gt; - Crossplatform tool which aids developers, bugbounty hunters and ethical hackers performing static code analysis on mobile applications. This tool was created with a big focus on usability and graphical guidance in the user interface.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/flankerhqd/JAADAS&quot;&gt;JAADAS&lt;/a&gt; - Joint intraprocedure and interprocedure program analysis tool to find vulnerabilities in Android apps, built on Soot and Scala&lt;/li&gt;
-  &lt;li&gt;&lt;del&gt;&lt;a href=&quot;http://siis.cse.psu.edu/tools.html&quot;&gt;Several tools from PSU&lt;/a&gt;&lt;/del&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/quark-engine/quark-engine&quot;&gt;Quark-Engine&lt;/a&gt; - An Obfuscation-Neglect Android Malware Scoring System&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;app-vulnerability-scanners&quot;&gt;App Vulnerability Scanners&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/linkedin/qark/&quot;&gt;QARK&lt;/a&gt; - QARK by LinkedIn is for app developers to scan app for security issues&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/AndroBugs/AndroBugs_Framework&quot;&gt;AndroBugs&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/google/nogotofail&quot;&gt;Nogotofail&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;del&gt;&lt;a href=&quot;https://devknox.io/&quot;&gt;Devknox&lt;/a&gt; - IDE plugin to build secure Android apps. Not maintained anymore.&lt;/del&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;dynamic-analysis-tools&quot;&gt;Dynamic Analysis Tools&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.mulliner.org/blog/blosxom.cgi/security/androiddbiv02.html&quot;&gt;Android DBI frameowork&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/sh4hin/Androl4b&quot;&gt;Androl4b&lt;/a&gt;- A Virtual Machine For Assessing Android applications, Reverse Engineering and Malware Analysis&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/MobSF/Mobile-Security-Framework-MobSF&quot;&gt;Mobile-Security-Framework MobSF&lt;/a&gt; - Mobile Security Framework is an intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://appsec-labs.com/AppUse/&quot;&gt;AppUse&lt;/a&gt; – custom build for pentesting&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://thecobraden.com/projects/cobradroid/&quot;&gt;Cobradroid&lt;/a&gt; – custom image for malware analysis&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/pjlantz/droidbox&quot;&gt;Droidbox&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mwrlabs/drozer&quot;&gt;Drozer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://forum.xda-developers.com/xposed/xposed-installer-versions-changelog-t2714053&quot;&gt;Xposed&lt;/a&gt; - equivalent of doing Stub based code injection but without any modifications to the binary&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ac-pm/Inspeckage&quot;&gt;Inspeckage&lt;/a&gt; - Android Package Inspector - dynamic analysis with api hooks, start unexported activities and more. (Xposed Module)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/AndroidHooker/hooker&quot;&gt;Android Hooker&lt;/a&gt; - Dynamic Java code instrumentation (requires the Substrate Framework)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ZSShen/ProbeDroid&quot;&gt;ProbeDroid&lt;/a&gt; - Dynamic Java code instrumentation&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://androidtamer.com/&quot;&gt;Android Tamer&lt;/a&gt; - Virtual / Live Platform for Android Security Professionals&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/sycurelab/DECAF&quot;&gt;DECAF&lt;/a&gt; - Dynamic Executable Code Analysis Framework based on QEMU (DroidScope is now an extension to DECAF)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/idanr1986/cuckoo-droid&quot;&gt;CuckooDroid&lt;/a&gt; - Android extension for Cuckoo sandbox&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/MobileForensicsResearch/mem&quot;&gt;Mem&lt;/a&gt; - Memory analysis of Android (root required)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ida.liu.se/labs/rtslab/publications/2011/spsm11-burguera.pdf&quot;&gt;Crowdroid&lt;/a&gt; – unable to find the actual tool&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/nwhusted/AuditdAndroid&quot;&gt;AuditdAndroid&lt;/a&gt; – android port of auditd, not under active development anymore&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://code.google.com/p/asef/&quot;&gt;Android Security Evaluation Framework&lt;/a&gt; - not under active development anymore&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/xurubin/aurasium&quot;&gt;Aurasium&lt;/a&gt; – Practical security policy enforcement for Android apps via bytecode rewriting and in-place reference monitor.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/strazzere/android-lkms&quot;&gt;Android Linux Kernel modules&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://manifestsecurity.com/appie/&quot;&gt;Appie&lt;/a&gt; - Appie is a software package that has been pre-configured to function as an Android Pentesting Environment. It is completely portable and can be carried on USB stick or smartphone. This is a one stop answer for all the tools needed in Android Application Security Assessment and an awesome alternative to existing virtual machines.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/zyrikby/StaDynA&quot;&gt;StaDynA&lt;/a&gt; - a system supporting security app analysis in the presence of dynamic code update features (dynamic class loading and reflection). This tool combines static and dynamic analysis of Android applications in order to reveal the hidden/updated behavior and extend static analysis results with this information.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/zhengmin1989/DroidAnalytics&quot;&gt;DroidAnalytics&lt;/a&gt; - incomplete&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/oguzhantopgul/Vezir-Project&quot;&gt;Vezir Project&lt;/a&gt; - Virtual Machine for Mobile Application Pentesting and Mobile Malware Analysis&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/xtiankisutsa/MARA_Framework&quot;&gt;MARA&lt;/a&gt; - Mobile Application Reverse engineering and Analysis Framework&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://appanalysis.org&quot;&gt;Taintdroid&lt;/a&gt; - requires AOSP compilation&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://artist.cispa.saarland&quot;&gt;ARTist&lt;/a&gt; - a flexible open source instrumentation and hybrid analysis framework for Android apps and Android’s java middleware. It is based on the Android Runtime’s (ART) compiler and modifies code during on-device compilation.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/Areizen/Android-Malware-Sandbox&quot;&gt;Android Malware Sandbox&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;reverse-engineering&quot;&gt;Reverse Engineering&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/JesusFreke/smali&quot;&gt;Smali/Baksmali&lt;/a&gt; – apk decompilation&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/strazzere/Emacs-Smali&quot;&gt;emacs syntax coloring for smali files&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://codetastrophe.com/smali.vim&quot;&gt;vim syntax coloring for smali files&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/swdunlop/AndBug&quot;&gt;AndBug&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/androguard/androguard&quot;&gt;Androguard&lt;/a&gt; – powerful, integrates well with other tools&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ibotpeaches.github.io/Apktool/&quot;&gt;Apktool&lt;/a&gt; – really useful for compilation/decompilation (uses smali)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/appknox/AFE&quot;&gt;Android Framework for Exploitation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/iSECPartners/Android-KillPermAndSigChecks&quot;&gt;Bypass signature and permission checks for IPCs&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/iSECPartners/Android-OpenDebug&quot;&gt;Android OpenDebug&lt;/a&gt; – make any application on device debuggable (using cydia substrate).&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/pxb1988/dex2jar&quot;&gt;Dex2Jar&lt;/a&gt; - dex to jar converter&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/google/enjarify&quot;&gt;Enjarify&lt;/a&gt; - dex to jar converter from Google&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sourceforge.net/projects/dedexer/&quot;&gt;Dedexer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/sysdream/fino&quot;&gt;Fino&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.frida.re/&quot;&gt;Frida&lt;/a&gt; - inject javascript to explore applications and a &lt;a href=&quot;https://github.com/antojoseph/diff-gui&quot;&gt;GUI tool&lt;/a&gt; for it&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bitbucket.org/aseemjakhar/indroid&quot;&gt;Indroid&lt;/a&gt; – thread injection kit&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nccgroup.trust/us/about-us/resources/intent-sniffer/&quot;&gt;IntentSniffer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/iSECPartners/Introspy-Android&quot;&gt;Introspy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://varaneckas.com/jad/&quot;&gt;Jad&lt;/a&gt; - Java decompiler&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/java-decompiler/jd-gui&quot;&gt;JD-GUI&lt;/a&gt; - Java decompiler&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.benf.org/other/cfr/&quot;&gt;CFR&lt;/a&gt; - Java decompiler&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/Storyyeller/Krakatau&quot;&gt;Krakatau&lt;/a&gt; - Java decompiler&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bitbucket.org/mstrobel/procyon/wiki/Java%20Decompiler&quot;&gt;Procyon&lt;/a&gt; - Java decompiler&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/fesh0r/fernflower&quot;&gt;FernFlower&lt;/a&gt; - Java decompiler&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/plum-umd/redexer&quot;&gt;Redexer&lt;/a&gt; – apk manipulation&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/CalebFenton/simplify&quot;&gt;Simplify Android deobfuscator&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/Konloch/bytecode-viewer&quot;&gt;Bytecode viewer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/radare/radare2&quot;&gt;Radare2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/skylot/jadx&quot;&gt;Jadx&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/iGio90/Dwarf&quot;&gt;Dwarf&lt;/a&gt; - GUI for reverse engineering&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/secrary/Andromeda&quot;&gt;Andromeda&lt;/a&gt; - Another basic command-line reverse engineering tool&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/shroudedcode/apk-mitm&quot;&gt;apk-mitm&lt;/a&gt; - A CLI application that prepares Android APK files for HTTPS inspection&lt;/li&gt;
-  &lt;li&gt;&lt;del&gt;&lt;a href=&quot;http://blog.avlyun.com/wp-content/uploads/2014/04/SmaliViewer.zip&quot;&gt;Smali viewer&lt;/a&gt;&lt;/del&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;del&gt;&lt;a href=&quot;https://github.com/BaiduSecurityLabs/ZjDroid&quot;&gt;ZjDroid&lt;/a&gt;&lt;/del&gt;, &lt;del&gt;&lt;a href=&quot;https://github.com/yangbean9/ZjDroid&quot;&gt;fork/mirror&lt;/a&gt;&lt;/del&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;del&gt;&lt;a href=&quot;http://siis.cse.psu.edu/dare/index.html&quot;&gt;Dare&lt;/a&gt; – .dex to .class converter&lt;/del&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;fuzz-testing&quot;&gt;Fuzz Testing&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nccgroup.trust/us/about-us/resources/intent-fuzzer/&quot;&gt;IntentFuzzer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/anestisb/radamsa-android&quot;&gt;Radamsa Fuzzer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/google/honggfuzz&quot;&gt;Honggfuzz&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/anestisb/melkor-android&quot;&gt;An Android port of the melkor ELF fuzzer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/fuzzing/MFFA&quot;&gt;Media Fuzzing Framework for Android&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/jonmetz/AndroFuzz&quot;&gt;AndroFuzz&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;app-repackaging-detectors&quot;&gt;App Repackaging Detectors&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/zyrikby/FSquaDRA&quot;&gt;FSquaDRA&lt;/a&gt; - a tool for detection of repackaged Android applications based on app resources hash comparison.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;market-crawlers&quot;&gt;Market Crawlers&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/Akdeniz/google-play-crawler&quot;&gt;Google play crawler (Java)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/egirault/googleplay-api&quot;&gt;Google play crawler (Python)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/dweinstein/node-google-play&quot;&gt;Google play crawler (Node)&lt;/a&gt; - get app details and download apps from official Google Play Store.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/dweinstein/node-aptoide&quot;&gt;Aptoide downloader (Node)&lt;/a&gt; - download apps from Aptoide third-party Android market&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/dweinstein/node-appland&quot;&gt;Appland downloader (Node)&lt;/a&gt; - download apps from Appland third-party Android market&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://apkpure.com/&quot;&gt;Apkpure&lt;/a&gt; - Online apk downloader. Provides also an own app for downloading.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;misc-tools&quot;&gt;Misc Tools&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://androidcracking.blogspot.com/2011/03/original-smalihook-java-source.html&quot;&gt;smalihook&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://code.google.com/p/android4me/downloads/detail?name=AXMLPrinter2.jar&quot;&gt;AXMLPrinter2&lt;/a&gt; - to convert binary XML files to human-readable XML files&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mbrubeck/android-completion&quot;&gt;adb autocomplete&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://pallergabor.uw.hu/androidblog/dalvik_opcodes.html&quot;&gt;Dalvik opcodes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://securitycompass.github.io/AndroidLabs/setup.html&quot;&gt;ExploitMe Android Labs&lt;/a&gt; - for practice&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/jackMannino/OWASP-GoatDroid-Project&quot;&gt;GoatDroid&lt;/a&gt; - for practice&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/dineshshetty/Android-InsecureBankv2&quot;&gt;Android InsecureBank&lt;/a&gt; - for practice&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mitmproxy/mitmproxy&quot;&gt;mitmproxy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/dweinstein/dockerfile-androguard&quot;&gt;dockerfile/androguard&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/AndroidVTS/android-vts&quot;&gt;Android Vulnerability Test Suite&lt;/a&gt; - android-vts scans a device for set of vulnerabilities&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/dpnishant/appmon&quot;&gt;AppMon&lt;/a&gt;- AppMon is an automated framework for monitoring and tampering system API calls of native macOS, iOS and android apps. It is based on Frida.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/seemoo-lab/internalblue&quot;&gt;Internal Blue&lt;/a&gt; - Bluetooth experimentation framework based on Reverse Engineering of Broadcom Bluetooth Controllers&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;academicresearchpublicationsbooks&quot;&gt;&lt;a name=&quot;academic&quot;&gt;&lt;/a&gt;Academic/Research/Publications/Books&lt;/h2&gt;
-
-&lt;h3 id=&quot;research-papers&quot;&gt;Research Papers&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.exploit-db.com/papers/&quot;&gt;Exploit Database&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/jacobsoo/AndroidSlides&quot;&gt;Android security related presentations&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://tthtlc.wordpress.com/2011/09/01/static-analysis-of-android-applications/&quot;&gt;A good collection of static analysis papers&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;books&quot;&gt;Books&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.securecoding.cert.org/confluence/display/android/Android+Secure+Coding+Standard&quot;&gt;SEI CERT Android Secure Coding Standard&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;others&quot;&gt;Others&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/OWASP/owasp-mstg&quot;&gt;OWASP Mobile Security Testing Guide Manual&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/doridori/Android-Security-Reference&quot;&gt;doridori/Android-Security-Reference&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/b-mueller/android_app_security_checklist&quot;&gt;android app security checklist&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet&quot;&gt;Mobile App Pentest Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;aexploitsvulnerabilitiesbugs&quot;&gt;&lt;a name=&quot;exploits&quot;&gt;&lt;/a&gt;&amp;lt;/a&amp;gt;Exploits/Vulnerabilities/Bugs&lt;/h2&gt;
-
-&lt;h3 id=&quot;list&quot;&gt;List&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://source.android.com/security/bulletin/&quot;&gt;Android Security Bulletins&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cvedetails.com/vulnerability-list/vendor_id-1224/product_id-19997/Google-Android.html&quot;&gt;Android’s reported security vulnerabilities&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kb.androidtamer.com/Device_Security_Patch_tracker/&quot;&gt;Android Devices Security Patch Status&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://code.google.com/p/android/issues/list?can=2&amp;amp;q=priority=Critical&amp;amp;sort=-opened&quot;&gt;AOSP - Issue tracker&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.owasp.org/index.php/Mobile_Top_10_2016-Top_10&quot;&gt;OWASP Mobile Top 10 2016&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.exploit-db.com/search/?action=search&amp;amp;q=android&quot;&gt;Exploit Database&lt;/a&gt; - click search&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/spreadsheet/pub?key=0Am5hHW4ATym7dGhFU1A4X2lqbUJtRm1QSWNRc3E0UlE&amp;amp;single=true&amp;amp;gid=0&amp;amp;output=html&quot;&gt;Vulnerability Google Doc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://source.android.com/security/reports/Google_Android_Security_PHA_classifications.pdf&quot;&gt;Google Android Security Team’s Classifications for Potentially Harmful Applications (Malware)&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;malware&quot;&gt;Malware&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://code.google.com/p/androguard/wiki/DatabaseAndroidMalwares&quot;&gt;androguard - Database Android Malwares wiki&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ashishb/android-malware&quot;&gt;Android Malware Github repo&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.malgenomeproject.org/policy.html&quot;&gt;Android Malware Genome Project&lt;/a&gt; - contains 1260 malware samples categorized into 49 different malware families, free for research purpose.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://contagiominidump.blogspot.com&quot;&gt;Contagio Mobile Malware Mini Dump&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.virustotal.com/en/about/contact/&quot;&gt;VirusTotal Malware Intelligence Service&lt;/a&gt; - powered by VirusTotal, not free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.cs.tu-bs.de/~danarp/drebin/&quot;&gt;Drebin&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;bounty-programs&quot;&gt;Bounty Programs&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.google.com/about/appsecurity/android-rewards/&quot;&gt;Android Security Reward Program&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;how-to-report-security-issues&quot;&gt;How to report Security issues&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://source.android.com/security/overview/updates-resources.html#report-issues&quot;&gt;Android - reporting security issues&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/B3nac/Android-Reports-and-Resources&quot;&gt;Android Reports and Resources&lt;/a&gt; - List of Android Hackerone disclosed reports and other resources&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Sangram</name></author><summary type="html">Online Analyzers</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/1.jpg" /></entry><entry><title type="html">BaaS</title><link href="http://localhost:4000/BaaS/" rel="alternate" type="text/html" title="BaaS" /><published>2020-05-18T00:00:00+01:00</published><updated>2020-05-18T00:00:00+01:00</updated><id>http://localhost:4000/BaaS</id><content type="html" xml:base="http://localhost:4000/BaaS/">&lt;h2 id=&quot;baas&quot;&gt;BaaS&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/backendless.png&quot; alt=&quot;Backendless&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://backendless.com/&quot;&gt;backendless.com&lt;/a&gt; — Mobile and Web Baas, with 1 GB file storage free, push notifications 50000/month, and 1000 data objects in table.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.ably.com&quot;&gt;ably.com&lt;/a&gt; - APIs for realtime messaging, push notifications, and event-driven API creation. Free plan has 3m messages/mo, 100 concurrent connections, 100 concurrent channels.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.back4app.com&quot;&gt;back4app.com&lt;/a&gt; - Back4App is an easy-to-use, flexible and scalable backend based on Parse Platform.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.blockspring.com/&quot;&gt;blockspring.com&lt;/a&gt; — Cloud functions. Free for 5 million runs/month&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://getstream.io/&quot;&gt;getstream.io&lt;/a&gt; — Build scalable news feeds and activity streams in a few hours instead of weeks, free for 3 million feed updates/month&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://hasura.io/&quot;&gt;hasura.io&lt;/a&gt; — Platform to build and deploy app backends fast, free for single node cluster.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.iron.io/&quot;&gt;iron.io&lt;/a&gt; — Async task processing (like AWS Lambda) with free tier and 1-month free trial&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://netlicensing.io&quot;&gt;netlicensing.io&lt;/a&gt; - A cost-effective and integrated Licensing-as-a-Service (LaaS) solution for your software on any platform from Desktop to IoT and SaaS. Basic Plan for &lt;em&gt;FREE&lt;/em&gt; while you are a student.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://onesignal.com/&quot;&gt;onesignal.com&lt;/a&gt; — Unlimited free push notifications&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://paraio.com&quot;&gt;paraio.com&lt;/a&gt; — Backend service API with flexible authentication, full-text search and caching. Free for 1 app, 1GB app data.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://posthook.io/&quot;&gt;posthook.io&lt;/a&gt; — Job Scheduling Service. Allows you to schedule requests for specific times. 500 scheduled requests/month free.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.progress.com/kinvey&quot;&gt;progress.com&lt;/a&gt; — Mobile backend, starter plan has unlimited requests/second, with 1 GB of data storage. Enterprise application support&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.pubnub.com/&quot;&gt;pubnub.com&lt;/a&gt; — Free push notifications for up to 1 million messages/month and 100 active daily devices&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pushbots.com/&quot;&gt;pushbots.com&lt;/a&gt; — Push notification service. Free for up to 1.5 million pushes/month&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pushcrew.com/&quot;&gt;pushcrew.com&lt;/a&gt; — Push notification service. Unlimited notifications up to 2000 Subscribers&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pusher.com/beams&quot;&gt;pusher.com&lt;/a&gt; — Free, unlimited push notifications for 2000 monthly active users. A single API for iOS and Android devices.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.pushtechnology.com/&quot;&gt;pushtechnology.com&lt;/a&gt; — Real-time Messaging for browsers, smartphones and everyone. 100 concurrent connections. Free 10 GB data/month&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://quickblox.com/&quot;&gt;quickblox.com&lt;/a&gt; — A communication backend for instant messaging, video and voice calling and push notifications&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://simperium.com/&quot;&gt;simperium.com&lt;/a&gt; — Move data everywhere instantly and automatically, multi-platform, unlimited sending and storage of structured data, max. 2,500 users/month&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://stackstorm.com/&quot;&gt;stackstorm.com&lt;/a&gt; — Event-driven automation for apps, services and workflows, free without flow, access control, LDAP,…&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://streamdata.io/&quot;&gt;streamdata.io&lt;/a&gt; — Turns any REST API into an event-driven streaming API. Free plan up to 1 million messages and 10 concurrent connections&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://tyk.io/&quot;&gt;tyk.io&lt;/a&gt; — API management with authentication, quotas, monitoring and analytics. Free cloud offering&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zapier.com/&quot;&gt;zapier.com&lt;/a&gt; — Connect the apps you use, to automate tasks. 5 zaps, every 15 minutes and 100 tasks/month&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://leancloud.app/&quot;&gt;LeanCloud&lt;/a&gt; — Mobile backend. 1GB of data storage, 256MB instance, 3K API requests/day, 10K pushes/day are free. (API is very similar to Parse Platform)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you wish to add more to this this post please let us know and we would cosider adding it here.&lt;/p&gt;
-
-&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;</content><author><name>Sangram</name></author><summary type="html">BaaS</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/1.jpg" /></entry></feed>
+&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 May 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/developer/2020/05/18/Free-for-Developers.html</link>
+        <guid isPermaLink="true">http://localhost:4000/developer/2020/05/18/Free-for-Developers.html</guid>
+        
+        <category>featured</category>
+        
+        
+        <category>Developer</category>
+        
+      </item>
+    
+  </channel>
+</rss>
