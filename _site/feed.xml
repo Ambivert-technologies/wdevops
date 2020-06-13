@@ -6,9 +6,208 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 13 Jun 2020 08:49:46 +0100</pubDate>
-    <lastBuildDate>Sat, 13 Jun 2020 08:49:46 +0100</lastBuildDate>
+    <pubDate>Sat, 13 Jun 2020 08:50:17 +0100</pubDate>
+    <lastBuildDate>Sat, 13 Jun 2020 08:50:17 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Roadmap to becoming a web developer</title>
+        <description>
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/NNyc9QM.png&quot; alt=&quot;Web Developer Roadmap - 2020&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Roadmap to becoming a web developer in 2020&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://roadmap.sh&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/-Roadmaps%20-0a0a0a.svg?style=flat&amp;amp;colorA=0a0a0a&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://roadmap.sh/guides&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/-Guides-0a0a0a.svg?style=flat&amp;amp;colorA=0a0a0a&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;./translations&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/-Translations-0a0a0a.svg?style=flat&amp;amp;colorA=0a0a0a&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://www.youtube.com/channel/UCA0H2KIWgWTwpTFjSxp0now?sub_confirmation=1&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/%E2%9D%A4-YouTube%20Channel-0a0a0a.svg?style=flat&amp;amp;colorA=0a0a0a&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Below you find a set of charts demonstrating the paths that you can take and the technologies that you would want to adopt in order to become a frontend, backend or a devops. I made these charts for an old professor of mine who wanted something to share with his college students to give them a perspective; sharing them here to help the community.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+		&lt;sup&gt;Special Announcement:&lt;/sup&gt;
+		&lt;br /&gt;
+		&lt;a href=&quot;https://www.youtube.com/channel/UCA0H2KIWgWTwpTFjSxp0now?sub_confirmation=1&quot;&gt;
+			&lt;img width=&quot;70px&quot; src=&quot;https://roadmap.sh/sponsors/youtube.svg&quot; /&gt;
+		&lt;/a&gt;
+		&lt;br /&gt;
+		&lt;sub&gt;&lt;b&gt;We now have a YouTube Channel&lt;/b&gt;&lt;/sub&gt;
+		&lt;br /&gt;
+		&lt;sub&gt;I plan on covering the roadmaps and put more content there&lt;br /&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCA0H2KIWgWTwpTFjSxp0now?sub_confirmation=1&quot;&gt;Subscribe to the channel&lt;/a&gt;.&lt;/sub&gt;
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 align=&quot;center&quot;&gt;&lt;strong&gt;Purpose of these Roadmaps&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The purpose of these roadmaps is to give you an idea about the landscape and to guide you if you are confused about what to learn next and not to encourage you to pick what is hip and trendy. You should grow some understanding of why one tool would be better suited for some cases than the other and remember hip and trendy never means best suited for the job.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 align=&quot;center&quot;&gt;&lt;strong&gt;Note to Beginners&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;These roadmaps cover everything that is there to learn for the paths listed below. Don’t feel overwhelmed, you don’t need to learn it all in the beginning if you are just getting started. We are working on the beginner versions of these and will &lt;a href=&quot;https://roadmap.sh&quot;&gt;release it soon&lt;/a&gt; after we are done with the 2020 release of the Backend and DevOps roadmaps.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you think that these can be improved in any way, please do suggest.&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;./img/intro.png&quot; alt=&quot;Web Developer Roadmap Introduction&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;frontend-roadmap&quot;&gt;Frontend Roadmap&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gum.co/frontend-roadmap&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/-Download%20PDF%20-0a0a0a.svg?style=flat&amp;amp;colorA=0a0a0a&quot; alt=&quot;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://roadmap.sh/frontend&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/-Shareable%20Link%20-0a0a0a.svg?style=flat&amp;amp;colorA=0a0a0a&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./img/frontend.png?year-2020-2&quot; alt=&quot;Frontend Roadmap&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;back-end-roadmap&quot;&gt;Back-end Roadmap&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gum.co/backend-roadmap&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/-Download%20PDF%20-0a0a0a.svg?style=flat&amp;amp;colorA=0a0a0a&quot; alt=&quot;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://roadmap.sh/backend&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/-Shareable%20Link%20-0a0a0a.svg?style=flat&amp;amp;colorA=0a0a0a&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./img/backend.png?year-2020-2&quot; alt=&quot;Back-end Roadmap&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;devops-roadmap&quot;&gt;DevOps Roadmap&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gum.co/devops-roadmap&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/-Download%20PDF%20-0a0a0a.svg?style=flat&amp;amp;colorA=0a0a0a&quot; alt=&quot;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://roadmap.sh/devops&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/-Shareable%20Link%20-0a0a0a.svg?style=flat&amp;amp;colorA=0a0a0a&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./img/devops.png&quot; alt=&quot;DevOps Roadmap&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;-wrap-up&quot;&gt;🚦 Wrap Up&lt;/h2&gt;
+
+&lt;p&gt;If you think any of the roadmaps can be improved, feel free to discuss it in the issues. Also, I will continue to improve this, so you might want to watch this repository or subscribe at &lt;a href=&quot;http://roadmap.sh&quot;&gt;roadmap.sh&lt;/a&gt; to revisit.&lt;/p&gt;
+
+&lt;h2 id=&quot;-contribution&quot;&gt;🙌 Contribution&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Have a look at &lt;a href=&quot;./CONTRIBUTING.md&quot;&gt;contribution docs&lt;/a&gt; for how to update any of the roadmaps&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Open pull request with improvements&lt;/li&gt;
+  &lt;li&gt;Discuss ideas in issues&lt;/li&gt;
+  &lt;li&gt;Spread the word&lt;/li&gt;
+  &lt;li&gt;Reach out with any feedback &lt;a href=&quot;https://twitter.com/kamranahmedse&quot;&gt;&lt;img src=&quot;https://img.shields.io/twitter/url/https/twitter.com/kamranahmedse.svg?style=social&amp;amp;label=Follow%20%40kamranahmedse&quot; alt=&quot;Twitter URL&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Have a look at the &lt;a href=&quot;./LICENSE&quot;&gt;license file&lt;/a&gt; for details&lt;/p&gt;
+</description>
+        <pubDate>Sat, 13 Jun 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2020/06/13/Roadmap-to-becoming-a-web-developer.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/06/13/Roadmap-to-becoming-a-web-developer.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Host free website with GitHub</title>
+        <description>&lt;h1 id=&quot;jekyll&quot;&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://rubygems.org/gems/jekyll&quot;&gt;&lt;img src=&quot;https://img.shields.io/gem/v/jekyll.svg&quot; alt=&quot;Gem Version&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://travis-ci.org/jekyll/jekyll&quot;&gt;&lt;img src=&quot;https://img.shields.io/travis/jekyll/jekyll/master.svg?label=Linux%20build&quot; alt=&quot;Linux Build Status&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://ci.appveyor.com/project/jekyll/jekyll/branch/master&quot;&gt;&lt;img src=&quot;https://img.shields.io/appveyor/ci/jekyll/jekyll/master.svg?label=Windows%20build&quot; alt=&quot;Windows Build status&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://codeclimate.com/github/jekyll/jekyll&quot;&gt;&lt;img src=&quot;https://api.codeclimate.com/v1/badges/8ba0cb5b17bb9848e128/maintainability&quot; alt=&quot;Maintainability&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://codeclimate.com/github/jekyll/jekyll/coverage&quot;&gt;&lt;img src=&quot;https://api.codeclimate.com/v1/badges/8ba0cb5b17bb9848e128/test_coverage&quot; alt=&quot;Test Coverage&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://hakiri.io/github/jekyll/jekyll/master&quot;&gt;&lt;img src=&quot;https://hakiri.io/github/jekyll/jekyll/master.svg&quot; alt=&quot;Security&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;#backers&quot;&gt;&lt;img src=&quot;https://opencollective.com/jekyll/backers/badge.svg&quot; alt=&quot;Backers on Open Collective&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;#sponsors&quot;&gt;&lt;img src=&quot;https://opencollective.com/jekyll/sponsors/badge.svg&quot; alt=&quot;Sponsors on Open Collective&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind &lt;a href=&quot;https://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt;, which you can use to host sites right from your GitHub repositories.&lt;/p&gt;
+
+&lt;h2 id=&quot;philosophy&quot;&gt;Philosophy&lt;/h2&gt;
+
+&lt;p&gt;Jekyll does what you tell it to do — no more, no less. It doesn’t try to outsmart users by making bold assumptions, nor does it burden them with needless complexity and configuration. Put simply, Jekyll gets out of your way and allows you to concentrate on what truly matters: your content.&lt;/p&gt;
+
+&lt;p&gt;See: https://jekyllrb.com/philosophy&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-started&quot;&gt;Getting Started&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/installation/&quot;&gt;Install&lt;/a&gt; the gem&lt;/li&gt;
+  &lt;li&gt;Read up about its &lt;a href=&quot;https://jekyllrb.com/docs/usage/&quot;&gt;Usage&lt;/a&gt; and &lt;a href=&quot;https://jekyllrb.com/docs/configuration/&quot;&gt;Configuration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Take a gander at some existing &lt;a href=&quot;https://github.com/jekyll/jekyll/wiki/sites&quot;&gt;Sites&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll/fork&quot;&gt;Fork&lt;/a&gt; and &lt;a href=&quot;https://jekyllrb.com/docs/contributing/&quot;&gt;Contribute&lt;/a&gt; your own modifications&lt;/li&gt;
+  &lt;li&gt;Have questions? Check out our official forum community &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt; or &lt;a href=&quot;https://botbot.me/freenode/jekyll/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;#jekyll&lt;/code&gt; on irc.freenode.net&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;diving-in&quot;&gt;Diving In&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://import.jekyllrb.com/docs/home/&quot;&gt;Migrate&lt;/a&gt; from your previous system&lt;/li&gt;
+  &lt;li&gt;Learn how &lt;a href=&quot;https://jekyllrb.com/docs/front-matter/&quot;&gt;Front Matter&lt;/a&gt; works&lt;/li&gt;
+  &lt;li&gt;Put information on your site with &lt;a href=&quot;https://jekyllrb.com/docs/variables/&quot;&gt;Variables&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Customize the &lt;a href=&quot;https://jekyllrb.com/docs/permalinks/&quot;&gt;Permalinks&lt;/a&gt; your posts are generated with&lt;/li&gt;
+  &lt;li&gt;Use the built-in &lt;a href=&quot;https://jekyllrb.com/docs/templates/&quot;&gt;Liquid Extensions&lt;/a&gt; to make your life easier&lt;/li&gt;
+  &lt;li&gt;Use custom &lt;a href=&quot;https://jekyllrb.com/docs/plugins/&quot;&gt;Plugins&lt;/a&gt; to generate content specific to your site&lt;/li&gt;
+  &lt;li&gt;Watch &lt;a href=&quot;https://jekyllrb.com/tutorials/video-walkthroughs/&quot;&gt;video tutorials from Giraffe Academy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;need-help&quot;&gt;Need help?&lt;/h2&gt;
+
+&lt;p&gt;If you don’t find the answer to your problem in our &lt;a href=&quot;https://jekyllrb.com/docs/&quot;&gt;docs&lt;/a&gt;, or in the &lt;a href=&quot;https://jekyllrb.com/docs/troubleshooting/&quot;&gt;troubleshooting section&lt;/a&gt;, ask the &lt;a href=&quot;https://jekyllrb.com/docs/community/&quot;&gt;community&lt;/a&gt; for help.&lt;/p&gt;
+
+&lt;h2 id=&quot;code-of-conduct&quot;&gt;Code of Conduct&lt;/h2&gt;
+
+&lt;p&gt;In order to have a more open and welcoming community, Jekyll adheres to a
+&lt;a href=&quot;CODE_OF_CONDUCT.markdown&quot;&gt;code of conduct&lt;/a&gt; adapted from the Ruby on Rails code of
+conduct.&lt;/p&gt;
+
+&lt;p&gt;Please adhere to this code of conduct in any interactions you have in the
+Jekyll community. It is strictly enforced on all official Jekyll
+repositories, websites, and resources. If you encounter someone violating
+these terms, please let one of our &lt;a href=&quot;https://jekyllrb.com/team/#core-team&quot;&gt;core team members&lt;/a&gt; know and we will address it as soon as possible.&lt;/p&gt;
+
+&lt;h2 id=&quot;credits&quot;&gt;Credits&lt;/h2&gt;
+
+&lt;h3 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h3&gt;
+
+&lt;p&gt;Support this project by becoming a sponsor. Your logo will show up in this README with a link to your website. &lt;a href=&quot;https://opencollective.com/jekyll#sponsor&quot;&gt;Become a sponsor!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://opencollective.com/jekyll/sponsor/0/website&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://opencollective.com/jekyll/sponsor/0/avatar.svg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://opencollective.com/jekyll/sponsor/1/website&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://opencollective.com/jekyll/sponsor/1/avatar.svg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://opencollective.com/jekyll/sponsor/2/website&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://opencollective.com/jekyll/sponsor/2/avatar.svg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://opencollective.com/jekyll/sponsor/3/website&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://opencollective.com/jekyll/sponsor/3/avatar.svg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://opencollective.com/jekyll/sponsor/4/website&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://opencollective.com/jekyll/sponsor/4/avatar.svg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://opencollective.com/jekyll/sponsor/5/website&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://opencollective.com/jekyll/sponsor/5/avatar.svg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://opencollective.com/jekyll/sponsor/6/website&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://opencollective.com/jekyll/sponsor/6/avatar.svg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://opencollective.com/jekyll/sponsor/7/website&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://opencollective.com/jekyll/sponsor/7/avatar.svg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://opencollective.com/jekyll/sponsor/8/website&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://opencollective.com/jekyll/sponsor/8/avatar.svg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://opencollective.com/jekyll/sponsor/9/website&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://opencollective.com/jekyll/sponsor/9/avatar.svg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;contributors&quot;&gt;Contributors&lt;/h3&gt;
+
+&lt;p&gt;This project exists thanks to all the people who contribute.
+&lt;a href=&quot;../../graphs/contributors&quot;&gt;&lt;img src=&quot;https://opencollective.com/jekyll/contributors.svg?width=890&amp;amp;button=false&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;backers&quot;&gt;Backers&lt;/h3&gt;
+
+&lt;p&gt;Thank you to all our backers! 🙏 &lt;a href=&quot;https://opencollective.com/jekyll#backer&quot;&gt;Become a backer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://opencollective.com/jekyll#backers&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://opencollective.com/jekyll/backers.svg?width=890&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;See the &lt;a href=&quot;https://github.com/jekyll/jekyll/blob/master/LICENSE&quot;&gt;LICENSE&lt;/a&gt; file.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Jun 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/computer%20science/app%20development/2020/06/12/Host-free-website-with-GitHub.html</link>
+        <guid isPermaLink="true">http://localhost:4000/computer%20science/app%20development/2020/06/12/Host-free-website-with-GitHub.html</guid>
+        
+        
+        <category>Computer Science</category>
+        
+        <category>App Development</category>
+        
+      </item>
     
       <item>
         <title>Flutter App Development</title>
@@ -619,114 +818,6 @@ Information on how to get started can be found at our
         <pubDate>Mon, 18 May 2020 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/developer/2020/05/18/Issue-Tracking-and-Project-Management.html</link>
         <guid isPermaLink="true">http://localhost:4000/developer/2020/05/18/Issue-Tracking-and-Project-Management.html</guid>
-        
-        <category>featured</category>
-        
-        
-        <category>Developer</category>
-        
-      </item>
-    
-      <item>
-        <title>IaaS and DBaaS</title>
-        <description>&lt;h2 id=&quot;iaas&quot;&gt;IaaS&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.backblaze.com/b2/&quot;&gt;backblaze.com&lt;/a&gt; — Backblaze B2 cloud storage. Free 10 GB (Amazon S3-like) object storage for unlimited time&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.scaleway.com/en/object-storage/&quot;&gt;scaleway.com&lt;/a&gt; — S3-Compatible Object Storage. Free 75 GB storage and external outgoing traffic&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.terraform.io/&quot;&gt;www.terraform.io&lt;/a&gt; — Terraform Cloud. Free remote state management and team collaboration for teams up to 5 users.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;dbaas&quot;&gt;DBaaS&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://airtable.com/&quot;&gt;airtable.com&lt;/a&gt; — Looks like a spreadsheet, but it’s a relational database, unlimited bases, 1,200 rows/base and 1,000 API requests/month&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.elephantsql.com/&quot;&gt;elephantsql.com&lt;/a&gt; — PostgreSQL as a service, 20 MB free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://fauna.com/&quot;&gt;FaunaDB&lt;/a&gt; — Serverless cloud database, with native GraphQL, multi-model access and daily free tiers up to 5GB&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.graphenedb.com/&quot;&gt;graphenedb.com&lt;/a&gt; — Neo4j as a service, up to 1,000 nodes and 10,000 relations free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.heroku.com/&quot;&gt;heroku.com&lt;/a&gt; — PostgreSQL as a service, up to 10,000 rows and 20 connections free (provided as an “addon,” but can be attached to an otherwise empty app and accessed externally)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mongodb.com/cloud/atlas&quot;&gt;MongoDB Atlas&lt;/a&gt; — free tier gives 512 MB&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.redsmin.com/&quot;&gt;redsmin.com&lt;/a&gt; — Online real-time monitoring and administration service for Redis, 1 Redis instance free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.memcachier.com/&quot;&gt;MemCachier&lt;/a&gt; — Managed Memcache service. Free for up to 25MB, 1 Proxy Server and basic analytics&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://scalingo.com/&quot;&gt;scalingo.com&lt;/a&gt; — Primarily a PaaS but offers a 128MB to 192MB free tier of MySQL, PostgreSQL or MongoDB&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://skyvia.com/&quot;&gt;skyvia.com&lt;/a&gt; — Cloud Data Platform, offers free tier and all plans are completely free while in beta&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://remotemysql.com&quot;&gt;remotemysql.com&lt;/a&gt; — Remote MySQL Database hosting, setup is instant and use phpMyAdmin for administration, free for 100Mb data, free backups, no query limits and 99% uptime.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.influxdata.com/&quot;&gt;InfluxDB&lt;/a&gt; — Timeseries database, free up to 3MB/5 minutes writes, 30MB/5 minutes reads and 10,000 cardinalities series&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.quickmetrics.io/&quot;&gt;Quickmetrics&lt;/a&gt; — Timeseries database with dashboard included, free up to 10,000 events/day and total of 5 metrics.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://restdb.io/&quot;&gt;restdb.io&lt;/a&gt; - a fast and simple NoSQL cloud database service. With restdb.io you get schema, relations, automatic REST API (with MongoDB-like queries) and an efficient multi-user admin UI for working with data. Free plan allows 3 users, 2500 records and 1 API requests per second.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.unbounded.cloud/&quot;&gt;Unbounded&lt;/a&gt; - a NoSQL DBaaS which uses Javascript as a query language. Free tier allows 50,000 reads and writes per month, forever.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you wish to add more to this this post please let us know and we would cosider adding it here.&lt;/p&gt;
-
-&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 18 May 2020 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/developer/2020/05/18/IaaS-and-DBaaS.html</link>
-        <guid isPermaLink="true">http://localhost:4000/developer/2020/05/18/IaaS-and-DBaaS.html</guid>
-        
-        
-        <category>Developer</category>
-        
-      </item>
-    
-      <item>
-        <title>Free PaaS Deploy Serverless</title>
-        <description>&lt;h2 id=&quot;paas&quot;&gt;PaaS&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://appharbor.com/&quot;&gt;appharbor.com&lt;/a&gt; — A .Net PaaS that provides 1 free worker&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.configure.it/&quot;&gt;configure.it&lt;/a&gt; — Mobile app development platform, free for 2 projects, limited features but no resource limits&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.codenameone.com/&quot;&gt;codenameone.com&lt;/a&gt; — Open source, cross platform, mobile app development toolchain for Java/Kotlin developers. Free for commercial use with unlimited number of projects&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.engineyard.com/&quot;&gt;engineyard.com&lt;/a&gt; — Engine Yard provides 500 free hours&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://firebase.google.com&quot;&gt;firebase.google.com&lt;/a&gt; — Build real-time apps, the free plan has 100 max connections, 10 GB data transfer, 1 GB data storage, 1 GB hosting storage and 10 GB hosting transfer&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.gearhost.com/pricing&quot;&gt;gearhost.com&lt;/a&gt; — Platform for .NET and PHP apps. 256 MB of RAM for free on a shared server with limited resources&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gigalixir.com/&quot;&gt;gigalixir.com&lt;/a&gt; - Gigalixir provide 1 free instance that never sleeps, and free-tier PostgreSQL database limited to 2 connections, 10, 000 rows and no backups, for Elixir/Phoenix apps.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://glitch.com/&quot;&gt;glitch.com&lt;/a&gt; — Free unlimited public/private hosting with features such as code sharing and real-time collaboration&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.heroku.com/&quot;&gt;heroku.com&lt;/a&gt; — Host your apps in the cloud, free for single process apps&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kintohub.com/&quot;&gt;KintoHub&lt;/a&gt; — KintoHub is an all-in-one platform to combine and deploy your backend services, websites, cron jobs, databases and everything your app needs in one place.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://usekrucible.com&quot;&gt;Krucible&lt;/a&gt; — Krucible is a platform for creating Kubernetes clusters for testing and development. Free tier accounts come with 25 cluster-hours per month.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kubesail.com&quot;&gt;kubesail.com&lt;/a&gt; - Managed Kubernetes namespace service designed for developers. Free developer accounts come with with 1 Core of CPU, 512MB of RAM, 100MB of storage and 1 domain.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://k8spin.cloud&quot;&gt;K8Spin&lt;/a&gt; - Managed Kubernetes namespace service designed for developers. Free developer accounts come with with 100 mCore of CPU, 128MB of RAM.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zarvis.ai&quot;&gt;ZARVIS&lt;/a&gt; - Free managed Kubernetes namespace for open source Github project. Free 1GB memory and 1 vCPU.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mendix.com/&quot;&gt;mendix.com&lt;/a&gt; — Rapid Application Development for Enterprises, unlimited number of free sandbox environments supporting 10 users, 100 MB of files and 100 MB database storage each&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://okteto.com&quot;&gt;Okteto Cloud&lt;/a&gt; - Managed Kubernetes service designed for developers. Free developer accounts come with 4GB of RAM, 2 CPUs and 10GB Disk space.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.outsystems.com/&quot;&gt;outsystems.com&lt;/a&gt; — Enterprise web development PaaS for on-premise or cloud, free “personal environment” offering allows for unlimited code and up to 1 GB database&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pipedream.com&quot;&gt;pipedream.com&lt;/a&gt; - An integration platform built for developers. Develop any workflow, based on any trigger. Workflows are code, which you can run &lt;a href=&quot;https://docs.pipedream.com/pricing/&quot;&gt;for free&lt;/a&gt;. No server or cloud resources to manage.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.pythonanywhere.com/&quot;&gt;pythonanywhere.com&lt;/a&gt; — Cloud Python app hosting. Beginner account is free, 1 Python web application at your-username.pythonanywhere.com domain, 512 MB private file storage, one MySQL database&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sandstorm.io/&quot;&gt;sandstorm.io&lt;/a&gt; — Sandstorm is an open source operating system for personal and private clouds. Free plan offers 200 MB storage and 5 grains free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://scn.sap.com/docs/DOC-56411&quot;&gt;scn.sap.com&lt;/a&gt; — The in-memory Platform-as-a-Service offering from SAP. Free developer accounts come with 1 GB structured, 1 GB unstructured, 1 GB of Git data and allow you to run HTML5, Java and HANA XS apps&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://workers.dev&quot;&gt;workers.dev&lt;/a&gt; - Deploy serverless code for free on Cloudflare’s global network. 100,000 free requests per day with a workers.dev subdomain.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://vercel.com/&quot;&gt;vercel.com&lt;/a&gt; — Serverless platform with support for multiple languages (including static sites) and single command deployment. Free tier includes SSL, unlimited (Fair Use) bandwidth, 100 deployments.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://platform9.com/&quot;&gt;Platform9&lt;/a&gt; - Managed Kubernetes service designed for developers. Free developer accounts come with up to 3 clusters &amp;amp; 20 nodes cluster.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://fly.io/&quot;&gt;fly.io&lt;/a&gt; - Fly is a platform for applications that need to run globally. It runs your code close to users and scales compute in cities where your app is busiest. Write your code, package it into a Docker image, deploy it to Fly’s platform and let that do all the work to keep your app snappy. Free for side projects, $10/mo of service credit that automatically applies to any paid service. And if you ran really small virtual machines, credits will go a long way.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;docker-related&quot;&gt;Docker Related&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://canister.io/&quot;&gt;canister.io&lt;/a&gt; — 20 free private repositories for developers, 30 free private repositories for teams to build and store Docker images&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com&quot;&gt;Docker Hub&lt;/a&gt; — One free private repository and unlimited public repositories to build and store Docker images&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gitlab.com&quot;&gt;Gitlab&lt;/a&gt; - Per-repo container registry.  10GB limit.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://labs.play-with-docker.com/&quot;&gt;Play with Docker&lt;/a&gt; — A simple, interactive and fun playground to learn Docker.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://quay.io/&quot;&gt;quay.io&lt;/a&gt; — Build and store container images with unlimited free public repositories&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/Gueils/whales&quot;&gt;Whales&lt;/a&gt; — A tool to automatically dockerize your applications for free.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;vagrant-related&quot;&gt;Vagrant Related&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://app.vagrantup.com&quot;&gt;app.vagrantup.com&lt;/a&gt; - HashiCorp Vagrant Cloud. Vagrant box hosting.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.vagrantbox.es/&quot;&gt;vagrantbox.es&lt;/a&gt; — An alternative public box index&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you wish to add more to this this post please let us know and we would cosider adding it here.&lt;/p&gt;
-
-&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 18 May 2020 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/developer/2020/05/18/Free-for-Developers.html</link>
-        <guid isPermaLink="true">http://localhost:4000/developer/2020/05/18/Free-for-Developers.html</guid>
         
         <category>featured</category>
         
