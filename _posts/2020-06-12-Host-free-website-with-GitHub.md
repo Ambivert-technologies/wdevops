@@ -2,7 +2,7 @@
 layout: post
 title: Host free website with GitHub
 author: Sangram
-categories: [ Computer Science, App Development ]
+categories: [ Computer Science]
 image: assets/images/1.jpg
 ---
 
