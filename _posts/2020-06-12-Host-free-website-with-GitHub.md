@@ -3,8 +3,9 @@ layout: post
 title: Host free website with GitHub
 author: Sangram
 categories: [ Computer Science]
-image: assets/images/1.jpg
 ---
+
+Github offers a service known as Gitpages that allows you to generate a webpage for your project. Similarly Jekyll helps you create a blog like wordpress for free. It need little coding knownlodge to design it well but there are few open source themes that can help you get started. If you make your's you may cosider tagging us in the tweet or instagram. :)
 
 # [Jekyll](https://jekyllrb.com/)
 
