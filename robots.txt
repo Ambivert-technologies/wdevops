@@ -1,0 +1,52 @@
+User-agent: *
+Sitemap: {{ site.url }}/sitemap.xml
+
+Disallow:	/category/android/
+Disallow:	/all-posts/amp/page/4/
+Disallow:	/all-posts/page/2/
+Disallow:	/analytics-events-statistics-tools/
+Disallow:	/apis-data-machine-learning/
+Disallow:	/bookmark-now/
+Disallow:	/category/developer/
+Disallow:	/category/developer/page/4/
+Disallow:	/category/resources/
+Disallow:	/category/resources/feed/
+Disallow:	/category/resources/page/3/
+Disallow:	/category/tips/
+Disallow:	/code-quality/
+Disallow:	/code-search-browsing/
+Disallow:	/computer-engineering/
+Disallow:	/computer-engineering/amp/
+Disallow:	/continuous-integration-continuous-delivery/
+Disallow:	/crash-exception-handling/
+Disallow:	/data-visualization-maps-tools/
+Disallow:	/database-service-dbaas/
+Disallow:	/design-and-ui/
+Disallow:	/developer-essential/
+Disallow:	/everything-you-need-to-know-about-codeigniter/
+Disallow:	/explaining-github/
+Disallow:	/free-backend-service-baas/
+Disallow:	/free-cdn-protection/hacker
+Disallow:	/free-dns-hosting/
+Disallow:	/free-infrastructure-service-iaas/
+Disallow:	/free-public-email-system/
+Disallow:	/front-end-job-interview-questions/
+Disallow:	/international-mobile-number-verification-api-sdk/
+Disallow:	/management-system/
+Disallow:	/miscellaneous/
+Disallow:	/monitoring/
+Disallow:	/online-ide-code-editing/
+Disallow:	/package-build-system-docker-vagrant/
+Disallow:	/page/4/
+Disallow:	/platform-service-paas/
+Disallow:	/post-installation-shell-scripts-ubuntu/
+Disallow:	/search/
+Disallow:	/stun-webrtc-web-socket-servers-routers/
+Disallow:	/tag/angular/
+Disallow:	/tag/ionic2/
+Disallow:	/tag/wordpress-api/
+Disallow:	/tag/wordpress-api/feed/
+Disallow:	/tag/wordpress/feed/
+	
+	
+	
