@@ -16,7 +16,8 @@ url: "https://wdevops.com" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 plugins:
   - jekyll-sitemap
-  
+  - jekyll-paginate
+
 name: 'Sangram Chavan'
 bio: >
   Hi, I am Sangram Chavan, Entrepreneur and author of this website.
@@ -32,6 +33,3 @@ markdown: kramdown
 
 kramdown:
   parse_block_html: true
-
-gems:
-  - jekyll-paginate
