@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Natural Language Processing with Python
+title: Why Discourse ? 
 author: Sangram
-categories: [ Computer Science, Python]
+categories: [ Open Source, Community Platfrom]
 ---
 
 ![](Discourse.jpg)
