@@ -6,13 +6,467 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Jun 2020 23:35:14 +0100</pubDate>
-    <lastBuildDate>Mon, 15 Jun 2020 23:35:14 +0100</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2020 10:16:07 +0100</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2020 10:16:07 +0100</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
     
       <item>
+        <title>Natural Language Processing with Python</title>
+        <description>&lt;p&gt;&lt;img src=&quot;Discourse.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;discourse-is-the-100-open-source-discussion-platform-built-for-the-next-decade-of-the-internet-use-it-as-a&quot;&gt;Discourse is the 100% open source discussion platform built for the next decade of the Internet. Use it as a:&lt;/h1&gt;
+
+&lt;h1 id=&quot;mailing-list&quot;&gt;mailing list&lt;/h1&gt;
+&lt;h1 id=&quot;discussion-forum&quot;&gt;discussion forum&lt;/h1&gt;
+&lt;h1 id=&quot;long-form-chat-room&quot;&gt;long-form chat room&lt;/h1&gt;
+
+&lt;h1 id=&quot;to-learn-more-about-the-philosophy-and-goals-of-the-project-visit-discourseorg&quot;&gt;To learn more about the philosophy and goals of the project, &lt;a href=&quot;https://www.discourse.org/&quot;&gt;visit discourse.org&lt;/a&gt;.&lt;/h1&gt;
+
+&lt;h2 id=&quot;screenshots&quot;&gt;&lt;strong&gt;Screenshots&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;Twitter.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;Cross-Platfrom.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;browse-lots-more-notable-discourse-instances&quot;&gt;Browse &lt;a href=&quot;https://www.discourse.org/customers&quot;&gt;lots more notable Discourse instances&lt;/a&gt;.&lt;/h1&gt;
+
+&lt;h2 id=&quot;development&quot;&gt;&lt;strong&gt;Development&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h1 id=&quot;to-get-your-environment-setup-follow-the-community-setup-guide-for-your-operating-system&quot;&gt;To get your environment setup, follow the community setup guide for your operating system.&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;If you're on macOS, try the &lt;a href=&quot;https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-macos-for-development/15772&quot;&gt;macOS development guide&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;If you're on Ubuntu, try the &lt;a href=&quot;https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-ubuntu-for-development/14727&quot;&gt;Ubuntu development guide&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;If you're on Windows, try the &lt;a href=&quot;https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-windows-10-for-development/75149&quot;&gt;Windows 10 development guide&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;if-youre-familiar-with-how-rails-works-and-are-comfortable-setting-up-your-own-environment-you-can-also-try-out-the-discourse-advanced-developer-guide-which-is-aimed-primarily-at-ubuntu-and-macos-environments&quot;&gt;If you're familiar with how Rails works and are comfortable setting up your own environment, you can also try out the &lt;a href=&quot;https://github.com/discourse/discourse/blob/master/docs/DEVELOPER-ADVANCED.md&quot;&gt;Discourse Advanced Developer Guide&lt;/a&gt;, which is aimed primarily at Ubuntu and macOS environments.&lt;/h1&gt;
+
+&lt;h1 id=&quot;before-you-get-started-ensure-you-have-the-following-minimum-versions-ruby-25-postgresql-10-redis-26-if-youre-having-trouble-please-see-our-troubleshooting-guide-first&quot;&gt;Before you get started, ensure you have the following minimum versions: &lt;a href=&quot;https://www.ruby-lang.org/en/downloads/&quot;&gt;Ruby 2.5+&lt;/a&gt;, &lt;a href=&quot;https://www.postgresql.org/download/&quot;&gt;PostgreSQL 10+&lt;/a&gt;, &lt;a href=&quot;https://redis.io/download&quot;&gt;Redis 2.6+&lt;/a&gt;. If you're having trouble, please see our &lt;a href=&quot;https://github.com/discourse/discourse/blob/master/docs/TROUBLESHOOTING.md&quot;&gt;TROUBLESHOOTING GUIDE&lt;/a&gt; first!&lt;/h1&gt;
+
+&lt;h2 id=&quot;setting-up-discourse&quot;&gt;&lt;strong&gt;Setting up Discourse&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h1 id=&quot;if-you-want-to-set-up-a-discourse-forum-for-production-use-see-our-discourse-install-guide&quot;&gt;If you want to set up a Discourse forum for production use, see our &lt;a href=&quot;https://github.com/discourse/discourse/blob/master/docs/INSTALL.md&quot;&gt;Discourse Install Guide&lt;/a&gt;.&lt;/h1&gt;
+
+&lt;h1 id=&quot;if-youre-looking-for-business-class-hosting-see-discourseorgbuy&quot;&gt;If you're looking for business class hosting, see &lt;a href=&quot;https://www.discourse.org/buy/&quot;&gt;discourse.org/buy&lt;/a&gt;.&lt;/h1&gt;
+
+&lt;h2 id=&quot;how-do-i-install-discourse&quot;&gt;&lt;strong&gt;How Do I Install Discourse?&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;🔔 The only officially supported installs of Discourse are Docker based. You must have SSH access to a 64-bit Linux server with Docker support. We regret that we cannot support any other methods of installation including cpanel, plesk, webmin, etc.&lt;/p&gt;
+
+&lt;p&gt;Simple 30 minute basic install:&lt;/p&gt;
+
+&lt;p&gt;Beginner Docker install guide&lt;/p&gt;
+
+&lt;p&gt;Powerful, flexible, large / multiple server install:&lt;/p&gt;
+
+&lt;p&gt;Advanced Docker install guide&lt;/p&gt;
+
+&lt;p&gt;Why do you only officially support Docker?&lt;/p&gt;
+
+&lt;p&gt;Hosting Rails applications is complicated. Even if you already have Postgres, Redis and Ruby installed on your server, you still need to worry about running and monitoring your Sidekiq and Rails processes, as well as configuring Nginx. With Docker, our fully optimized Discourse configuration is available to you in a simple container, along with a web-based GUI that makes upgrading to new versions of Discourse as easy as clicking a button.&lt;/p&gt;
+
+&lt;p&gt;Hardware Requirements&lt;/p&gt;
+
+&lt;p&gt;modern single core CPU, dual core recommended&lt;/p&gt;
+
+&lt;p&gt;1 GB RAM minimum (with swap)&lt;/p&gt;
+
+&lt;p&gt;64 bit Linux compatible with Docker&lt;/p&gt;
+
+&lt;p&gt;10 GB disk space minimum&lt;/p&gt;
+
+&lt;p&gt;Software Requirements&lt;/p&gt;
+
+&lt;p&gt;Postgres 10+&lt;/p&gt;
+
+&lt;p&gt;Redis 2.6+&lt;/p&gt;
+
+&lt;p&gt;Ruby 2.5+ (we recommend 2.5.2 or higher)&lt;/p&gt;
+
+&lt;h2 id=&quot;requirements&quot;&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h1 id=&quot;discourse-is-built-for-the-next-10-years-of-the-internet-so-our-requirements-are-high&quot;&gt;Discourse is built for the &lt;em&gt;next&lt;/em&gt; 10 years of the Internet, so our requirements are high.&lt;/h1&gt;
+
+&lt;h1 id=&quot;discourse-supports-the-latest-stable-releases-of-all-major-browsers-and-platforms&quot;&gt;Discourse supports the latest, stable releases of all major browsers and platforms:&lt;/h1&gt;
+
+&lt;p&gt;|&lt;/p&gt;
+&lt;h1 id=&quot;browsers&quot;&gt;&lt;strong&gt;Browsers&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;|&lt;/p&gt;
+&lt;h1 id=&quot;tablets&quot;&gt;&lt;strong&gt;Tablets&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;|&lt;/p&gt;
+&lt;h1 id=&quot;phones&quot;&gt;&lt;strong&gt;Phones&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;|
+| — | — | — |
+|&lt;/p&gt;
+&lt;h1 id=&quot;apple-safari&quot;&gt;Apple Safari&lt;/h1&gt;
+&lt;p&gt;|&lt;/p&gt;
+&lt;h1 id=&quot;ipados&quot;&gt;iPadOS&lt;/h1&gt;
+&lt;p&gt;|&lt;/p&gt;
+&lt;h1 id=&quot;ios&quot;&gt;iOS&lt;/h1&gt;
+&lt;p&gt;|
+|&lt;/p&gt;
+&lt;h1 id=&quot;google-chrome&quot;&gt;Google Chrome&lt;/h1&gt;
+&lt;p&gt;|&lt;/p&gt;
+&lt;h1 id=&quot;android&quot;&gt;Android&lt;/h1&gt;
+&lt;p&gt;|&lt;/p&gt;
+&lt;h1 id=&quot;android-1&quot;&gt;Android&lt;/h1&gt;
+&lt;p&gt;|
+|&lt;/p&gt;
+&lt;h1 id=&quot;microsoft-edge&quot;&gt;Microsoft Edge&lt;/h1&gt;
+&lt;p&gt;|
+ |
+ |
+|&lt;/p&gt;
+&lt;h1 id=&quot;mozilla-firefox&quot;&gt;Mozilla Firefox&lt;/h1&gt;
+&lt;p&gt;|
+ |
+ |&lt;/p&gt;
+
+&lt;h2 id=&quot;built-with&quot;&gt;&lt;strong&gt;Built With&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;-&lt;/p&gt;
+&lt;h1 id=&quot;ruby-on-rails--our-back-end-api-is-a-rails-app-it-responds-to-requests-restfully-in-json&quot;&gt;&lt;a href=&quot;https://github.com/rails/rails&quot;&gt;Ruby on Rails&lt;/a&gt; — Our back end API is a Rails app. It responds to requests RESTfully in JSON.&lt;/h1&gt;
+&lt;p&gt;-&lt;/p&gt;
+&lt;h1 id=&quot;emberjs--our-front-end-is-an-emberjs-app-that-communicates-with-the-rails-api&quot;&gt;&lt;a href=&quot;https://github.com/emberjs/ember.js&quot;&gt;Ember.js&lt;/a&gt; — Our front end is an Ember.js app that communicates with the Rails API.&lt;/h1&gt;
+&lt;p&gt;-&lt;/p&gt;
+&lt;h1 id=&quot;postgresql--our-main-data-store-is-in-postgres&quot;&gt;&lt;a href=&quot;https://www.postgresql.org/&quot;&gt;PostgreSQL&lt;/a&gt; — Our main data store is in Postgres.&lt;/h1&gt;
+&lt;p&gt;-&lt;/p&gt;
+&lt;h1 id=&quot;redis--we-use-redis-as-a-cache-and-for-transient-data&quot;&gt;&lt;a href=&quot;https://redis.io/&quot;&gt;Redis&lt;/a&gt; — We use Redis as a cache and for transient data.&lt;/h1&gt;
+
+&lt;h1 id=&quot;plus-lots-of-ruby-gems-a-complete-list-of-which-is-at-mastergemfile&quot;&gt;Plus &lt;em&gt;lots&lt;/em&gt; of Ruby Gems, a complete list of which is at &lt;a href=&quot;https://github.com/discourse/discourse/blob/master/Gemfile&quot;&gt;/master/Gemfile&lt;/a&gt;.&lt;/h1&gt;
+
+&lt;h2 id=&quot;security&quot;&gt;&lt;strong&gt;Security&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h1 id=&quot;we-take-security-very-seriously-at-discourse-all-our-code-is-100-open-source-and-peer-reviewed-please-read-our-security-guide-for-an-overview-of-security-measures-in-discourse-or-if-you-wish-to-report-a-security-issue&quot;&gt;We take security very seriously at Discourse; all our code is 100% open source and peer reviewed. Please read &lt;a href=&quot;https://github.com/discourse/discourse/blob/master/docs/SECURITY.md&quot;&gt;our security guide&lt;/a&gt; for an overview of security measures in Discourse, or if you wish to report a security issue.&lt;/h1&gt;
+
+&lt;h2 id=&quot;the-discourse-team&quot;&gt;&lt;strong&gt;The Discourse Team&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h1 id=&quot;the-original-discourse-code-contributors-can-be-found-in-authorsmd-for-a-complete-list-of-the-many-individuals-that-contributed-to-the-design-and-implementation-of-discourse-please-refer-to-the-official-discourse-blog-and-githubs-list-of-contributors&quot;&gt;The original Discourse code contributors can be found in &lt;a href=&quot;https://github.com/discourse/discourse/blob/master/docs/AUTHORS.md&quot;&gt;AUTHORS.MD&lt;/a&gt;. For a complete list of the many individuals that contributed to the design and implementation of Discourse, please refer to &lt;a href=&quot;https://blog.discourse.org/2013/02/the-discourse-team/&quot;&gt;the official Discourse blog&lt;/a&gt; and &lt;a href=&quot;https://github.com/discourse/discourse/contributors&quot;&gt;GitHub's list of contributors&lt;/a&gt;.&lt;/h1&gt;
+
+&lt;h2 id=&quot;copyright--license&quot;&gt;&lt;strong&gt;Copyright / License&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h1 id=&quot;copyright-2014---2019-civilized-discourse-construction-kit-inc&quot;&gt;Copyright 2014 - 2019 Civilized Discourse Construction Kit, Inc.&lt;/h1&gt;
+
+&lt;h1 id=&quot;licensed-under-the-gnu-general-public-license-version-20-or-later-you-may-not-use-this-work-except-in-compliance-with-the-license-you-may-obtain-a-copy-of-the-license-in-the-license-file-or-at&quot;&gt;Licensed under the GNU General Public License Version 2.0 (or later); you may not use this work except in compliance with the License. You may obtain a copy of the License in the LICENSE file, or at:&lt;/h1&gt;
+
+&lt;h1 id=&quot;httpswwwgnuorglicensesold-licensesgpl-20txt&quot;&gt;&lt;a href=&quot;https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt&quot;&gt;https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h1 id=&quot;unless-required-by-applicable-law-or-agreed-to-in-writing-software-distributed-under-the-license-is-distributed-on-an-as-is-basis-without-warranties-or-conditions-of-any-kind-either-express-or-implied-see-the-license-for-the-specific-language-governing-permissions-and-limitations-under-the-license&quot;&gt;Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.&lt;/h1&gt;
+
+&lt;h1 id=&quot;discourse-logo-and-discourse-forum--civilized-discourse-construction-kit-inc&quot;&gt;Discourse logo and &quot;Discourse Forum&quot; ®, Civilized Discourse Construction Kit, Inc.&lt;/h1&gt;
+
+&lt;h2 id=&quot;dedication&quot;&gt;&lt;strong&gt;Dedication&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h1 id=&quot;discourse-is-built-with-love-internet-style&quot;&gt;Discourse is built with &lt;a href=&quot;https://www.youtube.com/watch?v=Xe1TZaElTAs&quot;&gt;love, Internet style.&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h1 id=&quot;discourse&quot;&gt;Discourse&lt;/h1&gt;
+
+&lt;h3 id=&quot;business-use-case&quot;&gt;Business use case?&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A platform that will satisfy as a community single point of contact where staff, Instructors, and participants can engage.&lt;/li&gt;
+  &lt;li&gt;KMS - supports Knowledge management system&lt;/li&gt;
+  &lt;li&gt;Predefined templates&lt;/li&gt;
+  &lt;li&gt;Community Rewarding&lt;/li&gt;
+  &lt;li&gt;Tracking all user activity and stats&lt;/li&gt;
+  &lt;li&gt;Backlinks to IEEEmadC for better SEO&lt;/li&gt;
+  &lt;li&gt;Collaboratively edit wiki posts&lt;/li&gt;
+  &lt;li&gt;Embeddable polls&lt;/li&gt;
+  &lt;li&gt;Blog integration&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Example: &lt;a href=&quot;https://discuss.atom.io/&quot;&gt;Atom&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;cost-involved&quot;&gt;Cost involved?&lt;/h3&gt;
+
+&lt;p&gt;If you are legally recognized as an educational institution discourse offer an 85% discount with zero risks.&lt;/p&gt;
+
+&lt;p&gt;USD 15/m - officially limited plugins or USD 45/month - official Advanced plugins&lt;/p&gt;
+
+&lt;p&gt;If we selfhost it would cost around USD 10/month - risk updating sometimes it might go white this issue it's fixable with rebuilt but there is downtime and email cost separate&lt;/p&gt;
+
+&lt;h3 id=&quot;timeline&quot;&gt;Timeline&lt;/h3&gt;
+
+&lt;p&gt;It takes 1-2 days to set up at the max.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-recommend&quot;&gt;Why Recommend?&lt;/h3&gt;
+
+&lt;p&gt;The best industrial standard used promising with the best features and best to maintain the community and showoff stats.&lt;/p&gt;
+
+&lt;p&gt;Badges system and can act as a good resource of knowledge form the community.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 Jun 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/computer%20science/python/2020/06/29/Discourse.html</link>
+        <guid isPermaLink="true">http://localhost:4000/computer%20science/python/2020/06/29/Discourse.html</guid>
+        
+        
+        <category>Computer Science</category>
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Natural Language Processing with Python</title>
+        <description>&lt;h4 id=&quot;natural-language-processing&quot;&gt;Natural Language Processing&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/lancopku/pkuseg-python&quot;&gt;pkuseg-python&lt;/a&gt; - A better version of Jieba, developed by Peking University.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nltk.org/&quot;&gt;NLTK&lt;/a&gt; - A leading platform for building Python programs to work with human language data.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.clips.ua.ac.be/pattern&quot;&gt;Pattern&lt;/a&gt; - A web mining module for the Python programming language. It has tools for natural language processing, machine learning, among others.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/machinalis/quepy&quot;&gt;Quepy&lt;/a&gt; - A python framework to transform natural language questions to queries in a database query language.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://textblob.readthedocs.io/en/dev/&quot;&gt;TextBlob&lt;/a&gt; - Providing a consistent API for diving into common natural language processing (NLP) tasks. Stands on the giant shoulders of NLTK and Pattern, and plays nicely with both.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/machinalis/yalign&quot;&gt;YAlign&lt;/a&gt; - A sentence aligner, a friendly tool for extracting parallel sentences from comparable corpora. &lt;strong&gt;[Deprecated]&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/fxsjy/jieba#jieba-1&quot;&gt;jieba&lt;/a&gt; - Chinese Words Segmentation Utilities.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/isnowfy/snownlp&quot;&gt;SnowNLP&lt;/a&gt; - A library for processing Chinese text.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tasdikrahman/spammy&quot;&gt;spammy&lt;/a&gt; - A library for email Spam filtering built on top of nltk&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/fangpenlin/loso&quot;&gt;loso&lt;/a&gt; - Another Chinese segmentation library. &lt;strong&gt;[Deprecated]&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/duanhongyi/genius&quot;&gt;genius&lt;/a&gt; - A Chinese segment base on Conditional Random Field.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://konlpy.org&quot;&gt;KoNLPy&lt;/a&gt; - A Python package for Korean natural language processing.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/pprett/nut&quot;&gt;nut&lt;/a&gt; - Natural language Understanding Toolkit. &lt;strong&gt;[Deprecated]&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/columbia-applied-data-science/rosetta&quot;&gt;Rosetta&lt;/a&gt; - Text processing tools and wrappers (e.g. Vowpal Wabbit)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pypi.org/project/bllipparser/&quot;&gt;BLLIP Parser&lt;/a&gt; - Python bindings for the BLLIP Natural Language Parser (also known as the Charniak-Johnson parser). &lt;strong&gt;[Deprecated]&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/proycon/pynlpl&quot;&gt;PyNLPl&lt;/a&gt; - Python Natural Language Processing Library. General purpose NLP library for Python. Also contains some specific modules for parsing common NLP formats, most notably for &lt;a href=&quot;https://proycon.github.io/folia/&quot;&gt;FoLiA&lt;/a&gt;, but also ARPA language models, Moses phrasetables, GIZA++ alignments.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/sergioburdisso/pyss3&quot;&gt;PySS3&lt;/a&gt; - Python package that implements a novel white-box machine learning model for text classification, called SS3. Since SS3 has the ability to visually explain its rationale, this package also comes with easy-to-use interactive visualizations tools (&lt;a href=&quot;http://tworld.io/ss3/&quot;&gt;online demos&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/proycon/python-ucto&quot;&gt;python-ucto&lt;/a&gt; - Python binding to ucto (a unicode-aware rule-based tokenizer for various languages).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/proycon/python-frog&quot;&gt;python-frog&lt;/a&gt; - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/EducationalTestingService/python-zpar&quot;&gt;python-zpar&lt;/a&gt; - Python bindings for &lt;a href=&quot;https://github.com/frcchang/zpar&quot;&gt;ZPar&lt;/a&gt;, a statistical part-of-speech-tagger, constiuency parser, and dependency parser for English.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/proycon/colibri-core&quot;&gt;colibri-core&lt;/a&gt; - Python binding to C++ library for extracting and working with with basic linguistic constructions such as n-grams and skipgrams in a quick and memory-efficient way.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/explosion/spaCy&quot;&gt;spaCy&lt;/a&gt; - Industrial strength NLP with Python and Cython.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/dmcc/PyStanfordDependencies&quot;&gt;PyStanfordDependencies&lt;/a&gt; - Python interface for converting Penn Treebank trees to Stanford Dependencies.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/doukremt/distance&quot;&gt;Distance&lt;/a&gt; - Levenshtein and Hamming distance computation. &lt;strong&gt;[Deprecated]&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/seatgeek/fuzzywuzzy&quot;&gt;Fuzzy Wuzzy&lt;/a&gt; - Fuzzy String Matching in Python.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jamesturk/jellyfish&quot;&gt;jellyfish&lt;/a&gt; - a python library for doing approximate and phonetic matching of strings.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pypi.org/project/editdistance/&quot;&gt;editdistance&lt;/a&gt; - fast implementation of edit distance.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/chartbeat-labs/textacy&quot;&gt;textacy&lt;/a&gt; - higher-level NLP built on Spacy.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/dasmith/stanford-corenlp-python&quot;&gt;stanford-corenlp-python&lt;/a&gt; - Python wrapper for &lt;a href=&quot;https://github.com/stanfordnlp/CoreNLP&quot;&gt;Stanford CoreNLP&lt;/a&gt; &lt;strong&gt;[Deprecated]&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/cltk/cltk&quot;&gt;CLTK&lt;/a&gt; - The Classical Language Toolkit.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/RasaHQ/rasa_nlu&quot;&gt;rasa_nlu&lt;/a&gt; - turn natural language into structured data.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/PPACI/yase&quot;&gt;yase&lt;/a&gt; - Transcode sentence (or other sequence) to list of word vector .&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/aboSamoor/polyglot&quot;&gt;Polyglot&lt;/a&gt; - Multilingual text (NLP) processing toolkit.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/facebookresearch/DrQA&quot;&gt;DrQA&lt;/a&gt; - Reading Wikipedia to answer open-domain questions.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/dedupeio/dedupe&quot;&gt;Dedupe&lt;/a&gt; - A python library for accurate and scalable fuzzy matching, record deduplication and entity-resolution.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/snipsco/snips-nlu&quot;&gt;Snips NLU&lt;/a&gt; - Natural Language Understanding library for intent classification and entity extraction&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Franck-Dernoncourt/NeuroNER&quot;&gt;NeuroNER&lt;/a&gt; - Named-entity recognition using neural networks providing state-of-the-art-results&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/deepmipt/DeepPavlov/&quot;&gt;DeepPavlov&lt;/a&gt; - conversational AI library with many pretrained Russian NLP models.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bigartm/bigartm&quot;&gt;BigARTM&lt;/a&gt; - topic modelling platform.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 16 Jun 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/computer%20science/python/2020/06/16/Natural-Language-Processing-with-Python.html</link>
+        <guid isPermaLink="true">http://localhost:4000/computer%20science/python/2020/06/16/Natural-Language-Processing-with-Python.html</guid>
+        
+        
+        <category>Computer Science</category>
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Machine Learning with Python</title>
+        <description>&lt;p&gt;Following are few of the popular libraries in Python for Machine Learning.&lt;/p&gt;
+
+&lt;p&gt;Open Source Fast Scalable Machine Learning Platform For Smarter Applications: Deep Learning, Gradient Boosting &amp;amp; XGBoost, Random Forest, Generalized Linear Modeling (Logistic Regression, Elastic Net), K-Means, PCA, Stacked Ensembles, Automatic Machine Learning (AutoML), etc. http://h2o.ai&lt;/p&gt;
+
+&lt;p&gt;Metrics - Machine learning evaluation metrics. Machine learning evaluation metrics, implemented in Python, R, Haskell, and MATLAB / Octave https://github.com/benhamner/Metrics&lt;/p&gt;
+
+&lt;p&gt;Numenta Platform for Intelligent Computing is an implementation of Hierarchical Temporal Memory (HTM), a theory of intelligence based strictly on the neuroscience of the neocortex. http://numenta.org/&lt;/p&gt;
+
+&lt;p&gt;scikit-learn - The most popular Python library for Machine Learning. Simple and efficient tools for predictive data analysis. Accessible to everybody, and reusable in various contexts. Built on NumPy, SciPy, and matplotlib. Open source, commercially usable http://scikit-learn.org/&lt;/p&gt;
+
+&lt;p&gt;Vowpal Wabbit is a machine learning system which pushes the frontier of machine learning with techniques such as online, hashing, allreduce, reductions, learning2search, active, and interactive learning. https://vowpalwabbit.org&lt;/p&gt;
+
+&lt;p&gt;Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Flink and DataFlow https://xgboost.ai/&lt;/p&gt;
+
+&lt;p&gt;Spark ML - Apache Spark’s scalable Machine Learning library. http://spark.apache.org/docs/latest/ml-guide.html&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/scikit-image/scikit-image&quot;&gt;Scikit-Image&lt;/a&gt; - A collection of algorithms for image processing in Python.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://simplecv.org/&quot;&gt;SimpleCV&lt;/a&gt; - An open source computer vision framework that gives access to several high-powered computer vision libraries, such as OpenCV. Written on Python and runs on Mac, Windows, and Ubuntu Linux.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ukoethe/vigra&quot;&gt;Vigranumpy&lt;/a&gt; - Python bindings for the VIGRA C++ computer vision library.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cmusatyalab.github.io/openface/&quot;&gt;OpenFace&lt;/a&gt; - Free and open source face recognition with deep neural networks.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jesolem/PCV&quot;&gt;PCV&lt;/a&gt; - Open source Python module for computer vision. &lt;strong&gt;[Deprecated]&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ageitgey/face_recognition&quot;&gt;face_recognition&lt;/a&gt; - Face recognition library that recognize and manipulate faces from Python or from the command line.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/natanielruiz/dockerface&quot;&gt;dockerface&lt;/a&gt; - Easy to install and use deep learning Faster R-CNN face detection for images and video in a docker container.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/facebookresearch/Detectron&quot;&gt;Detectron&lt;/a&gt; - FAIR’s software system that implements state-of-the-art object detection algorithms, including Mask R-CNN. It is written in Python and powered by the Caffe2 deep learning framework. &lt;strong&gt;[Deprecated]&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/facebookresearch/detectron2&quot;&gt;detectron2&lt;/a&gt; - FAIR’s next-generation research platform for object detection and segmentation. It is a ground-up rewrite of the previous version, Detectron, and is powered by the PyTorch deep learning framework.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albu/albumentations&quot;&gt;albumentations&lt;/a&gt; - А fast and framework agnostic image augmentation library that implements a diverse set of augmentation techniques. Supports classification, segmentation, detection out of the box. Was used to win a number of Deep Learning competitions at Kaggle, Topcoder and those that were a part of the CVPR workshops.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/madmaze/pytesseract&quot;&gt;pytessarct&lt;/a&gt; - Python-tesseract is an optical character recognition (OCR) tool for python. That is, it will recognize and “read” the text embedded in images.Python-tesseract is a wrapper for &lt;a href=&quot;https://github.com/tesseract-ocr/tesseract&quot;&gt;Google’s Tesseract-OCR Engine&lt;/a&gt;&amp;gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jrosebr1/imutils&quot;&gt;imutils&lt;/a&gt; - A library containg Convenience functions to make basic image processing operations such as translation, rotation, resizing, skeletonization, and displaying Matplotlib images easier with OpenCV and Python.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/donnyyou/PyTorchCV&quot;&gt;PyTorchCV&lt;/a&gt; - A PyTorch-Based Framework for Deep Learning in Computer Vision.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ProGamerGov/neural-style-pt&quot;&gt;neural-style-pt&lt;/a&gt; - A PyTorch implementation of Justin Johnson’s neural-style (neural style transfer).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/alankbi/detecto&quot;&gt;Detecto&lt;/a&gt; - Train and run a computer vision model with 5-10 lines of code.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ProGamerGov/neural-dream&quot;&gt;neural-dream&lt;/a&gt; - A PyTorch implementation of DeepDream.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/CMU-Perceptual-Computing-Lab/openpose&quot;&gt;Openpose&lt;/a&gt; - A real-time multi-person keypoint detection library for body, face, hands, and foot estimation&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/leoxiaobin/deep-high-resolution-net.pytorch&quot;&gt;Deep High-Resolution-Net&lt;/a&gt; - A Pytorch implementation of CVPR2019 paper “Deep High-Resolution Representation Learning for Human Pose Estimation”&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 16 Jun 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/computer%20science/python/2020/06/16/Machine-Learning-with-Python.html</link>
+        <guid isPermaLink="true">http://localhost:4000/computer%20science/python/2020/06/16/Machine-Learning-with-Python.html</guid>
+        
+        
+        <category>Computer Science</category>
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Deep Learning for Recommendation Systems</title>
+        <description>&lt;h1 id=&quot;deep-learning-for-recommendation-systems&quot;&gt;Deep-Learning-for-Recommendation-Systems&lt;/h1&gt;
+&lt;p&gt;This repository contains Deep Learning based Articles , Papers and Repositories for Recommendation Systems.&lt;/p&gt;
+&lt;h2 id=&quot;papers&quot;&gt;Papers&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Relational Stacked Denoising Autoencoder for Tag Recommendation by Hao Wang, Xingjian Shi, and Dit-Yan Yeung. AAAI 2015 &lt;br /&gt;
+Source:  http://wanghao.in/paper/AAAI15_RSDAE.pdf&lt;/li&gt;
+  &lt;li&gt;Collaborative Deep Learning for Recommender Systems by Hao Wang, Naiyan Wang, and Dit-Yan Yeung. KDD 2015 &lt;br /&gt;
+Source: http://wanghao.in/CDL.htm, Code: https://github.com/js05212/CDL&lt;/li&gt;
+  &lt;li&gt;Collaborative Recurrent Autoencoder: Recommend while Learning to Fill in the Blanks by Hao Wang, Xingjian Shi, and Dit-Yan Yeung. NIPS 2016 &lt;br /&gt;
+Source: https://papers.nips.cc/paper/6163-collaborative-recurrent-autoencoder-recommend-while-learning-to-fill-in-the-blanks&lt;/li&gt;
+  &lt;li&gt;Convolutional Matrix Factorization for Document Context-Aware Recommendation by Donghyun Kim, Chanyoung Park, Jinoh Oh, Seungyong Lee, Hwanjo Yu, RecSys 2016.&lt;br /&gt;
+Source: http://dm.postech.ac.kr/~cartopy/ConvMF/, Code: https://github.com/cartopy/ConvMF&lt;/li&gt;
+  &lt;li&gt;A Neural Autoregressive Approach to Collaborative Filtering by Yin Zheng et all.&lt;br /&gt;
+Source: http://proceedings.mlr.press/v48/zheng16.pdf&lt;/li&gt;
+  &lt;li&gt;Collaborative Recurrent Neural Networks for Dynamic Recommender Systems by Young-Jun Ko. ACML 2016 &lt;br /&gt;
+Source: http://proceedings.mlr.press/v63/ko101.pdf&lt;/li&gt;
+  &lt;li&gt;Hybrid Recommender System based on Autoencoders by Florian Strub . 2016 &lt;br /&gt;
+Source: https://arxiv.org/pdf/1606.07659.pdf&lt;/li&gt;
+  &lt;li&gt;Deep content-based music recommendation by Aaron van den Oord. &lt;br /&gt;
+Source: https://papers.nips.cc/paper/5004-deep-content-based-music-recommendation.pdf&lt;/li&gt;
+  &lt;li&gt;DeepPlaylist: Using Recurrent Neural Networks to Predict Song Similarity by Anusha Balakrishnan. &lt;br /&gt;
+Source: https://cs224d.stanford.edu/reports/BalakrishnanDixit.pdf&lt;/li&gt;
+  &lt;li&gt;Hybrid music recommender using content-based and social information by  Paulo Chiliguano .&lt;br /&gt;
+Source: http://ieeexplore.ieee.org/document/7472151&lt;/li&gt;
+  &lt;li&gt;CONTENT-AWARE COLLABORATIVE MUSIC RECOMMENDATION USING PRE-TRAINED NEURAL NETWORKS. &lt;br /&gt;
+Source: http://ismir2015.uma.es/articles/290_Paper.pdf&lt;/li&gt;
+  &lt;li&gt;TransNets: Learning to Transform for Recommendation  by Rose Catherine. &lt;br /&gt;
+Source: https://arxiv.org/abs/1704.02298&lt;/li&gt;
+  &lt;li&gt;Learning Distributed Representations from Reviews for Collaborative Filtering by  	Amjad Almahairi. &lt;br /&gt; 	
+Source: http://dl.acm.org/citation.cfm?id=2800192&lt;/li&gt;
+  &lt;li&gt;Ask the GRU: Multi-task Learning for Deep Text Recommendations by T Bansal. &lt;br /&gt; 
+Source: https://arxiv.org/pdf/1609.02116.pdf&lt;/li&gt;
+  &lt;li&gt;A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems by Ali Mamdouh Elkahky.&lt;br /&gt;
+Source: http://sonyis.me/paperpdf/frp1159-songA-www-2015.pdf&lt;/li&gt;
+  &lt;li&gt;Deep collaborative filtering via marginalized denoising auto-encoder by S Li.&lt;br /&gt;
+Source: https://pdfs.semanticscholar.org/ff29/2f00055d8221c42d4831679db9d3872b6fbd.pdf&lt;/li&gt;
+  &lt;li&gt;Joint deep modeling of users and items using reviews for recommendation by L Zheng. &lt;br /&gt;
+Source: https://arxiv.org/pdf/1701.04783&lt;/li&gt;
+  &lt;li&gt;Hybrid Collaborative Filtering with Neural Networks by Strub 
+Source: https://pdfs.semanticscholar.org/fcbd/179590c30127cafbd00fd7087b47818406bc.pdf&lt;/li&gt;
+  &lt;li&gt;Trust-aware Top-N Recommender Systems with Correlative Denoising Autoencoder by Y Pan. &lt;br /&gt; 
+Source: https://arxiv.org/pdf/1703.01760&lt;/li&gt;
+  &lt;li&gt;Neural Semantic Personalized Ranking for item cold-start recommendation by T Ebesu . &lt;br /&gt;
+Source: http://www.cse.scu.edu/~yfang/NSPR.pdf&lt;/li&gt;
+  &lt;li&gt;Representation Learning of Users and Items for Review Rating Prediction Using Attention-based Convolutional Neural Network by S Seo. &lt;br /&gt; 
+Source: http://mlrec.org/2017/papers/paper8.pdf&lt;/li&gt;
+  &lt;li&gt;Collaborative Denoising Auto-Encoders for Top-N Recommender Systems by Y Wu. &lt;br /&gt;
+Source: http://alicezheng.org/papers/wsdm16-cdae.pdf, Code: https://github.com/jasonyaw/CDAE&lt;/li&gt;
+  &lt;li&gt;Deep Neural Networks for YouTube Recommendations by Paul Covington. &lt;br /&gt; 
+Source: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf&lt;/li&gt;
+  &lt;li&gt;Wide &amp;amp; Deep Learning for Recommender Systems by Heng-Tze Cheng.&lt;br /&gt;
+Source: https://arxiv.org/abs/1606.07792&lt;/li&gt;
+  &lt;li&gt;A Survey and Critique of Deep Learning on Recommender Systems by Lei Zheng.&lt;br /&gt; 
+Source: http://bdsc.lab.uic.edu/docs/survey-critique-deep.pdf&lt;/li&gt;
+  &lt;li&gt;Restricted Boltzmann Machines for Collaborative Filtering by Ruslan Salakhutdinov. &lt;br /&gt;
+Source: http://www.machinelearning.org/proceedings/icml2007/papers/407.pdf , Code: https://github.com/felipecruz/CFRBM&lt;/li&gt;
+  &lt;li&gt;Meta-Prod2Vec - Product Embeddings Using Side-Information for Recommendation by Flavian Vasile. &lt;br /&gt;
+Source: https://arxiv.org/pdf/1607.07326.pdf&lt;/li&gt;
+  &lt;li&gt;Representation Learning and Pairwise Ranking for Implicit and Explicit Feedback in Recommendation Systems by Mikhail Trofimov &lt;br /&gt;
+Source: https://arxiv.org/abs/1705.00105&lt;/li&gt;
+  &lt;li&gt;DeepFM: A Factorization-Machine based Neural Network for CTR Prediction. IJCAI2017 &lt;br /&gt; Source:  https://arxiv.org/abs/1703.04247 , Code (provided by readers): https://github.com/Leavingseason/OpenLearning4DeepRecsys&lt;/li&gt;
+  &lt;li&gt;Collaborative Filtering with Recurrent Neural Networks by Robin Devooght &lt;br /&gt; Source:  https://arxiv.org/pdf/1608.07400.pdf&lt;/li&gt;
+  &lt;li&gt;Training Deep AutoEncoders for Collaborative Filtering by Oleksii Kuchaiev, Boris Ginsburg. &lt;br /&gt; Source: https://arxiv.org/abs/1708.01715 , Code: https://github.com/NVIDIA/DeepRecommender&lt;/li&gt;
+  &lt;li&gt;Collaborative Variational Autoencoder for Recommender
+Systems by Xiaopeng Li and James She &lt;br /&gt; Source: http://eelxpeng.github.io/assets/paper/Collaborative_Variational_Autoencoder.pdf, Code: https://github.com/eelxpeng/CollaborativeVAE&lt;/li&gt;
+  &lt;li&gt;Variational Autoencoders for Collaborative Filtering by Dawen Liang, Rahul G. Krishnan, Matthew D. Hoffman and Tony Jebara &lt;br /&gt; Source: https://arxiv.org/pdf/1802.05814.pdf, Code: https://github.com/dawenl/vae_cf&lt;/li&gt;
+  &lt;li&gt;Neural Collaborative Filtering by Xiangnan He, Lizi Liao, Hanwang Zhang, Liqiang Nie, Xia Hu and Tat-Seng Chua &lt;br /&gt; Source: https://www.comp.nus.edu.sg/~xiangnan/papers/ncf.pdf , Code : https://github.com/hexiangnan/neural_collaborative_filtering
+ Source: https://arxiv.org/abs/1708.05031&lt;/li&gt;
+  &lt;li&gt;Deep Session Interest Network for Click-Through Rate Prediction , Code : https://github.com/shenweichen/DeepCTR 
+Source: https://arxiv.org/pdf/1905.06482v1.pdf&lt;/li&gt;
+  &lt;li&gt;AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks, Code: https://github.com/shichence/AutoInt 
+Source: https://arxiv.org/pdf/1810.11921v2.pdf&lt;/li&gt;
+  &lt;li&gt;Product-based Neural Networks for User Response Prediction over Multi-field Categorical Data, Code: https://github.com/Atomu2014/product-nets-distributed
+Source: https://arxiv.org/abs/1807.00311&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;blogs&quot;&gt;Blogs&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Deep Learning Meets Recommendation Systems by Wann-Jiun. &lt;br /&gt;
+Source: https://blog.nycdatascience.com/student-works/deep-learning-meets-recommendation-systems/&lt;/li&gt;
+  &lt;li&gt;Machine Learning for Recommender systems
+Source: https://medium.com/recombee-blog/machine-learning-for-recommender-systems-part-1-algorithms-evaluation-and-cold-start-6f696683d0ed&lt;/li&gt;
+  &lt;li&gt;Check out our new client-side integration support and deploy personalized recommendations faster
+Source: https://medium.com/recombee-blog/check-out-our-new-client-side-integration-support-and-deploy-personalized-recommendations-faster-7dd7bf5b6241&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;workshops&quot;&gt;Workshops&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;2nd Workshop on Deep Learning for Recommender Systems , 27 August 2017. Como, Italy.&lt;br /&gt; 
+Source: http://dlrs-workshop.org&lt;/li&gt;
+  &lt;li&gt;THE AAAI-19 WORKSHOP ON RECOMMENDER SYSTEMS AND NATURAL LANGUAGE PROCESSING (RECNLP)
+Source: https://recnlp2019.github.io/&lt;/li&gt;
+  &lt;li&gt;The 4th Workshop on Health Recommender Systems co-located with ACM RecSys 2019
+Source: https://healthrecsys.github.io/2019/&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;tutorials&quot;&gt;Tutorials&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Deep Learning for Recommender Systems by Balázs Hidasi. &lt;a href=&quot;http://pro.unibz.it/projects/schoolrecsys17/program.html&quot;&gt;RecSys Summer School&lt;/a&gt;, 21-25 August, 2017, Bozen-Bolzano. &lt;a href=&quot;https://www.slideshare.net/balazshidasi/deep-learning-in-recommender-systems-recsys-summer-school-2017&quot;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Deep Learning for Recommender Systems by Alexandros	Karatzoglou and Balázs	Hidasi. RecSys2017 Tutorial. &lt;a href=&quot;https://www.slideshare.net/kerveros99/deep-learning-for-recommender-systems-recsys2017-tutorial&quot;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Introduction to recommender Systems by Miguel González-Fierro. &lt;a href=&quot;https://github.com/miguelgfierro/sciblog_support/blob/master/Intro_to_Recommendation_Systems/Intro_Recommender.ipynb&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Collaborative Filtering using a RBM by Big Data University. &lt;a href=&quot;https://github.com/santipuch590/deeplearning-tf/blob/master/dl_tf_BDU/4.RBM/ML0120EN-4.2-Review-CollaborativeFilteringwithRBM.ipynb&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Building a Recommendation System in TensorFlow: Overview. &lt;a href=&quot;https://cloud.google.com/solutions/machine-learning/recommendation-system-tensorflow-overview&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Spotlight: deep learning recommender systems in PyTorch that utilizes factorization model and sequence model in the back end &lt;br /&gt;
+Source: https://github.com/maciejkula/spotlight&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Amazon DSSTNE: deep learning library by amazon (specially for recommended systems i.e. sparse data) &lt;br /&gt;
+Source: https://github.com/amzn/amazon-dsstne&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Recoder: Large scale training of factorization models for Collaborative Filtering with PyTorch &lt;br /&gt;
+Source: https://github.com/amoussawi/recoder&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;PredictionIO is built on technologies Apache Spark, Apache HBase and Spray. It is a machine learning server that can be used to create a recommender system. The source can be located on github and it looks very active. 
+Source: https://github.com/apache/predictionio&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;books&quot;&gt;Books&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Practical Recommender Systems by Kim Falk (Manning Publications). Chapter 1 
+Source: https://www.manning.com/books/practical-recommender-systems&lt;/li&gt;
+  &lt;li&gt;Recommender Systems Handbook by Ricci, F. et al.
+Source: https://dl.acm.org/citation.cfm?id=1941884&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Tue, 16 Jun 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/computer%20science/python/2020/06/16/Deep-Learning-for-Recommendation-Systems.html</link>
+        <guid isPermaLink="true">http://localhost:4000/computer%20science/python/2020/06/16/Deep-Learning-for-Recommendation-Systems.html</guid>
+        
+        
+        <category>Computer Science</category>
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
         <title>Host free website with GitHub</title>
-        <description>&lt;h1 id=&quot;jekyll&quot;&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;&lt;/h1&gt;
+        <description>&lt;p&gt;Github offers a service known as Gitpages that allows you to generate a webpage for your project. Similarly Jekyll helps you create a blog like wordpress for free. It need little coding knownlodge to design it well but there are few open source themes that can help you get started. If you make your’s you may cosider tagging us in the tweet or instagram. :)&lt;/p&gt;
+
+&lt;h1 id=&quot;jekyll&quot;&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://rubygems.org/gems/jekyll&quot;&gt;&lt;img src=&quot;https://img.shields.io/gem/v/jekyll.svg&quot; alt=&quot;Gem Version&quot; /&gt;&lt;/a&gt;
 &lt;a href=&quot;https://travis-ci.org/jekyll/jekyll&quot;&gt;&lt;img src=&quot;https://img.shields.io/travis/jekyll/jekyll/master.svg?label=Linux%20build&quot; alt=&quot;Linux Build Status&quot; /&gt;&lt;/a&gt;
@@ -515,254 +969,6 @@ Information on how to get started can be found at our
         <pubDate>Mon, 18 May 2020 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/developer/2020/05/18/STUN-WebRTC-Web-Socket-Servers-and-Other-Routers.html</link>
         <guid isPermaLink="true">http://localhost:4000/developer/2020/05/18/STUN-WebRTC-Web-Socket-Servers-and-Other-Routers.html</guid>
-        
-        
-        <category>Developer</category>
-        
-      </item>
-    
-      <item>
-        <title>Miscellaneous</title>
-        <description>&lt;h2 id=&quot;miscellaneous&quot;&gt;Miscellaneous&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://configcat.com&quot;&gt;ConfigCat&lt;/a&gt; - Cross-platform feature flag service. SDKs for all major languages. Free plan up to 10 flags, 2 environments, 1 product and 5 Million requests per month. Unlimited user seats. Students get 100 flags and 100 Million requests per month for free.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.docsapp.io/&quot;&gt;docsapp.io&lt;/a&gt; — Easiest way to publish documentation, free for Open Source&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://fill.ly&quot;&gt;Filly&lt;/a&gt; — Boost your web development workflow by reusing manual actions done previously on your app. Form filler for improved team collaboration.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://fossa.com/&quot;&gt;FOSSA&lt;/a&gt; - Scalable, end-to-end management for third-party code, license compliance and vulnerabilities.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.fullcontact.com/developer/pricing/&quot;&gt;fullcontact.com&lt;/a&gt; — Help your users know more about their contacts by adding social profile into your app. 500 free Person API matches/month&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://http2.pro&quot;&gt;http2.pro&lt;/a&gt; — HTTP/2 protocol readiness test and client HTTP/2 support detection API.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://newreleases.io/&quot;&gt;newreleases.io&lt;/a&gt; - Receive notifications on email, Slack, Telegram, Discord and custom webhooks for new releases from GitHub, GitLab, Bitbucket, Python PyPI, Java Maven, Node.js NPM, Node.js Yarn, Ruby Gems, PHP Packagist, .NET NuGet, Rust Cargo and Docker Hub.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.pdfmonkey.io/&quot;&gt;PDFMonkey&lt;/a&gt; — Manage PDF templates in a dashboard, call the API with dynamic data, download your PDF. Offers 1000 free documents per month.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://readme.com/&quot;&gt;readme.com&lt;/a&gt; — Beautiful documentation made easy, free for Open Source: see &lt;a href=&quot;https://readme.readme.io/docs/open-source&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.reqbin.com/&quot;&gt;ReqBin&lt;/a&gt; — Post HTTP Requests Online. Popular Request Methods include GET, POST, PUT, DELETE, and HEAD. Supports Headers and Token Authentication. Includes a basic login system for saving your requests.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://superfeedr.com/&quot;&gt;superfeedr.com&lt;/a&gt; — Real-time PubSubHubbub compliant feeds, export, analytics. Free with less customization&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.surveymonkey.com&quot;&gt;SurveyMonkey.com&lt;/a&gt; — Create online surveys. Analyze the results online.  Free plan allows only 10 questions and 100 responses per survey.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;other-free-resources&quot;&gt;Other Free Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://education.github.com/pack&quot;&gt;education.github.com&lt;/a&gt; — Collection of free services for students. Registration required&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://degooglisons-internet.org/en/list/&quot;&gt;Framacloud&lt;/a&gt; — A list of Free/Libre Open Source Software and SaaS by the French non-profit &lt;a href=&quot;https://framasoft.org/en/&quot;&gt;Framasoft&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://getawesomeness.herokuapp.com&quot;&gt;getawesomeness&lt;/a&gt; — Retrieve all amazing awesomeness from GitHub… a must see&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/tvvocold/FOSS-for-Dev&quot;&gt;github.com — FOSS for Dev&lt;/a&gt; — A hub of free and Open Source software for developers&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you wish to add more to this this post please let us know and we would cosider adding it here.&lt;/p&gt;
-
-&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 18 May 2020 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/developer/2020/05/18/Miscellaneous.html</link>
-        <guid isPermaLink="true">http://localhost:4000/developer/2020/05/18/Miscellaneous.html</guid>
-        
-        
-        <category>Developer</category>
-        
-      </item>
-    
-      <item>
-        <title>Messaging and Email</title>
-        <description>&lt;p&gt;Realtime messaging service and Free mailbox / free email hosting / free email service with various features.&lt;/p&gt;
-
-&lt;h2 id=&quot;messaging&quot;&gt;Messaging&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/RabbitMQ as service.gif&quot; alt=&quot;RabbitMQ as service&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cloudamqp.com/&quot;&gt;cloudamqp.com&lt;/a&gt; — RabbitMQ as a Service. Little Lemur plan: max 1 million messages/month, max 20 concurrent connections, max 100 queues, max 10,000 queued messages, multiple nodes in different AZ’s&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Pusher.png&quot; alt=&quot;What can you do with Pusher?&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pusher.com/&quot;&gt;pusher.com&lt;/a&gt; — Realtime messaging service. Free for up to 100 simultaneous connections and 200,000 messages/day&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/scaledrone.png&quot; alt=&quot;Scaledrone&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.scaledrone.com/&quot;&gt;scaledrone.com&lt;/a&gt; — Realtime messaging service. Free for up to 20 simultaneous connections and 100,000 events/day&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://synadia.com/ngs&quot;&gt;synadia.com&lt;/a&gt; — &lt;a href=&quot;https://nats.io&quot;&gt;NATS.io&lt;/a&gt; as a service. Global, AWS, GCP, and Azure. Free forever with 4k msg size, 50 active connections and 5GB of data per month.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.cloudkarafka.com/&quot;&gt;cloudkarafka.com&lt;/a&gt; - Free Shared Kafka cluser, up to 5 topics, 10MB data per topic and 28 days of data retention.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;email&quot;&gt;Email&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/10minutemail.png&quot; alt=&quot;10minutemail&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://10minutemail.com&quot;&gt;10minutemail&lt;/a&gt; - Free, temporary email for testing.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://anonaddy.com&quot;&gt;AnonAddy&lt;/a&gt; - Open-source anonymous email forwarding, create unlimited email aliases for free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://biz.mail.ru/&quot;&gt;biz.mail.ru&lt;/a&gt; — 5,000 mailboxes with 25 GB each per custom domain with DNS hosting&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://burnermail.io/&quot;&gt;Burnermail&lt;/a&gt; – Free 5 Burner Email Addresses, 1 Mailbox, 7 day Mailbox History&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://buttondown.email/&quot;&gt;Buttondown&lt;/a&gt; — Newsletter service. Up to 1,000 subscribers free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cloudmersive.com/email-verification-api&quot;&gt;cloudmersive.com&lt;/a&gt; — Email validation and verification API for developers, 2,000 free API requests/month&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://contact.do/&quot;&gt;Contact.do&lt;/a&gt; — Contact form in a link (bitly for contact forms) - totally free!&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://debugmail.io/&quot;&gt;debugmail.io&lt;/a&gt; — Easy to use testing mail server for developers&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://elasticemail.com&quot;&gt;elasticemail.com&lt;/a&gt; — 100 free emails/day. 1,000 emails for $0.09 through API (pay as you go).&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://forwardemail.net&quot;&gt;forwardemail.net&lt;/a&gt; — Free email forwarding for custom domains. Create and forward an unlimited amount of email addresses with your domain name.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://improvmx.com&quot;&gt;ImprovMX&lt;/a&gt; – Free email forwarding&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://inumbo.com/&quot;&gt;inumbo.com&lt;/a&gt; — SMTP based spam filter, free for 10 users&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kickbox.io/&quot;&gt;kickbox.io&lt;/a&gt; — Verify 100 emails free, real-time API available&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mail-tester.com&quot;&gt;mail-tester.com&lt;/a&gt; — Test if email’s dns/spf/dkim/dmarc settings are correct, 20 free/month&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mailboxlayer.com/&quot;&gt;mailboxlayer.com&lt;/a&gt; — Email validation and verification JSON API for developers. 1,000 free API requests/month&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mailcatcher.me/&quot;&gt;mailcatcher.me&lt;/a&gt; — Catches mail and serves it through a web interface&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mailchimp.com/&quot;&gt;mailchimp.com&lt;/a&gt; — 2,000 subscribers and 12,000 emails/month free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mailerlite.com&quot;&gt;MailerLite.com&lt;/a&gt; — 1,000 subscribers/month, unlimited email free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mailinator.com/&quot;&gt;mailinator.com&lt;/a&gt; — Free, public, email system where you can use any inbox you want&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mailjet.com/&quot;&gt;mailjet.com&lt;/a&gt; — 6,000 emails/month free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mailkitchen.com/&quot;&gt;mailkitchen&lt;/a&gt; — Free for life without commitment, 10,000 emails/month, 1,000 emails/day&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mailnesia.com&quot;&gt;Mailnesia&lt;/a&gt; - Free temporary/disposable email, which auto visit registration link.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mailtrap.io/&quot;&gt;mailtrap.io&lt;/a&gt; — Fake SMTP server for development, free plan with 1 inbox, 50 messages, no team member, 2 emails/second, no forward rules&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.migadu.com/&quot;&gt;migadu.com&lt;/a&gt; — Email Hosting (Webmail, SMTP, IMAP, …) — free plan is limited to 10 outgoing mails/day&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://moosend.com/&quot;&gt;moosend.com&lt;/a&gt; — Mailing list management service. Free account for 6 months for startups&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pepipost.com&quot;&gt;pepipost.com&lt;/a&gt; — 30k emails free for first month, then first 100 emails/day free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://phplist.com/&quot;&gt;phplist.com&lt;/a&gt; — Hosted version allow 300 emails/month free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://postale.io/&quot;&gt;postale.io&lt;/a&gt; — Free domain email addresses for up to 5 users per domain, unlimited domains, POP3/IMAP enabled, no ads&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://postmarkapp.com/&quot;&gt;postmarkapp.com&lt;/a&gt; - 100 emails/month free, unlimited DMARC weekly digests&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sender.net&quot;&gt;Sender&lt;/a&gt; Up to 15 000 emails/month - Up to 2 500 subscribers&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sendgrid.com/&quot;&gt;sendgrid.com&lt;/a&gt; — 100 emails/day and 2,000 contacts free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sendinblue.com/&quot;&gt;sendinblue.com&lt;/a&gt; — 9,000 emails/month free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sendpulse.com&quot;&gt;sendpulse.com&lt;/a&gt; — 50 emails free/hour, first 12,000 emails/month free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.socketlabs.com&quot;&gt;socketlabs.com&lt;/a&gt; - 40k emails free for first month, then first 2000 emails/month free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sparkpost.com/&quot;&gt;sparkpost.com&lt;/a&gt; — First 500 emails/month free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://substack.com&quot;&gt;Substack&lt;/a&gt; — Unlimited free newsletter service. Start paying when you charge for it.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://testmail.app/&quot;&gt;testmail.app&lt;/a&gt; - Automate end-to-end email tests with unlimited mailboxes and a GraphQL API. 100 emails/month free forever, unlimited free for open source.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://tinyletter.com/&quot;&gt;tinyletter.com&lt;/a&gt; — 5,000 subscribers/month free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.trashmail.com&quot;&gt;trashmail.com&lt;/a&gt; - Free disposable email addresses with forwarding and automatic address expiration&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://verifalia.com/email-verification-api&quot;&gt;Verifalia&lt;/a&gt; — Real-time email verification API with mailbox confirmation and disposable email address detector; 25 free email verifications/day.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://verimail.io/&quot;&gt;verimail.io&lt;/a&gt; — Bulk and API email verification service. 100 free verifications/month&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://connect.yandex.com/pdd/&quot;&gt;Yandex.Connect&lt;/a&gt; — Free email and DNS hosting for up to 1,000 users&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.yopmail.fr/en/&quot;&gt;yopmail.fr&lt;/a&gt; — Disposable email addresses&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.zoho.com/mail/&quot;&gt;zoho.com&lt;/a&gt; — Free Webmail and collaboration for up to 5 users&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://simplelogin.io/&quot;&gt;SimpleLogin&lt;/a&gt; – Open source, self-hostable email alias/forwarding solution. Free 5 Aliases, unlimited bandwith, unlimited reply/send. Free for educational staffs (student, researcher, etc).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you wish to add more to this this post please let us know and we would cosider adding it here.&lt;/p&gt;
-
-&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 18 May 2020 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/developer/2020/05/18/Messaging-and-Email.html</link>
-        <guid isPermaLink="true">http://localhost:4000/developer/2020/05/18/Messaging-and-Email.html</guid>
-        
-        <category>featured</category>
-        
-        
-        <category>Developer</category>
-        
-      </item>
-    
-      <item>
-        <title>Issue Tracking and Project Management</title>
-        <description>&lt;h2 id=&quot;issue-tracking-and-project-management&quot;&gt;Issue Tracking and Project Management&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.acunote.com/&quot;&gt;acunote.com&lt;/a&gt; — Free project management and SCRUM software for up to 5 team members&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://asana.com/&quot;&gt;asana.com&lt;/a&gt; — Free for private project with collaborators&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://azure.microsoft.com/services/devops/&quot;&gt;Azure DevOps&lt;/a&gt; — Unlimited free private code repositories; Tracks bugs, work items, feedback and more&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://basecamp.com/personal&quot;&gt;Basecamp&lt;/a&gt; - To-do lists, milestone management, forum-like messaging, file sharing, and time tracking. Up to 3 projects, 20 users, and 1GB of storage space.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.bitrix24.com/&quot;&gt;bitrix24.com&lt;/a&gt; — Free intranet and project management tool&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cacoo.com/&quot;&gt;cacoo.com&lt;/a&gt; — Online diagrams in real-time: flowchart, UML, network. Free max. 15 users/diagram, 25 sheets&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://clickup.com/&quot;&gt;clickup.com&lt;/a&gt; — Project management. Free, premium version with cloud storage. Mobile applications and Git integrations available&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cloudcraft.co/&quot;&gt;Cloudcraft&lt;/a&gt; — Design a professional architecture diagram in minutes with the Cloudcraft visual designer, optimized for AWS with smart components that show live data too.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://clubhouse.io/&quot;&gt;Clubhouse&lt;/a&gt; - Project management platform. Free for up to 10 users forever&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/software/confluence&quot;&gt;Confluence&lt;/a&gt; - Atlassian’s content collaboration tool used to help teams collaborate and share knowledge efficiently. Free plan up to 10 users.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.contriber.com/&quot;&gt;contriber.com&lt;/a&gt; — Customizable project management platform, free starter plan, 5 workspaces&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.draw.io/&quot;&gt;draw.io&lt;/a&gt; — Online diagrams stored locally, in Google Drive, OneDrive or Dropbox. Free for all features and storage levels&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/&quot;&gt;github.com&lt;/a&gt; — In addition to its Git storage facility, GitHub offers basic issue tracking&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gitlab.com&quot;&gt;Gitlab&lt;/a&gt; - Offers basic issue tracking for projects.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.gliffy.com/&quot;&gt;gliffy.com&lt;/a&gt; — Online diagrams: flowchart, UML, wireframe,… Also plugins for Jira and Confluence. 5 diagrams and 2 MB free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/marketplace/graphql-inspector&quot;&gt;GraphQL Inspector&lt;/a&gt; - GraphQL Inspector ouputs a list of changes between two GraphQL schemas. Every change is precisely explained and marked as breaking, non-breaking or dangerous.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://huboard.com/&quot;&gt;huboard.com&lt;/a&gt; — Instant project management for your GitHub issues, free for Open Source&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://instabug.com&quot;&gt;Instabug&lt;/a&gt; —  A comprehensive bug reporting and in-app feedback SDK for mobile apps. Free plan up to 1 app and 1 member.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.ilograph.com/&quot;&gt;Ilograph&lt;/a&gt;  — interactive diagrams that allow users to see their infrastructure from multiple perspectives and levels of detail. Diagrams can be expressed in code. Free tier has unlimited private diagrams with up to 3 viewers.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/software/jira&quot;&gt;Jira&lt;/a&gt; — Advanced software development project management tool used in many corporate environments. Free plan up to 10 users.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kanbanflow.com/&quot;&gt;kanbanflow.com&lt;/a&gt; — Board-based project management. Free, premium version with more options&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kanbantool.com/&quot;&gt;kanbantool.com&lt;/a&gt; — Kanban board-based project management. Free, paid plans with more options&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kanrails.com/&quot;&gt;kanrails.com&lt;/a&gt; — Kanban board-based project management. Free for 3 collaborators, 2 projects and 5 tracks. Paid plans available for unlimited collaborators, projects and tracks.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kumu.io/&quot;&gt;Kumu.io&lt;/a&gt;  — Relationship maps with animation, decorations, filters, clustering, spreadsheet imports and more. Free tier allows unlimited public projects. Graph size unlimited. Free private projects for students. Sandbox mode is available if you prefer to not leave your file publicly online (upload, edit, download, discard).&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.leanboard.io&quot;&gt;LeanBoard&lt;/a&gt; — Collaborative whiteboard with sticky notes for your GitHub issues (Useful for Example Mapping and other techniques)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.meuscrum.com/en&quot;&gt;MeuScrum&lt;/a&gt; - Free online scrum tool with kanban board&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developer.microsoft.com/en-us/office/dev-program&quot;&gt;Office 365 Developer&lt;/a&gt; — Free one-year Office 365 E3 subscription for development/testing.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ora.pm/&quot;&gt;Ora&lt;/a&gt; - Agile task management &amp;amp; team collaboration. Free for up to 3 users and files are limited to 10 MB.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.pivotaltracker.com/&quot;&gt;pivotaltracker.com&lt;/a&gt; — Free for unlimited public projects and two private projects with 3 total active users (read-write) and unlimited passive users (read-only).&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://plan.io/&quot;&gt;plan.io&lt;/a&gt; — Project Management with Repository Hosting and more options. Free for 2 users with 10 customers and 500MB Storage&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.planitpoker.com/&quot;&gt;planitpoker.com&lt;/a&gt; — Free online planning poker (estimation tool)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.senseitool.com/&quot;&gt;senseitool.com&lt;/a&gt; — An agile retrospective tool - Free.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://speedboard.app&quot;&gt;SpeedBoard&lt;/a&gt; - Board for Agile and Scrum retrospectives - Free.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://tadum.app&quot;&gt;Tadum&lt;/a&gt; - Meeting agenda and minutes app designed for recurring meetings, free for teams up to 10&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://taiga.io/&quot;&gt;taiga.io&lt;/a&gt; — Project management platform for startups and agile developers, free for Open Source&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.targetprocess.com/&quot;&gt;targetprocess.com&lt;/a&gt; — Visual project management, from Kanban and Scrum to almost any operational process. Free for unlimited users, up to 1,000 data entities {&lt;a href=&quot;https://www.targetprocess.com/pricing/&quot;&gt;more details&lt;/a&gt;}&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.taskade.com/&quot;&gt;taskade.com&lt;/a&gt; — Real-time collaborative task lists and outlines for teams&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://taskulu.com/&quot;&gt;taskulu.com&lt;/a&gt; — Role based project management. Free up to 5 users. Integration with GitHub/Trello/Dropbox/Google Drive&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://testlio.com/&quot;&gt;testlio.com&lt;/a&gt; — Issue tracking, test management and beta testing platform. Free for private use&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://todoist.com/&quot;&gt;todoist.com&lt;/a&gt; — Collaborative and individual task management. Free, Premium and Team plans are available. Discounts provided for eligible users.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://trello.com/&quot;&gt;trello.com&lt;/a&gt; — Board-based project management. Unlimited Personal Boards, 10 Team Boards.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ubertesters.com/&quot;&gt;ubertesters.com&lt;/a&gt; — Test platform, integration and crowdtesters, 2 projects, 5 members&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.vivifyscrum.com/&quot;&gt;vivifyscrum.com&lt;/a&gt; — Free tool for Agile project management. Scrum Compatible&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.jetbrains.com/youtrack/buy/#edition=incloud&quot;&gt;YouTrack&lt;/a&gt; — Free hosted YouTrack (InCloud) for FOSS projects, private projects (free for 3 users). Includes time tracking and agile boards&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.zenhub.io/&quot;&gt;zenhub.io&lt;/a&gt; — The only project management solution inside GitHub. Free for public repos, OSS and nonprofit organizations&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zepel.io/&quot;&gt;zepel.io&lt;/a&gt; - The project management tool that lets you plan features, collaborate across disciplines, and build software together. Free up to 5 members. No feature restrictions.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zenkit.com&quot;&gt;zenkit.com&lt;/a&gt; — Project management and collaboration tool. Free for up to 5 members, 5 GB attachments.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you wish to add more to this this post please let us know and we would cosider adding it here.&lt;/p&gt;
-
-&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 18 May 2020 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/developer/2020/05/18/Issue-Tracking-and-Project-Management.html</link>
-        <guid isPermaLink="true">http://localhost:4000/developer/2020/05/18/Issue-Tracking-and-Project-Management.html</guid>
-        
-        <category>featured</category>
-        
-        
-        <category>Developer</category>
-        
-      </item>
-    
-      <item>
-        <title>IaaS and DBaaS</title>
-        <description>&lt;h2 id=&quot;iaas&quot;&gt;IaaS&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.backblaze.com/b2/&quot;&gt;backblaze.com&lt;/a&gt; — Backblaze B2 cloud storage. Free 10 GB (Amazon S3-like) object storage for unlimited time&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.scaleway.com/en/object-storage/&quot;&gt;scaleway.com&lt;/a&gt; — S3-Compatible Object Storage. Free 75 GB storage and external outgoing traffic&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.terraform.io/&quot;&gt;www.terraform.io&lt;/a&gt; — Terraform Cloud. Free remote state management and team collaboration for teams up to 5 users.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;dbaas&quot;&gt;DBaaS&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://airtable.com/&quot;&gt;airtable.com&lt;/a&gt; — Looks like a spreadsheet, but it’s a relational database, unlimited bases, 1,200 rows/base and 1,000 API requests/month&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.elephantsql.com/&quot;&gt;elephantsql.com&lt;/a&gt; — PostgreSQL as a service, 20 MB free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://fauna.com/&quot;&gt;FaunaDB&lt;/a&gt; — Serverless cloud database, with native GraphQL, multi-model access and daily free tiers up to 5GB&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.graphenedb.com/&quot;&gt;graphenedb.com&lt;/a&gt; — Neo4j as a service, up to 1,000 nodes and 10,000 relations free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.heroku.com/&quot;&gt;heroku.com&lt;/a&gt; — PostgreSQL as a service, up to 10,000 rows and 20 connections free (provided as an “addon,” but can be attached to an otherwise empty app and accessed externally)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mongodb.com/cloud/atlas&quot;&gt;MongoDB Atlas&lt;/a&gt; — free tier gives 512 MB&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.redsmin.com/&quot;&gt;redsmin.com&lt;/a&gt; — Online real-time monitoring and administration service for Redis, 1 Redis instance free&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.memcachier.com/&quot;&gt;MemCachier&lt;/a&gt; — Managed Memcache service. Free for up to 25MB, 1 Proxy Server and basic analytics&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://scalingo.com/&quot;&gt;scalingo.com&lt;/a&gt; — Primarily a PaaS but offers a 128MB to 192MB free tier of MySQL, PostgreSQL or MongoDB&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://skyvia.com/&quot;&gt;skyvia.com&lt;/a&gt; — Cloud Data Platform, offers free tier and all plans are completely free while in beta&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://remotemysql.com&quot;&gt;remotemysql.com&lt;/a&gt; — Remote MySQL Database hosting, setup is instant and use phpMyAdmin for administration, free for 100Mb data, free backups, no query limits and 99% uptime.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.influxdata.com/&quot;&gt;InfluxDB&lt;/a&gt; — Timeseries database, free up to 3MB/5 minutes writes, 30MB/5 minutes reads and 10,000 cardinalities series&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.quickmetrics.io/&quot;&gt;Quickmetrics&lt;/a&gt; — Timeseries database with dashboard included, free up to 10,000 events/day and total of 5 metrics.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://restdb.io/&quot;&gt;restdb.io&lt;/a&gt; - a fast and simple NoSQL cloud database service. With restdb.io you get schema, relations, automatic REST API (with MongoDB-like queries) and an efficient multi-user admin UI for working with data. Free plan allows 3 users, 2500 records and 1 API requests per second.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.unbounded.cloud/&quot;&gt;Unbounded&lt;/a&gt; - a NoSQL DBaaS which uses Javascript as a query language. Free tier allows 50,000 reads and writes per month, forever.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you wish to add more to this this post please let us know and we would cosider adding it here.&lt;/p&gt;
-
-&lt;p&gt;Note: Providers may change plans with or without notice please read the term and service before subscribing to the services and use policy. We are not affilated to any company mentioned above nor this is a promotinal post but when you wish to try out something we hope this would help you.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 18 May 2020 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/developer/2020/05/18/IaaS-and-DBaaS.html</link>
-        <guid isPermaLink="true">http://localhost:4000/developer/2020/05/18/IaaS-and-DBaaS.html</guid>
         
         
         <category>Developer</category>
